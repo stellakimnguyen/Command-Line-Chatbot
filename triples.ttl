@@ -1,0 +1,12 @@
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <https://xmlns.com/foaf/0.1/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix ex: <http://example.org/>.
+
+ex:Concordia_University
+	a ex:University ;
+	ex:uName Concordia University ;
+	ex:uLink dbr:Concordia_University .
