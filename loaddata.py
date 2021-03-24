@@ -61,7 +61,7 @@ def parse_courses_csv():
         for line in lines[1:]:
             contents = line.rstrip().split(",")
             req = requests.get(url + contents[1].zfill(6), auth=auth)
-            # contents[6] = (json.loads(req.content)[0]['description']).replace('\n', ' ').replace('\"', '\\"')
+            contents[6] = (json.loads(req.content)[0]['description']).replace('\n', ' ').replace('\"', '\\"')
 
             triple = ""
 
@@ -76,8 +76,6 @@ def parse_courses_csv():
                     triple += f"\ta {courses_key['Class']} ;\n"
                 else:
                     temp = "\"" + contents[j] + "\""
-                    if headers[j] == "Catalog":
-                        temp = contents[j]
                     triple += f"\t{courses_key[headers[j]]} {temp} {';' if j < len(contents) - 1 else '.'}\n"
             write_triple(triple)
 
