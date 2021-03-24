@@ -149,8 +149,13 @@ ex:Tutorial
 
 ex:eventContentInstructions
     rdfs:subPropertyOf ex:lecContent ;
-    rdfs:labesl "Lecture Event Content Instructions"@en ;
+    rdfs:label "Lecture Event Content Instructions"@en ;
     rdfs:comment "Instructions given for the lecture event's exercise."@en .
+
+ex:eventContentSlides
+    rdfs:subPropertyOf ex:lecContent ;
+    rdfs:label "Lecture Event Content Slides"@en ;
+    rdfs:comment "Slides given for the lecture event's exercise."@en .
 
 #topics
 #------------look at foaf:primaryTopic---------------#
