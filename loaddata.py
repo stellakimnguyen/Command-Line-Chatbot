@@ -28,7 +28,7 @@ def parse_universities_csv():
     with open("./universities/Universities.csv") as f:
         lines = f.readlines()
         headers = lines[0].rstrip().split(",")
-        
+
         for line in lines[1:]:
             contents = line.rstrip().split(",")
             triple = ""
@@ -37,20 +37,23 @@ def parse_universities_csv():
                     triple += f"\nex:{contents[i]}\n"
                     triple += f"\ta {universities_key['Class']} ;\n"
                 else:
-                    triple += f"\t{universities_key[headers[i]]} {contents[i]} {';' if i < len(contents)-1 else '.'}\n"
-        
+                    temp = contents[i]
+                    if headers[i] == "Name":
+                        temp = "\"" + contents[i] + "\""
+                    triple += f"\t{universities_key[headers[i]]} {temp} {';' if i < len(contents) - 1 else '.'}\n"
+
         write_triple(triple)
 
 
 def parse_courses_csv():
     url = "https://opendata.concordia.ca/API/v1/course/description/filter/"
-    auth = HTTPBasicAuth('411', 'ab606f7b19ff16cd77825b0a5fdd3d39')
+    auth = HTTPBasicAuth('408', '018841334459b6c95023edc6dffbd8d7')
 
     col_list = ["Course ID", "Subject", "Catalog", "Long Title", "Component Code"]
-    df = pd.read_csv("./universities/Concordia University/CU_SR_OPEN_DATA_CATALOG.csv", usecols=col_list, encoding="ISO-8859-1")
+    df = pd.read_csv("./universities/Concordia University/CU_SR_OPEN_DATA_CATALOG.csv", usecols=col_list,
+                     encoding="ISO-8859-1")
     courses = df[df['Component Code'] == 'LEC'].copy()
     courses["Description"] = ""
-    courses.to_csv("./universities/Concordia University/allcourses.csv")
 
     with open("./universities/Concordia University/allcourses.csv") as i:
         lines = i.readlines()
@@ -58,12 +61,14 @@ def parse_courses_csv():
         for line in lines[1:]:
             contents = line.rstrip().split(",")
             req = requests.get(url + contents[1].zfill(6), auth=auth)
-            contents[6] = (json.loads(req.content)[0]['description'])
+            # contents[6] = (json.loads(req.content)[0]['description']).replace('\n', ' ').replace('\"', '\\"')
 
             triple = ""
 
+            print(line)
+
             for j in range(7):
-                if j == 0 or j == 5: #skipping identifier columns
+                if j == 0 or j == 5:    # skipping identifier columns
                     continue
                 if headers[j] == "Course ID":
                     triple += f"\nex:{contents[j]}\n"
@@ -71,7 +76,7 @@ def parse_courses_csv():
                     triple += f"\ta {courses_key['Class']} ;\n"
                 else:
                     temp = "\"" + contents[j] + "\""
-                    if (headers[j] == "Catalog"):
+                    if headers[j] == "Catalog":
                         temp = contents[j]
                     triple += f"\t{courses_key[headers[j]]} {temp} {';' if j < len(contents) - 1 else '.'}\n"
             write_triple(triple)
