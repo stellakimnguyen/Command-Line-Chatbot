@@ -44,7 +44,7 @@ def parse_universities_csv():
 
 def parse_courses_csv():
     url = "https://opendata.concordia.ca/API/v1/course/description/filter/"
-    auth = HTTPBasicAuth('411', 'ab606f7b19ff16cd77825b0a5fdd3d39')
+    auth = HTTPBasicAuth('416', '673bf59a9de4770350490dc8f7b393b1')
 
     col_list = ["Course ID", "Subject", "Catalog", "Long Title", "Component Code"]
     df = pd.read_csv("./universities/Concordia University/CU_SR_OPEN_DATA_CATALOG.csv", usecols=col_list, encoding="ISO-8859-1")
@@ -58,7 +58,7 @@ def parse_courses_csv():
         for line in lines[1:]:
             contents = line.rstrip().split(",")
             req = requests.get(url + contents[1].zfill(6), auth=auth)
-            contents[6] = (json.loads(req.content)[0]['description'])
+            contents[6] = (json.loads(req.content)[0]['description'].rstrip())
 
             triple = ""
 
@@ -80,8 +80,6 @@ def parse_courses_csv():
 def main():
     parse_universities_csv()
     parse_courses_csv()
-    # to add other functions
-
 
 if __name__ == "__main__":
     main()
