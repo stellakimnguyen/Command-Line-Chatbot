@@ -43,7 +43,7 @@ ex:5484_Lec_2
     ex:lecName "Knowledge Graphs" ;
     ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%202/Lectures/Slides/slides02.pdf> ;
     ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%202/Lectures/Worksheets/worksheet01.pdf> ;
-    foaf:primaryTopic dbr:Knowledge_base ;
+    foaf:primaryTopic dbr:Knowledge_Graph ;
     ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-2> .
 
 ex:5484_Lec_3
@@ -143,7 +143,7 @@ ex:5484_Lab_2
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_3 ;
     ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%203/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%232.pdf> ;
-    foaf:primaryTopic dbr:Knowledge_base ;
+    foaf:primaryTopic dbr:Knowledge_Graph ;
     rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2575768>.
 
 ex:5484_Lab_3
