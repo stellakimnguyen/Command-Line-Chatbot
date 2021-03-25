@@ -106,7 +106,7 @@ ex:32005_Lec_3
     ex:lecNumber 3 ;
     ex:lecName "RSA" ;
     ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%203/Lectures/Slides/set3.pdf> ;
-    foaf:primaryTopic dbr:RSA_(cryptosystem) ;
+    foaf:primaryTopic dbr:RSA ;
     ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%203/Lectures/Worksheets/exercise2.pdf> .
 
 ex:32005_Lec_4
