@@ -1,0 +1,192 @@
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <https://xmlns.com/foaf/0.1/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix npg: <http://ns.nature.com/terms/> .
+@prefix ex: <http://example.org/>.
+
+ex:5484
+    a ex:Course ;
+    ex:cName "Intelligent Systems" ;
+    ex:cSubject "COMP" ;
+    ex:cNum "474" ;
+    ex:Description "..." ;
+    ex:cOutline <universities/Concordia%20University/COMP474/Outline> ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/info.php?id=122223> .
+
+ex:32005
+    a ex:Course ;
+    ex:cName "Information Systems Security" ;
+    ex:cSubject "SOEN" ;
+    ex:cNum "321" ;
+    ex:Description "..." ;
+    ex:cOutline <universities/Concordia%20University/SOEN321/Outline> ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/info.php?id=124443> .
+
+ex:5484_Lec_1
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber 1 ;
+    ex:lecName "Introduction" ;
+    ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%201/Lectures/Slides/slides01.pdf> ;
+    foaf:primaryTopic dbr:Intelligent_system ;
+    ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-1> .
+
+ex:5484_Lec_2
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:LecNumber 2 ;
+    ex:lecName "Knowledge Graphs" ;
+    ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%202/Lectures/Slides/slides02.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%202/Lectures/Worksheets/worksheet01.pdf> ;
+    foaf:primaryTopic dbr:Knowledge_Graph ;
+    ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-2> .
+
+ex:5484_Lec_3
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:LecNumber 3 ;
+    ex:lecName "Vocabularies & Ontologies" ;
+    ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%203/Lectures/Slides/slides03.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%203/Lectures/Worksheets/worksheet02.pdf> ;
+    foaf:primaryTopic dbr:RDF ;
+    ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-3> .
+
+ex:5484_Lec_4
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:LecNumber 4 ;
+    ex:lecName "Knowledge Base Queries" ;
+    ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%204/Lectures/Slides/slides04.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%204/Lectures/Worksheets/worksheet03.pdf> ;
+    foaf:primaryTopic dbr:Intelligent_agent ;
+    ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-4> .
+
+ex:5484_Lec_5
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:LecNumber 5 ;
+    ex:lecName "Linked Open Data & Applications" ;
+    ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%205/Lectures/Slides/slides05.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%205/Lectures/Worksheets/worksheet04.pdf> ;
+    ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-5> .
+
+ex:5484_Lec_6
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber 6 ;
+    ex:lecName "Recommender System" ;
+    ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%206/Lectures/Slides/slides06.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%206/Lectures/Worksheets/worksheet05.pdf> ;
+    ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-6> .
+
+ex:32005_Lec_1
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber 1 ;
+    ex:lecName "Introduction" ;
+    foaf:primaryTopic dbr:Cyberattack ;
+    ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%201/Lectures/Slides/set1.pdf> .
+
+ex:32005_Lec_2
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber 2 ;
+    ex:lecName "Number Theory" ;
+    ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%202/Lectures/Slides/set2.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%202/Lectures/Worksheets/exercise1.pdf> .
+
+ex:32005_Lec_3
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber 3 ;
+    ex:lecName "RSA" ;
+    ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%203/Lectures/Slides/set3.pdf> ;
+    foaf:primaryTopic dbr:RSA ;
+    ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%203/Lectures/Worksheets/exercise2.pdf> .
+
+ex:32005_Lec_4
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber 4 ;
+    ex:lecName "Number Theory" ;
+    ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%204/Lectures/Slides/set3.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%204/Lectures/Worksheets/exercise3.pdf> .
+
+ex:32005_Lec_5
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber 5 ;
+    ex:lecName "Other Public Key Encryption" ;
+    ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%205/Lectures/Slides/set4.pdf> ;
+    ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%205/Lectures/Worksheets/exercise4.pdf> .
+
+ex:32005_Lec_6
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber 6 ;
+    ex:lecName "Digital Signature Schemes" ;
+    ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%206/Lectures/Slides/set5.pdf> .
+
+ex:5484_Lab_1
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_2 ;
+    ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%202/Labs/Instructions/comp-474-2204-uu_%20lab_%20introduction%20to%20python.pdf> ;
+    ex:eventContentSlides <universities/Concordia%20University/COMP474/Week%202/Labs/Slides/py_tut.pdf> ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2608092> .
+
+ex:5484_Lab_2
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_3 ;
+    ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%203/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%232.pdf> ;
+    foaf:primaryTopic dbr:Knowledge_Graph ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2575768>.
+
+ex:5484_Lab_3
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_4 ;
+    ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%204/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%233.pdf> ;
+    foaf:primaryTopic dbr:RDF ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2575773>.
+
+ex:5484_Lab_4
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_5 ;
+    ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%205/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%234.pdf> ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2575777>.
+
+ex:5484_Lab_5
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_6 ;
+    ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%206/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%235.pdf> ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2575781>.
+
+ex:32005_Tutorial_1
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_2 ;
+    ex:eventContentSlides <universities/Concordia%20University/SOEN321/Week%202/Labs/Slides/tutorial1.pdf> .
+
+ex:32005_Tutorial_2
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_3 ;
+    ex:eventContentSlides <universities/Concordia%20University/SOEN321/Week%203/Labs/Slides/tutorial2.pdf> .
+
+ex:32005_Tutorial_3
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_4 ;
+    ex:eventContentSlides <universities/Concordia%20University/SOEN321/Week%204/Labs/Slides/tutorial3.pdf> .
+
+ex:32005_Tutorial_4
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_5 ;
+    ex:eventContentSlides <universities/Concordia%20University/SOEN321/Week%205/Labs/Slides/tutorial4.pdf> .
+
+ex:32005_Tutorial_5
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_6 ;
+    ex:eventContentSlides <universities/Concordia%20University/SOEN321/Week%206/Labs/Slides/tutorial5.pdf> .
+

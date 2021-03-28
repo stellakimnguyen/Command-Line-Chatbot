@@ -117,6 +117,13 @@ ex:lecContentOther
 #Lecture Link
      # rdfs:seeAlso foaf:homepage ;
 
+ex:assoCourse
+    a rdf:Property ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range ex:Course ;
+    rdfs:label "Lecture's Associated Course"@en ;
+    rdfs:comment "Specific lecture associated to the course"@en .
+
 #labs/tutorials
 ex:Event
     rdfs:subClassOf ex:Lecture ;
@@ -142,8 +149,13 @@ ex:Tutorial
 
 ex:eventContentInstructions
     rdfs:subPropertyOf ex:lecContent ;
-    rdfs:labesl "Lecture Event Content Instructions"@en ;
+    rdfs:label "Lecture Event Content Instructions"@en ;
     rdfs:comment "Instructions given for the lecture event's exercise."@en .
+
+ex:eventContentSlides
+    rdfs:subPropertyOf ex:lecContent ;
+    rdfs:label "Lecture Event Content Slides"@en ;
+    rdfs:comment "Slides given for the lecture event's exercise."@en .
 
 #topics
 #------------look at foaf:primaryTopic---------------#
