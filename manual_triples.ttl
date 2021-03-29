@@ -4,9 +4,6 @@
 @prefix foaf: <https://xmlns.com/foaf/0.1/> .
 @prefix dbo: <https://dbpedia.org/ontology/> .
 @prefix dbr: <https://dbpedia.org/resource/> .
-@prefix owl: <http://www.w3.org/2002/07/owl> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix npg: <http://ns.nature.com/terms/> .
 @prefix ex: <http://example.org/>.
 
 ex:5484
@@ -30,7 +27,7 @@ ex:32005
 ex:5484_Lec_1
     a ex:Lecture ;
     ex:assoCourse ex:5484 ;
-    ex:lecNumber 1 ;
+    ex:lecNumber "1"^^xsd:integer ;
     ex:lecName "Introduction" ;
     ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%201/Lectures/Slides/slides01.pdf> ;
     foaf:primaryTopic dbr:Intelligent_system ;
@@ -39,7 +36,7 @@ ex:5484_Lec_1
 ex:5484_Lec_2
     a ex:Lecture ;
     ex:assoCourse ex:5484 ;
-    ex:LecNumber 2 ;
+    ex:LecNumber "2"^^xsd:integer ;
     ex:lecName "Knowledge Graphs" ;
     ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%202/Lectures/Slides/slides02.pdf> ;
     ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%202/Lectures/Worksheets/worksheet01.pdf> ;
@@ -49,7 +46,7 @@ ex:5484_Lec_2
 ex:5484_Lec_3
     a ex:Lecture ;
     ex:assoCourse ex:5484 ;
-    ex:LecNumber 3 ;
+    ex:LecNumber "3"^^xsd:integer ;
     ex:lecName "Vocabularies & Ontologies" ;
     ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%203/Lectures/Slides/slides03.pdf> ;
     ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%203/Lectures/Worksheets/worksheet02.pdf> ;
@@ -59,7 +56,7 @@ ex:5484_Lec_3
 ex:5484_Lec_4
     a ex:Lecture ;
     ex:assoCourse ex:5484 ;
-    ex:LecNumber 4 ;
+    ex:LecNumber "4"^^xsd:integer ;
     ex:lecName "Knowledge Base Queries" ;
     ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%204/Lectures/Slides/slides04.pdf> ;
     ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%204/Lectures/Worksheets/worksheet03.pdf> ;
@@ -69,25 +66,27 @@ ex:5484_Lec_4
 ex:5484_Lec_5
     a ex:Lecture ;
     ex:assoCourse ex:5484 ;
-    ex:LecNumber 5 ;
+    ex:LecNumber "5"^^xsd:integer ;
     ex:lecName "Linked Open Data & Applications" ;
     ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%205/Lectures/Slides/slides05.pdf> ;
     ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%205/Lectures/Worksheets/worksheet04.pdf> ;
+    foaf:primaryTopic dbr:Linked_data ;
     ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-5> .
 
 ex:5484_Lec_6
     a ex:Lecture ;
     ex:assoCourse ex:5484 ;
-    ex:lecNumber 6 ;
+    ex:lecNumber "6"^^xsd:integer ;
     ex:lecName "Recommender System" ;
     ex:lecContentSlide <universities/Concordia%20University/COMP474/Week%206/Lectures/Slides/slides06.pdf> ;
     ex:lecContentWorksheets <universities/Concordia%20University/COMP474/Week%206/Lectures/Worksheets/worksheet05.pdf> ;
+    foaf:primaryTopic dbr:Recommender_system ;
     ex:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-6> .
 
 ex:32005_Lec_1
     a ex:Lecture ;
     ex:assoCourse ex:32005 ;
-    ex:lecNumber 1 ;
+    ex:lecNumber "1"^^xsd:integer ;
     ex:lecName "Introduction" ;
     foaf:primaryTopic dbr:Cyberattack ;
     ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%201/Lectures/Slides/set1.pdf> .
@@ -95,15 +94,16 @@ ex:32005_Lec_1
 ex:32005_Lec_2
     a ex:Lecture ;
     ex:assoCourse ex:32005 ;
-    ex:lecNumber 2 ;
+    ex:lecNumber "2"^^xsd:integer ;
     ex:lecName "Number Theory" ;
     ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%202/Lectures/Slides/set2.pdf> ;
+    foaf:primaryTopic dbr:Arithmetic ;
     ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%202/Lectures/Worksheets/exercise1.pdf> .
 
 ex:32005_Lec_3
     a ex:Lecture ;
     ex:assoCourse ex:32005 ;
-    ex:lecNumber 3 ;
+    ex:lecNumber "3"^^xsd:integer ;
     ex:lecName "RSA" ;
     ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%203/Lectures/Slides/set3.pdf> ;
     foaf:primaryTopic dbr:RSA ;
@@ -112,24 +112,27 @@ ex:32005_Lec_3
 ex:32005_Lec_4
     a ex:Lecture ;
     ex:assoCourse ex:32005 ;
-    ex:lecNumber 4 ;
-    ex:lecName "Number Theory" ;
+    ex:lecNumber "4"^^xsd:integer ;
+    ex:lecName "RSA" ;
     ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%204/Lectures/Slides/set3.pdf> ;
+    foaf:primaryTopic dbr:RSA ;
     ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%204/Lectures/Worksheets/exercise3.pdf> .
 
 ex:32005_Lec_5
     a ex:Lecture ;
     ex:assoCourse ex:32005 ;
-    ex:lecNumber 5 ;
+    ex:lecNumber "5"^^xsd:integer ;
     ex:lecName "Other Public Key Encryption" ;
     ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%205/Lectures/Slides/set4.pdf> ;
+    foaf:primaryTopic dbr:Public-key_cryptography ;
     ex:lecContentWorksheets <universities/Concordia%20University/SOEN321/Week%205/Lectures/Worksheets/exercise4.pdf> .
 
 ex:32005_Lec_6
     a ex:Lecture ;
     ex:assoCourse ex:32005 ;
-    ex:lecNumber 6 ;
+    ex:lecNumber "6"^^xsd:integer ;
     ex:lecName "Digital Signature Schemes" ;
+    foaf:primaryTopic dbr:Digital_Signature_Algorithm ;
     ex:lecContentSlide <universities/Concordia%20University/SOEN321/Week%206/Lectures/Slides/set5.pdf> .
 
 ex:5484_Lab_1
@@ -143,14 +146,12 @@ ex:5484_Lab_2
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_3 ;
     ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%203/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%232.pdf> ;
-    foaf:primaryTopic dbr:Knowledge_Graph ;
     rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2575768>.
 
 ex:5484_Lab_3
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_4 ;
     ex:eventContentInstructions <universities/Concordia%20University/COMP474/Week%204/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%233.pdf> ;
-    foaf:primaryTopic dbr:RDF ;
     rdfs:seeAlso <https://moodle.concordia.ca/moodle/mod/page/view.php?id=2575773>.
 
 ex:5484_Lab_4

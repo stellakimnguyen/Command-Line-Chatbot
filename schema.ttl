@@ -4,7 +4,7 @@
 @prefix foaf: <https://xmlns.com/foaf/0.1/> .
 @prefix dbo: <https://dbpedia.org/ontology/> .
 @prefix dbr: <https://dbpedia.org/resource/> .
-@prefix owl: <http://www.w3.org/2002/07/owl> . #TODO: Double-check owl prefix
+@prefix owl: <http://www.w3.org/2002/07/owl#> . #TODO: Double-check owl prefix
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix npg: <http://ns.nature.com/terms/> .
 @prefix ex: <http://example.org/>.
