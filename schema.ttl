@@ -67,6 +67,12 @@ ex:cSubject
     #Course Link
      # rdfs:seeAlso foaf:homepage ;
 
+#slides
+ex:slide
+    a rdfs:Class ;
+    rdfs:label "Content Slides"@en ;
+    rdfs:comment "Content slides which supplement the course."@en .
+
 #lectures
 ex:Lecture
     a rdfs:Class ;
@@ -96,6 +102,7 @@ ex:lecContent
 
 ex:lecContentSlide
     rdfs:subPropertyOf ex:lecContent ;
+    rdfs:range ex:slide ;
     rdfs:label "Lecture Content Slides"@en ;
     rdfs:comment "Slides used in a specific course lecture."@en .
 
@@ -154,6 +161,7 @@ ex:eventContentInstructions
 
 ex:eventContentSlides
     rdfs:subPropertyOf ex:lecContent ;
+    rdfs:range ex:slide ;
     rdfs:label "Lecture Event Content Slides"@en ;
     rdfs:comment "Slides given for the lecture event's exercise."@en .
 
