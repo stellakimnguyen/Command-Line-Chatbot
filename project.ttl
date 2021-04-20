@@ -1,0 +1,25 @@
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <https://usefulinc.com/ns/doap#> .
+@prefix foaf: <https://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.org/>.
+
+ex:TensorFlow
+    a ex:ExternalLibrary ;
+    ex:name "TensorFlow" ;
+    foaf:homepage <https://dbpedia.org/resource/TensorFlow> .
+
+ex:SmartyBot
+    a ex:CourseProject ;
+    ex:UseLibrary ex:TensorFlow ;
+    doap:developer ex:Joe , ex:Jane .
+
+ex:Joe
+    a foaf:Person ;
+    foaf:name "Joe Doe" ;
+    foaf:mbox "joe@gmail.com" .
+
+ex:Jane
+    a foaf:Person ;
+    foaf:name "Jane Deo" ;
+    foaf:mbox "jane@gmail.com" .

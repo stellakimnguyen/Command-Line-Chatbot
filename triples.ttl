@@ -40410,3 +40410,8 @@ ex:50133
 	ex:cName "Gender Justice in Canadian Law and Policy" ;
 	ex:cDescription "This course examines the relationship between law and feminist thought and action in the 20th and 21st centuries. The course confronts the reality that the law underpins a world shot through with injustice, yet those seeking justice often turn to law to remedy that injustice. The course explores how structures of domination underpin the law and how law creates and perpetuates structures of domination. Students will read statutes and legal cases and scholarship from law, political science, women?s studies, and history\n.\nNOTE: Students who have received credit for this topic under a WSDB 498 number may not take this course for credit." ;
 	ex:fromUniversity ex:Concordia_University .
+
+ex:Concordia_University
+	a ex:University ;
+	ex:uName "Concordia University" ;
+	ex:uLink dbr:Concordia_University .

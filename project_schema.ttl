@@ -1,0 +1,26 @@
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <https://usefulinc.com/ns/doap#> .
+@prefix foaf: <https://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.org/>.
+
+ex:CourseProject
+    rdf:type rdfs:Class ;
+    rdfs:rdfs:subClassOf doap:Project ;
+    rdfs:label "Course Project"@en .
+
+ex:EternalLibrary
+    rdf:type rdfs:Class ;
+    rdfs:label "External Library"@en .
+
+ex:name
+    a rdf:Property ;
+    rdfs:domain ex:ExternalLibrary ;
+    rdfs:range rdfs:Literal ;
+    rdfs:label "Library Name"@en .
+
+ex:UseLibrary
+    rdf:type rdf:Property ;
+    rdfs:domain ex:CourseProject ;
+    rdfs:range ex:ExternalLibrary ;
+    rdfs:label "Course Project's Library"@en .
