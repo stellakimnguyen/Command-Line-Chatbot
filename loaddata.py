@@ -52,15 +52,15 @@ def parse_courses_csv(university):
     auth = HTTPBasicAuth('408', '018841334459b6c95023edc6dffbd8d7')
 
     col_list = ["Course ID", "Subject", "Catalog", "Long Title", "Component Code"]
-    df = pd.read_csv("./universities/Concordia University/CU_SR_OPEN_DATA_CATALOG.csv", usecols=col_list,
+    df = pd.read_csv("./universities/CU_SR_OPEN_DATA_CATALOG.csv", usecols=col_list,
                      encoding="ISO-8859-1")
     courses = df[df['Component Code'] == 'LEC'].drop_duplicates('Course ID', keep='last')
     courses['Description'] = ""
     courses['University'] = university
 
-    courses.to_csv("./universities/Concordia University/allcourses.csv")
+    courses.to_csv("./universities/allcourses.csv")
 
-    with open("./universities/Concordia University/allcourses.csv") as i:
+    with open("./universities/allcourses.csv") as i:
         lines = i.readlines()
         headers = lines[0].rstrip().split(",")
         for line in lines[1:]:
