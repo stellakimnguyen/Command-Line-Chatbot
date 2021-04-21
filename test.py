@@ -10,7 +10,7 @@ def list_files(localdir):
     r = []
     subdirs = [x[0] for x in os.walk(localdir)]
     for subdir in subdirs:
-        files = os.walk(subdir).__next__()[0]
+        files = os.walk(subdir).__next__()[1]
         if (len(files) > 0):
             for file in files:
                 r.append(os.path.join(subdir, file))
