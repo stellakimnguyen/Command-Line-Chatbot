@@ -1,0 +1,134 @@
+TRIPLIFICATION
+    Q11:
+    SELECT DISTINCT ?topic_name ?topic_uri ?event_uri ?content_uri
+    WHERE {
+        {
+            ?content a ex:content .
+            ?content foaf:Document ?content_uri .
+            ?content ex:contentTopic ?topic .
+            ?topic a ex:topic .
+            ?topic dc:subject ?topic_name .
+            ?topic dc:URI ?topic_uri .
+            ?event_uri ex:lecContent ?content .
+            ?event_uri a ex:Lecture .
+            ?event_uri ex:assoCourse ?course .
+            ?course a ex:Course .
+        }
+        UNION
+        {
+            ?content a ex:content .
+            ?content foaf:Document ?content_uri .
+            ?content ex:contentTopic ?topic .
+            ?topic a ex:topic .
+            ?topic dc:subject ?topic_name .
+            ?topic dc:URI ?topic_uri .
+            ?event_uri ex:lecContent ?content .
+            ?event_uri ex:assoLec ?lec .
+            ?lec ex:assoCourse ?course .
+            ?course a ex:Course .
+        }
+        FILTER(?course = ex:5484)
+    }
+
+    Q12:
+    SELECT DISTINCT ?course_name (count(?course_name) as ?count)
+    WHERE {
+        {
+            ?topic a ex:topic .
+            ?topic dc:subject ?topic_name .
+            ?content ex:contentTopic ?topic .
+            ?lec ex:lecContent ?content .
+            ?lec ex:assoCourse ?course .
+            ?course a ex:Course .
+            ?course ex:cName ?course_name .
+        }
+        UNION
+        {
+            ?topic a ex:topic .
+            ?topic dc:subject ?topic_name .
+            ?content ex:contentTopic ?topic .
+            ?event ex:lecContent ?content .
+            ?event ex:assoLec ?lec .
+            ?lec ex:assoCourse ?course .
+            ?course a ex:Course .
+            ?course ex:cName ?course_name .
+        }
+    FILTER(regex(?topic_name, "DBpedia", "i")) .
+    }
+    GROUP BY ?course_name
+    ORDER BY asc(?count)
+
+    Q13:
+    SELECT DISTINCT ?course_uri ?event_uri ?content_uri
+    WHERE {
+        {
+            ?course_uri a ex:Course .
+            ?lec ex:assoCourse ?course_uri .
+            ?lec ex:lecContent ?content .
+            ?content ex:contentTopic ?topic .
+            ?topic dc:subject ?topic_name .
+            ?content foaf:Document ?content_uri .
+        }
+        UNION
+        {
+            ?course_uri a ex:Course .
+            ?lec ex:assoCourse ?course_uri .
+            ?event_uri ex:assoLec ?lec .
+            ?event_uri ex:lecContent ?content .
+            ?content ex:contentTopic ?topic .
+            ?topic dc:subject ?topic_name .
+            ?content foaf:Document ?content_uri .
+        }
+    FILTER(regex(?topic_name, "DBpedia", "i")) .
+    }
+
+RASA
+    Q11
+        SELECT ?description
+        WHERE {
+            ?course ex:cSubject "COMP".
+            ?course ex:cNum "474".
+            ?course ex:cDescription ?description.
+        }
+
+    Q12
+        PREFIX xsd: <https://www.w3.org/2001/XMLSchema#>   
+        SELECT ?topic_name ?topic_uri
+        WHERE {
+            ?course ex:cSubject "COMP" .
+            ?course ex:cNum "474".
+            ?lec ex:assoCourse ?course.
+            ?lec ex:lecNumber "2"^^xsd:integer.
+            ?lec ex:lecContent ?content .
+            ?content ex:contentTopic ?topic .
+            ?topic dc:subject ?topic_name .
+            ?topic dc:URI ?topic_uri
+        }
+
+    Q13
+    SELECT DISTINCT ?course_name (count(?course_name) as ?count)
+    WHERE {
+        {
+            ?topic a ex:topic .
+            ?topic dc:subject ?topic_name .
+            ?content ex:contentTopic ?topic .
+            ?lec ex:lecContent ?content .
+            ?lec ex:assoCourse ?course .
+            ?course a ex:Course .
+            ?course ex:cName ?course_name .
+        }
+        UNION
+        {
+            ?topic a ex:topic .
+            ?topic dc:subject ?topic_name .
+            ?content ex:contentTopic ?topic .
+            ?event ex:lecContent ?content .
+            ?event ex:assoLec ?lec .
+            ?lec ex:assoCourse ?course .
+            ?course a ex:Course .
+            ?course ex:cName ?course_name .
+        }
+    FILTER(regex(?topic_name, "DBpedia", "i")) .
+    }
+    GROUP BY ?course_name
+    ORDER BY asc(?count)
