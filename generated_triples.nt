@@ -1,0 +1,1514 @@
+<http://example.org/5484> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Course> .
+<http://example.org/5484> <http://example.org/cName> "Intelligent Systems" .
+<http://example.org/5484> <http://example.org/cSubject> "COMP" .
+<http://example.org/5484> <http://example.org/cNum> "474" .
+<http://example.org/5484> <http://example.org/Description> "Rule-based expert systems, blackboard architecture, and agent-based. Knowledge acquisition and representation. Uncertainty and conflict resolution. Reasoning and explanation. Design of intelligent systems. Project. Lectures: three hours per week. Laboratory: two hours per week. Prerequisite: COMP 352 or COEN 352." .
+<http://example.org/5484> <http://example.org/cOutline> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Outline/course_outline_comp474_6741_w2021.pdf> .
+<http://example.org/5484> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/info.php?id=122223> .
+<http://example.org/LinkedOpenData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/LinkedOpenData> <http://purl.org/dc/terms/subject> "Linked Open Data" .
+<http://example.org/LinkedOpenData> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Linked_data> .
+<http://example.org/Fulltextsearch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Fulltextsearch> <http://purl.org/dc/terms/subject> "Full-text search" .
+<http://example.org/Fulltextsearch> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Full-text_search> .
+<http://example.org/Lucene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Lucene> <http://purl.org/dc/terms/subject> "Lucene" .
+<http://example.org/Lucene> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Apache_Lucene> .
+<http://example.org/Solr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Solr> <http://purl.org/dc/terms/subject> "Solr" .
+<http://example.org/Solr> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Apache_Solr> .
+<http://example.org/NaturalLanguageProcessingNLP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NaturalLanguageProcessingNLP> <http://purl.org/dc/terms/subject> "Natural Language Processing (NLP)" .
+<http://example.org/NaturalLanguageProcessingNLP> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Natural_language_processing> .
+<http://example.org/UIMA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/UIMA> <http://purl.org/dc/terms/subject> "UIMA" .
+<http://example.org/UIMA> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/UIMA> .
+<http://example.org/Refinitiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Refinitiv> <http://purl.org/dc/terms/subject> "Refinitiv" .
+<http://example.org/Refinitiv> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Refinitiv> .
+<http://example.org/NamedEntityRecognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NamedEntityRecognition> <http://purl.org/dc/terms/subject> "Named Entity Recognition" .
+<http://example.org/NamedEntityRecognition> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Named-entity_recognition> .
+<http://example.org/SemanticWeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SemanticWeb> <http://purl.org/dc/terms/subject> "Semantic Web" .
+<http://example.org/SemanticWeb> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Semantic_Web> .
+<http://example.org/DBpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DBpedia> <http://purl.org/dc/terms/subject> "DBpedia" .
+<http://example.org/DBpedia> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/DBpedia> .
+<http://example.org/EntityLinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/EntityLinking> <http://purl.org/dc/terms/subject> "Entity Linking" .
+<http://example.org/EntityLinking> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Entity_linking> .
+<http://example.org/datastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/datastructure> <http://purl.org/dc/terms/subject> "data structure" .
+<http://example.org/datastructure> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Data_structure> .
+<http://example.org/ResourceDescriptionFrameworkRDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ResourceDescriptionFrameworkRDF> <http://purl.org/dc/terms/subject> "Resource Description Framework (RDF)" .
+<http://example.org/ResourceDescriptionFrameworkRDF> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Resource_Description_Framework> .
+<http://example.org/formallanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/formallanguage> <http://purl.org/dc/terms/subject> "formal language" .
+<http://example.org/formallanguage> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Formal_language> .
+<http://example.org/SPARQL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SPARQL> <http://purl.org/dc/terms/subject> "SPARQL" .
+<http://example.org/SPARQL> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/SPARQL> .
+<http://example.org/querylanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/querylanguage> <http://purl.org/dc/terms/subject> "query language" .
+<http://example.org/querylanguage> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Query_language> .
+<http://example.org/FOAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/FOAF> <http://purl.org/dc/terms/subject> "FOAF" .
+<http://example.org/FOAF> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/FOAF_(ontology)> .
+<http://example.org/DublinCore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DublinCore> <http://purl.org/dc/terms/subject> "Dublin Core" .
+<http://example.org/DublinCore> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Dublin_Core> .
+<http://example.org/GeneOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/GeneOntology> <http://purl.org/dc/terms/subject> "Gene Ontology" .
+<http://example.org/GeneOntology> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Gene_ontology> .
+<http://example.org/TuringTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/TuringTest> <http://purl.org/dc/terms/subject> "Turing Test" .
+<http://example.org/TuringTest> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Turing_test> .
+<http://example.org/GoogleAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/GoogleAssistant> <http://purl.org/dc/terms/subject> "Google Assistant" .
+<http://example.org/GoogleAssistant> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Google_Assistant> .
+<http://example.org/AmazonAlexa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AmazonAlexa> <http://purl.org/dc/terms/subject> "Amazon Alexa" .
+<http://example.org/AmazonAlexa> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Amazon_Alexa> .
+<http://example.org/MicrosoftCortana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/MicrosoftCortana> <http://purl.org/dc/terms/subject> "Microsoft Cortana" .
+<http://example.org/MicrosoftCortana> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cortana> .
+<http://example.org/MicrosoftTay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/MicrosoftTay> <http://purl.org/dc/terms/subject> "Microsoft Tay" .
+<http://example.org/MicrosoftTay> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Tay_(bot)> .
+<http://example.org/Weizenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Weizenbaum> <http://purl.org/dc/terms/subject> "Weizenbaum" .
+<http://example.org/Weizenbaum> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Joseph_Weizenbaum> .
+<http://example.org/POWER7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/POWER7> <http://purl.org/dc/terms/subject> "POWER7" .
+<http://example.org/POWER7> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/POWER7> .
+<http://example.org/Gartner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Gartner> <http://purl.org/dc/terms/subject> "Gartner" .
+<http://example.org/Gartner> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Gartner> .
+<http://example.org/ELIZA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ELIZA> <http://purl.org/dc/terms/subject> "ELIZA" .
+<http://example.org/ELIZA> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/ELIZA> .
+<http://example.org/Chatbot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Chatbot> <http://purl.org/dc/terms/subject> "Chatbot" .
+<http://example.org/Chatbot> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chatbot> .
+<http://example.org/slides01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/slides01> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%201/Lectures/Slides/slides01.pdf> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/LinkedOpenData> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/Fulltextsearch> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/Lucene> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/Solr> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/NaturalLanguageProcessingNLP> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/UIMA> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/Refinitiv> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/NamedEntityRecognition> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/SemanticWeb> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/EntityLinking> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/datastructure> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/ResourceDescriptionFrameworkRDF> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/formallanguage> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/querylanguage> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/FOAF> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/DublinCore> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/GeneOntology> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/TuringTest> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/GoogleAssistant> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/AmazonAlexa> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/MicrosoftCortana> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/MicrosoftTay> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/Weizenbaum> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/POWER7> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/Gartner> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/ELIZA> .
+<http://example.org/slides01> <http://example.org/contentTopic> <http://example.org/Chatbot> .
+<http://example.org/Clang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Clang> <http://purl.org/dc/terms/subject> "Clang" .
+<http://example.org/Clang> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Clang> .
+<http://example.org/pineapple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/pineapple> <http://purl.org/dc/terms/subject> "pineapple" .
+<http://example.org/pineapple> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Pineapple> .
+<http://example.org/iter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/iter> <http://purl.org/dc/terms/subject> "iter" .
+<http://example.org/iter> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/ITER> .
+<http://example.org/hashtable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/hashtable> <http://purl.org/dc/terms/subject> "hash table" .
+<http://example.org/hashtable> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Hash_table> .
+<http://example.org/functionalprogramming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/functionalprogramming> <http://purl.org/dc/terms/subject> "functional programming" .
+<http://example.org/functionalprogramming> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Functional_programming> .
+<http://example.org/1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/1234> <http://purl.org/dc/terms/subject> "1, 2, 3, 4" .
+<http://example.org/1234> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/1,_2,_3,_4_(Plain_White_T's_song)> .
+<http://example.org/listcomprehension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/listcomprehension> <http://purl.org/dc/terms/subject> "list comprehension" .
+<http://example.org/listcomprehension> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/List_comprehension> .
+<http://example.org/BerkeleyBowl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/BerkeleyBowl> <http://purl.org/dc/terms/subject> "Berkeley Bowl" .
+<http://example.org/BerkeleyBowl> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Berkeley_Bowl> .
+<http://example.org/instancevariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/instancevariable> <http://purl.org/dc/terms/subject> "instance variable" .
+<http://example.org/instancevariable> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Instance_variable> .
+<http://example.org/staticvariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/staticvariable> <http://purl.org/dc/terms/subject> "static variable" .
+<http://example.org/staticvariable> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Static_variable> .
+<http://example.org/tidbits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/tidbits> <http://purl.org/dc/terms/subject> "tidbits" .
+<http://example.org/tidbits> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Tidbits> .
+<http://example.org/Safaribooksonline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Safaribooksonline> <http://purl.org/dc/terms/subject> "Safari books online" .
+<http://example.org/Safaribooksonline> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Safari_Books_Online> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/comp4742204uulabintroductiontopython> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Labs/Instructions/comp-474-2204-uu_%20lab_%20introduction%20to%20python.pdf> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/Clang> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/pineapple> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/iter> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/datastructure> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/hashtable> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/functionalprogramming> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/1234> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/listcomprehension> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/BerkeleyBowl> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/instancevariable> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/staticvariable> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/tidbits> .
+<http://example.org/comp4742204uulabintroductiontopython> <http://example.org/contentTopic> <http://example.org/Safaribooksonline> .
+<http://example.org/AppliedArtificialIntelligence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AppliedArtificialIntelligence> <http://purl.org/dc/terms/subject> "Applied Artificial Intelligence" .
+<http://example.org/AppliedArtificialIntelligence> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Applied_Artificial_Intelligence> .
+<http://example.org/NumPy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NumPy> <http://purl.org/dc/terms/subject> "NumPy" .
+<http://example.org/NumPy> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/NumPy> .
+<http://example.org/imperativeprogramming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/imperativeprogramming> <http://purl.org/dc/terms/subject> "imperative programming" .
+<http://example.org/imperativeprogramming> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Imperative_programming> .
+<http://example.org/GuidovanRossum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/GuidovanRossum> <http://purl.org/dc/terms/subject> "Guido van Rossum" .
+<http://example.org/GuidovanRossum> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Guido_van_Rossum> .
+<http://example.org/commandlineinterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/commandlineinterface> <http://purl.org/dc/terms/subject> "command-line interface" .
+<http://example.org/commandlineinterface> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Command-line_interface> .
+<http://example.org/GoogleDrive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/GoogleDrive> <http://purl.org/dc/terms/subject> "Google Drive" .
+<http://example.org/GoogleDrive> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Google_Drive> .
+<http://example.org/rng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/rng> <http://purl.org/dc/terms/subject> "rng" .
+<http://example.org/rng> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Rng_(algebra)> .
+<http://example.org/StackOverflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/StackOverflow> <http://purl.org/dc/terms/subject> "Stack Overflow" .
+<http://example.org/StackOverflow> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Stack_Overflow> .
+<http://example.org/customclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/customclass> <http://purl.org/dc/terms/subject> "custom class" .
+<http://example.org/customclass> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Business_class> .
+<http://example.org/adult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/adult> <http://purl.org/dc/terms/subject> "adult." .
+<http://example.org/adult> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Adult_(band)> .
+<http://example.org/readline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/readline> <http://purl.org/dc/terms/subject> "readline" .
+<http://example.org/readline> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/GNU_Readline> .
+<http://example.org/MalcolmReynolds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/MalcolmReynolds> <http://purl.org/dc/terms/subject> "Malcolm Reynolds" .
+<http://example.org/MalcolmReynolds> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Malcolm_Reynolds> .
+<http://example.org/pytut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/pytut> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Labs/Slides/py_tut.pdf> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/AppliedArtificialIntelligence> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/NumPy> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/functionalprogramming> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/imperativeprogramming> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/GuidovanRossum> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/commandlineinterface> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/GoogleDrive> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/rng> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/1234> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/datastructure> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/StackOverflow> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/customclass> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/adult> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/readline> .
+<http://example.org/pytut> <http://example.org/contentTopic> <http://example.org/MalcolmReynolds> .
+<http://example.org/KnowledgeGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/KnowledgeGraph> <http://purl.org/dc/terms/subject> "Knowledge Graph" .
+<http://example.org/KnowledgeGraph> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Knowledge_Graph> .
+<http://example.org/KnowledgeVault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/KnowledgeVault> <http://purl.org/dc/terms/subject> "Knowledge Vault" .
+<http://example.org/KnowledgeVault> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Knowledge_Graph> .
+<http://example.org/LinkedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/LinkedIn> <http://purl.org/dc/terms/subject> "LinkedIn" .
+<http://example.org/LinkedIn> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/LinkedIn> .
+<http://example.org/Diffbot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Diffbot> <http://purl.org/dc/terms/subject> "Diffbot" .
+<http://example.org/Diffbot> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Diffbot> .
+<http://example.org/ConceptNet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ConceptNet> <http://purl.org/dc/terms/subject> "ConceptNet" .
+<http://example.org/ConceptNet> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Open_Mind_Common_Sense> .
+<http://example.org/SHRDLU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SHRDLU> <http://purl.org/dc/terms/subject> "SHRDLU" .
+<http://example.org/SHRDLU> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/SHRDLU> .
+<http://example.org/Rumelhart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Rumelhart> <http://purl.org/dc/terms/subject> "Rumelhart" .
+<http://example.org/Rumelhart> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/David_Rumelhart> .
+<http://example.org/Cyc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Cyc> <http://purl.org/dc/terms/subject> "Cyc" .
+<http://example.org/Cyc> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cyc> .
+<http://example.org/knowledgerepresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/knowledgerepresentation> <http://purl.org/dc/terms/subject> "knowledge representation" .
+<http://example.org/knowledgerepresentation> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Knowledge_representation_and_reasoning> .
+<http://example.org/skolemization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/skolemization> <http://purl.org/dc/terms/subject> "skolemization" .
+<http://example.org/skolemization> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Skolem_normal_form> .
+<http://example.org/TBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/TBox> <http://purl.org/dc/terms/subject> "TBox" .
+<http://example.org/TBox> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Tbox> .
+<http://example.org/rdfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/rdfs> <http://purl.org/dc/terms/subject> "rdfs" .
+<http://example.org/rdfs> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/RDF_Schema> .
+<http://example.org/RDFa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/RDFa> <http://purl.org/dc/terms/subject> "RDFa" .
+<http://example.org/RDFa> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/RDFa> .
+<http://example.org/JSONLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/JSONLD> <http://purl.org/dc/terms/subject> "JSON-LD" .
+<http://example.org/JSONLD> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/JSON-LD> .
+<http://example.org/RDFS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/RDFS> <http://purl.org/dc/terms/subject> "RDFS" .
+<http://example.org/RDFS> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/RDF_Schema> .
+<http://example.org/KnowledgeNavigator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/KnowledgeNavigator> <http://purl.org/dc/terms/subject> "Knowledge Navigator" .
+<http://example.org/KnowledgeNavigator> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Knowledge_Navigator> .
+<http://example.org/SemanticNetworks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SemanticNetworks> <http://purl.org/dc/terms/subject> "Semantic Networks" .
+<http://example.org/SemanticNetworks> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Semantic_network> .
+<http://example.org/DescriptionLogic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DescriptionLogic> <http://purl.org/dc/terms/subject> "Description Logic" .
+<http://example.org/DescriptionLogic> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Description_logic> .
+<http://example.org/AIWinter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AIWinter> <http://purl.org/dc/terms/subject> "AI Winter" .
+<http://example.org/AIWinter> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/AI_winter> .
+<http://example.org/Neo4J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Neo4J> <http://purl.org/dc/terms/subject> "Neo4J" .
+<http://example.org/Neo4J> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Neo4j> .
+<http://example.org/OracleSpatial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/OracleSpatial> <http://purl.org/dc/terms/subject> "Oracle Spatial" .
+<http://example.org/OracleSpatial> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Oracle_Spatial_and_Graph> .
+<http://example.org/Wikidata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Wikidata> <http://purl.org/dc/terms/subject> "Wikidata" .
+<http://example.org/Wikidata> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Wikidata> .
+<http://example.org/YAGO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/YAGO> <http://purl.org/dc/terms/subject> "YAGO" .
+<http://example.org/YAGO> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/YAGO_(database)> .
+<http://example.org/WorldWideWebConsortium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/WorldWideWebConsortium> <http://purl.org/dc/terms/subject> "World Wide Web Consortium" .
+<http://example.org/WorldWideWebConsortium> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/World_Wide_Web_Consortium> .
+<http://example.org/stringliteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/stringliteral> <http://purl.org/dc/terms/subject> "string literal" .
+<http://example.org/stringliteral> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/String_literal> .
+<http://example.org/L\uFFFDonarddeVinci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/L\uFFFDonarddeVinci> <http://purl.org/dc/terms/subject> "L\uFFFDonard de Vinci" .
+<http://example.org/L\uFFFDonarddeVinci> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Leonardo_da_Vinci> .
+<http://example.org/RDFXML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/RDFXML> <http://purl.org/dc/terms/subject> "RDF/XML" .
+<http://example.org/RDFXML> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/XML> .
+<http://example.org/NTriples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NTriples> <http://purl.org/dc/terms/subject> "N-Triples" .
+<http://example.org/NTriples> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/N-Triples> .
+<http://example.org/TheGlassPalace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/TheGlassPalace> <http://purl.org/dc/terms/subject> "The Glass Palace" .
+<http://example.org/TheGlassPalace> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/The_Glass_Palace> .
+<http://example.org/HarperCollins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/HarperCollins> <http://purl.org/dc/terms/subject> "Harper Collins" .
+<http://example.org/HarperCollins> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/HarperCollins> .
+<http://example.org/miroirs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/miroirs> <http://purl.org/dc/terms/subject> "miroirs" .
+<http://example.org/miroirs> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Miroirs> .
+<http://example.org/letitre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/letitre> <http://purl.org/dc/terms/subject> "le titre" .
+<http://example.org/letitre> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Le_Titre> .
+<http://example.org/WordNet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/WordNet> <http://purl.org/dc/terms/subject> "WordNet" .
+<http://example.org/WordNet> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/WordNet> .
+<http://example.org/GeoNames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/GeoNames> <http://purl.org/dc/terms/subject> "GeoNames" .
+<http://example.org/GeoNames> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/GeoNames> .
+<http://example.org/DBPedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DBPedia> <http://purl.org/dc/terms/subject> "DBPedia" .
+<http://example.org/DBPedia> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/DBpedia> .
+<http://example.org/DeepDive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DeepDive> <http://purl.org/dc/terms/subject> "DeepDive" .
+<http://example.org/DeepDive> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Transformers> .
+<http://example.org/Machinelearning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Machinelearning> <http://purl.org/dc/terms/subject> "Machine learning" .
+<http://example.org/Machinelearning> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Machine_learning> .
+<http://example.org/AlfredLennon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AlfredLennon> <http://purl.org/dc/terms/subject> "Alfred Lennon" .
+<http://example.org/AlfredLennon> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Alfred_Lennon> .
+<http://example.org/PeterNorvig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/PeterNorvig> <http://purl.org/dc/terms/subject> "Peter Norvig" .
+<http://example.org/PeterNorvig> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Peter_Norvig> .
+<http://example.org/PrenticeHall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/PrenticeHall> <http://purl.org/dc/terms/subject> "Prentice Hall" .
+<http://example.org/PrenticeHall> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Prentice_Hall> .
+<http://example.org/WorldWideWebConsortiumW3C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/WorldWideWebConsortiumW3C> <http://purl.org/dc/terms/subject> "World Wide Web Consortium (W3C)" .
+<http://example.org/WorldWideWebConsortiumW3C> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/World_Wide_Web_Consortium> .
+<http://example.org/slides02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/slides02> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Lectures/Slides/slides02.pdf> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/SemanticWeb> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/ResourceDescriptionFrameworkRDF> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/GoogleAssistant> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/KnowledgeGraph> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/KnowledgeVault> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/LinkedIn> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/Diffbot> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/ConceptNet> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/SHRDLU> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/Rumelhart> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/Cyc> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/knowledgerepresentation> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/skolemization> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/TBox> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/RDFa> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/JSONLD> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/RDFS> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/FOAF> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/KnowledgeNavigator> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/SemanticNetworks> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/DescriptionLogic> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/AIWinter> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/Neo4J> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/OracleSpatial> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/Wikidata> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/YAGO> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/WorldWideWebConsortium> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/stringliteral> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/L\uFFFDonarddeVinci> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/RDFXML> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/NTriples> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/TheGlassPalace> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/HarperCollins> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/miroirs> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/letitre> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/WordNet> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/GeoNames> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/DBPedia> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/DeepDive> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/Machinelearning> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/AlfredLennon> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/PeterNorvig> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/PrenticeHall> .
+<http://example.org/slides02> <http://example.org/contentTopic> <http://example.org/WorldWideWebConsortiumW3C> .
+<http://example.org/5484_Lec_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/5484_Lec_1> <http://example.org/assoCourse> <http://example.org/5484> .
+<http://example.org/5484_Lec_1> <http://example.org/lecNumber> "1"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5484_Lec_1> <http://example.org/lecName> "slides01.pdf" .
+<http://example.org/5484_Lec_1> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-1> .
+<http://example.org/5484_Lec_1> <http://example.org/lecContent> <http://example.org/slides01> .
+<http://example.org/5484_Lec_1> <http://example.org/lecContentSlide> <http://example.org/slides01> .
+<http://example.org/ResourceDescriptionFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ResourceDescriptionFramework> <http://purl.org/dc/terms/subject> "Resource Description Framework" .
+<http://example.org/ResourceDescriptionFramework> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Resource_Description_Framework> .
+<http://example.org/HTTP303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/HTTP303> <http://purl.org/dc/terms/subject> "HTTP 303" .
+<http://example.org/HTTP303> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/HTTP_303> .
+<http://example.org/publicknowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/publicknowledge> <http://purl.org/dc/terms/subject> "public knowledge" .
+<http://example.org/publicknowledge> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Public_Knowledge> .
+<http://example.org/worksheet01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/worksheet01> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Lectures/Worksheets/worksheet01.pdf> .
+<http://example.org/worksheet01> <http://example.org/contentTopic> <http://example.org/ResourceDescriptionFramework> .
+<http://example.org/worksheet01> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/worksheet01> <http://example.org/contentTopic> <http://example.org/HTTP303> .
+<http://example.org/worksheet01> <http://example.org/contentTopic> <http://example.org/publicknowledge> .
+<http://example.org/worksheet01> <http://example.org/contentTopic> <http://example.org/LinkedIn> .
+<http://example.org/RDFSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/RDFSchema> <http://purl.org/dc/terms/subject> "RDF Schema" .
+<http://example.org/RDFSchema> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/RDF_Schema> .
+<http://example.org/comp4742204uulabsession2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/comp4742204uulabsession2> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%203/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%232.pdf> .
+<http://example.org/comp4742204uulabsession2> <http://example.org/contentTopic> <http://example.org/JSONLD> .
+<http://example.org/comp4742204uulabsession2> <http://example.org/contentTopic> <http://example.org/RDFXML> .
+<http://example.org/comp4742204uulabsession2> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/comp4742204uulabsession2> <http://example.org/contentTopic> <http://example.org/RDFSchema> .
+<http://example.org/comp4742204uulabsession2> <http://example.org/contentTopic> <http://example.org/RDFS> .
+<http://example.org/comp4742204uulabsession2> <http://example.org/contentTopic> <http://example.org/NTriples> .
+<http://example.org/comp4742204uulabsession2> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/5484_Lab_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lab> .
+<http://example.org/5484_Lab_1> <http://example.org/assoLec> <http://example.org/5484_Lec_2> .
+<http://example.org/5484_Lab_1> <http://example.org/lecContent> <http://example.org/comp4742204uulabintroductiontopython> .
+<http://example.org/5484_Lab_1> <http://example.org/lecContent> <http://example.org/pytut> .
+<http://example.org/5484_Lab_1> <http://example.org/eventContentInstructions> <http://example.org/comp4742204uulabintroductiontopython> .
+<http://example.org/5484_Lab_1> <http://example.org/eventContentSlides> <http://example.org/pytut> .
+<http://example.org/UniformResourceLocator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/UniformResourceLocator> <http://purl.org/dc/terms/subject> "Uniform Resource Locator" .
+<http://example.org/UniformResourceLocator> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/URL> .
+<http://example.org/InternationalizedResourceIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/InternationalizedResourceIdentifier> <http://purl.org/dc/terms/subject> "Internationalized Resource Identifier" .
+<http://example.org/InternationalizedResourceIdentifier> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Internationalized_Resource_Identifier> .
+<http://example.org/ghostwriter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ghostwriter> <http://purl.org/dc/terms/subject> "ghostwriter" .
+<http://example.org/ghostwriter> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Ghostwriter> .
+<http://example.org/W3CRecommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/W3CRecommendation> <http://purl.org/dc/terms/subject> "W3C Recommendation" .
+<http://example.org/W3CRecommendation> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/World_Wide_Web_Consortium> .
+<http://example.org/ManningPublications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ManningPublications> <http://purl.org/dc/terms/subject> "Manning Publications" .
+<http://example.org/ManningPublications> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Manning_Publications> .
+<http://example.org/DeweyDecimalClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DeweyDecimalClassification> <http://purl.org/dc/terms/subject> "Dewey Decimal Classification" .
+<http://example.org/DeweyDecimalClassification> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Dewey_Decimal_Classification> .
+<http://example.org/Web20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Web20> <http://purl.org/dc/terms/subject> "Web 2.0" .
+<http://example.org/Web20> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Web_2.0> .
+<http://example.org/Metafiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Metafiction> <http://purl.org/dc/terms/subject> "Metafiction" .
+<http://example.org/Metafiction> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Metafiction> .
+<http://example.org/Schemaorg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Schemaorg> <http://purl.org/dc/terms/subject> "Schema.org" .
+<http://example.org/Schemaorg> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Schema.org> .
+<http://example.org/LinkedData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/LinkedData> <http://purl.org/dc/terms/subject> "Linked Data" .
+<http://example.org/LinkedData> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Linked_data> .
+<http://example.org/slides03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/slides03> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%203/Lectures/Slides/slides03.pdf> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/RDFSchema> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/RDFS> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/FOAF> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/DublinCore> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/RDFXML> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/RDFa> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/miroirs> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/UniformResourceLocator> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/InternationalizedResourceIdentifier> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/TheGlassPalace> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/HarperCollins> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/ghostwriter> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/W3CRecommendation> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/ManningPublications> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/DeweyDecimalClassification> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/Web20> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/Metafiction> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/Schemaorg> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/LinkedData> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/SemanticWeb> .
+<http://example.org/slides03> <http://example.org/contentTopic> <http://example.org/WorldWideWebConsortiumW3C> .
+<http://example.org/5484_Lec_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/5484_Lec_2> <http://example.org/assoCourse> <http://example.org/5484> .
+<http://example.org/5484_Lec_2> <http://example.org/lecNumber> "2"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5484_Lec_2> <http://example.org/lecName> "slides02.pdf" .
+<http://example.org/5484_Lec_2> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-2> .
+<http://example.org/5484_Lec_2> <http://example.org/lecContent> <http://example.org/slides02> .
+<http://example.org/5484_Lec_2> <http://example.org/lecContent> <http://example.org/worksheet01> .
+<http://example.org/5484_Lec_2> <http://example.org/lecContentSlide> <http://example.org/slides02> .
+<http://example.org/5484_Lec_2> <http://example.org/lecContentWorksheets> <http://example.org/worksheet01> .
+<http://example.org/worksheet02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/worksheet02> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%203/Lectures/Worksheets/worksheet02.pdf> .
+<http://example.org/worksheet02> <http://example.org/contentTopic> <http://example.org/NTriples> .
+<http://example.org/worksheet02> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/worksheet02> <http://example.org/contentTopic> <http://example.org/FOAF> .
+<http://example.org/WebOntologyLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/WebOntologyLanguage> <http://purl.org/dc/terms/subject> "Web Ontology Language" .
+<http://example.org/WebOntologyLanguage> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Web_Ontology_Language> .
+<http://example.org/RDFschema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/RDFschema> <http://purl.org/dc/terms/subject> "RDF schema" .
+<http://example.org/RDFschema> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/RDF_Schema> .
+<http://example.org/comp4742204uulabsession3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/comp4742204uulabsession3> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%204/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%233.pdf> .
+<http://example.org/comp4742204uulabsession3> <http://example.org/contentTopic> <http://example.org/FOAF> .
+<http://example.org/comp4742204uulabsession3> <http://example.org/contentTopic> <http://example.org/WebOntologyLanguage> .
+<http://example.org/comp4742204uulabsession3> <http://example.org/contentTopic> <http://example.org/RDFS> .
+<http://example.org/comp4742204uulabsession3> <http://example.org/contentTopic> <http://example.org/RDFschema> .
+<http://example.org/comp4742204uulabsession3> <http://example.org/contentTopic> <http://example.org/RDFSchema> .
+<http://example.org/comp4742204uulabsession3> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/5484_Lab_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lab> .
+<http://example.org/5484_Lab_2> <http://example.org/assoLec> <http://example.org/5484_Lec_3> .
+<http://example.org/5484_Lab_2> <http://example.org/lecContent> <http://example.org/comp4742204uulabsession2> .
+<http://example.org/5484_Lab_2> <http://example.org/eventContentInstructions> <http://example.org/comp4742204uulabsession2> .
+<http://example.org/Wordpresscom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Wordpresscom> <http://purl.org/dc/terms/subject> "Wordpress.com" .
+<http://example.org/Wordpresscom> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/WordPress.com> .
+<http://example.org/Dataintegration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Dataintegration> <http://purl.org/dc/terms/subject> "Data integration" .
+<http://example.org/Dataintegration> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Data_integration> .
+<http://example.org/WebOntologyLanguageOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/WebOntologyLanguageOWL> <http://purl.org/dc/terms/subject> "Web Ontology Language (OWL)" .
+<http://example.org/WebOntologyLanguageOWL> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Web_Ontology_Language> .
+<http://example.org/Ontologylanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Ontologylanguage> <http://purl.org/dc/terms/subject> "Ontology language" .
+<http://example.org/Ontologylanguage> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Ontology_language> .
+<http://example.org/Geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Geonames> <http://purl.org/dc/terms/subject> "Geonames" .
+<http://example.org/Geonames> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/GeoNames> .
+<http://example.org/irreflexive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/irreflexive> <http://purl.org/dc/terms/subject> "irreflexive" .
+<http://example.org/irreflexive> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Reflexive_relation> .
+<http://example.org/NationalCancerInstitute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NationalCancerInstitute> <http://purl.org/dc/terms/subject> "National Cancer Institute" .
+<http://example.org/NationalCancerInstitute> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/National_Cancer_Institute> .
+<http://example.org/OpenBiomedicalOntologiesFoundry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/OpenBiomedicalOntologiesFoundry> <http://purl.org/dc/terms/subject> "Open Biomedical Ontologies Foundry" .
+<http://example.org/OpenBiomedicalOntologiesFoundry> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/OBO_Foundry> .
+<http://example.org/UniProt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/UniProt> <http://purl.org/dc/terms/subject> "UniProt" .
+<http://example.org/UniProt> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/UniProt> .
+<http://example.org/BioPAX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/BioPAX> <http://purl.org/dc/terms/subject> "BioPAX" .
+<http://example.org/BioPAX> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/BioPAX> .
+<http://example.org/OReillyMedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/OReillyMedia> <http://purl.org/dc/terms/subject> "O'Reilly Media" .
+<http://example.org/OReillyMedia> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/O'Reilly_Media> .
+<http://example.org/UTF8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/UTF8> <http://purl.org/dc/terms/subject> "UTF-8" .
+<http://example.org/UTF8> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/UTF-8> .
+<http://example.org/frbr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/frbr> <http://purl.org/dc/terms/subject> "frbr" .
+<http://example.org/frbr> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Functional_Requirements_for_Bibliographic_Records> .
+<http://example.org/XHTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/XHTML> <http://purl.org/dc/terms/subject> "XHTML" .
+<http://example.org/XHTML> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/XHTML> .
+<http://example.org/Triplestore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Triplestore> <http://purl.org/dc/terms/subject> "Triple store" .
+<http://example.org/Triplestore> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Triplestore> .
+<http://example.org/querystring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/querystring> <http://purl.org/dc/terms/subject> "query string" .
+<http://example.org/querystring> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Query_string> .
+<http://example.org/HTTPGET> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/HTTPGET> <http://purl.org/dc/terms/subject> "HTTP GET" .
+<http://example.org/HTTPGET> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Hypertext_Transfer_Protocol> .
+<http://example.org/AmazonAWS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AmazonAWS> <http://purl.org/dc/terms/subject> "Amazon AWS" .
+<http://example.org/AmazonAWS> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Amazon_Web_Services> .
+<http://example.org/DieterFensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DieterFensel> <http://purl.org/dc/terms/subject> "Dieter Fensel" .
+<http://example.org/DieterFensel> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Dieter_Fensel> .
+<http://example.org/slides04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/slides04> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%204/Lectures/Slides/slides04.pdf> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/Wordpresscom> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/Dataintegration> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/TheGlassPalace> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/RDFS> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/ManningPublications> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/WebOntologyLanguageOWL> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/Ontologylanguage> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/Geonames> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/LinkedOpenData> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/irreflexive> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/DescriptionLogic> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/NationalCancerInstitute> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/OpenBiomedicalOntologiesFoundry> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/GeneOntology> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/UniProt> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/BioPAX> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/OReillyMedia> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/UTF8> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/frbr> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/XHTML> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/Triplestore> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/NTriples> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/querystring> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/HTTPGET> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/AmazonAWS> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/DieterFensel> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/SemanticWeb> .
+<http://example.org/slides04> <http://example.org/contentTopic> <http://example.org/LinkedData> .
+<http://example.org/5484_Lec_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/5484_Lec_3> <http://example.org/assoCourse> <http://example.org/5484> .
+<http://example.org/5484_Lec_3> <http://example.org/lecNumber> "3"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5484_Lec_3> <http://example.org/lecName> "slides03.pdf" .
+<http://example.org/5484_Lec_3> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-3> .
+<http://example.org/5484_Lec_3> <http://example.org/lecContent> <http://example.org/slides03> .
+<http://example.org/5484_Lec_3> <http://example.org/lecContent> <http://example.org/worksheet02> .
+<http://example.org/5484_Lec_3> <http://example.org/lecContentSlide> <http://example.org/slides03> .
+<http://example.org/5484_Lec_3> <http://example.org/lecContentWorksheets> <http://example.org/worksheet02> .
+<http://example.org/worksheet03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/worksheet03> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%204/Lectures/Worksheets/worksheet03.pdf> .
+<http://example.org/worksheet03> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/worksheet03> <http://example.org/contentTopic> <http://example.org/RDFSchema> .
+<http://example.org/worksheet03> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/worksheet03> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/worksheet03> <http://example.org/contentTopic> <http://example.org/Wikidata> .
+<http://example.org/Moodle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Moodle> <http://purl.org/dc/terms/subject> "Moodle" .
+<http://example.org/Moodle> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Moodle> .
+<http://example.org/fuseki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/fuseki> <http://purl.org/dc/terms/subject> "fuseki" .
+<http://example.org/fuseki> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Fuseki> .
+<http://example.org/binarydistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/binarydistribution> <http://purl.org/dc/terms/subject> "binary distribution" .
+<http://example.org/binarydistribution> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Binary_distribution> .
+<http://example.org/chmod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/chmod> <http://purl.org/dc/terms/subject> "chmod" .
+<http://example.org/chmod> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chmod> .
+<http://example.org/comp4742204uulabsession4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/comp4742204uulabsession4> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%205/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%234.pdf> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/querylanguage> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/Moodle> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/publicknowledge> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/fuseki> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/binarydistribution> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/chmod> .
+<http://example.org/comp4742204uulabsession4> <http://example.org/contentTopic> <http://example.org/FOAF> .
+<http://example.org/5484_Lab_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lab> .
+<http://example.org/5484_Lab_3> <http://example.org/assoLec> <http://example.org/5484_Lec_4> .
+<http://example.org/5484_Lab_3> <http://example.org/lecContent> <http://example.org/comp4742204uulabsession3> .
+<http://example.org/5484_Lab_3> <http://example.org/eventContentInstructions> <http://example.org/comp4742204uulabsession3> .
+<http://example.org/DesignIssues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DesignIssues> <http://purl.org/dc/terms/subject> "Design Issues" .
+<http://example.org/DesignIssues> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Design_Issues> .
+<http://example.org/Freebase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Freebase> <http://purl.org/dc/terms/subject> "Freebase" .
+<http://example.org/Freebase> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Freebase> .
+<http://example.org/OpenGraphProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/OpenGraphProtocol> <http://purl.org/dc/terms/subject> "Open Graph Protocol" .
+<http://example.org/OpenGraphProtocol> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Facebook_Platform> .
+<http://example.org/TimBernersLee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/TimBernersLee> <http://purl.org/dc/terms/subject> "Tim Berners-Lee" .
+<http://example.org/TimBernersLee> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Tim_Berners-Lee> .
+<http://example.org/Metaweb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Metaweb> <http://purl.org/dc/terms/subject> "Metaweb" .
+<http://example.org/Metaweb> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Metaweb> .
+<http://example.org/BabelNet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/BabelNet> <http://purl.org/dc/terms/subject> "BabelNet" .
+<http://example.org/BabelNet> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/BabelNet> .
+<http://example.org/MusicBrainz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/MusicBrainz> <http://purl.org/dc/terms/subject> "MusicBrainz" .
+<http://example.org/MusicBrainz> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/MusicBrainz> .
+<http://example.org/DataPublishing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DataPublishing> <http://purl.org/dc/terms/subject> "Data Publishing" .
+<http://example.org/DataPublishing> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Data_publishing> .
+<http://example.org/Arity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Arity> <http://purl.org/dc/terms/subject> "Arity" .
+<http://example.org/Arity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Arity> .
+<http://example.org/SHACL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SHACL> <http://purl.org/dc/terms/subject> "SHACL" .
+<http://example.org/SHACL> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/SHACL> .
+<http://example.org/shacl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/shacl> <http://purl.org/dc/terms/subject> "shacl" .
+<http://example.org/shacl> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/SHACL> .
+<http://example.org/DBpediaSpotlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DBpediaSpotlight> <http://purl.org/dc/terms/subject> "DBpedia Spotlight" .
+<http://example.org/DBpediaSpotlight> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/DBpedia> .
+<http://example.org/statisticalmodel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/statisticalmodel> <http://purl.org/dc/terms/subject> "statistical model" .
+<http://example.org/statisticalmodel> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Statistical_model> .
+<http://example.org/E\uFFFDtv\uFFFDsLor\uFFFDndUniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/E\uFFFDtv\uFFFDsLor\uFFFDndUniversity> <http://purl.org/dc/terms/subject> "E\uFFFDtv\uFFFDs Lor\uFFFDnd University" .
+<http://example.org/E\uFFFDtv\uFFFDsLor\uFFFDndUniversity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/E\uFFFDtv\uFFFDs_Lor\uFFFDnd_University> .
+<http://example.org/Hellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Hellmann> <http://purl.org/dc/terms/subject> "Hellmann" .
+<http://example.org/Hellmann> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Gustav_Hellmann> .
+<http://example.org/SpringerInternationalPublishing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SpringerInternationalPublishing> <http://purl.org/dc/terms/subject> "Springer International Publishing" .
+<http://example.org/SpringerInternationalPublishing> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Springer_Nature> .
+<http://example.org/slides05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/slides05> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%205/Lectures/Slides/slides05.pdf> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/LinkedOpenData> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/LinkedData> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/DesignIssues> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/Freebase> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/Wikidata> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/OpenGraphProtocol> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/KnowledgeGraph> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/OReillyMedia> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/TimBernersLee> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/ManningPublications> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/publicknowledge> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/Metaweb> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/BabelNet> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/MusicBrainz> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/DataPublishing> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/Dataintegration> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/TheGlassPalace> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/Arity> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/SHACL> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/shacl> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/EntityLinking> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/datastructure> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/DBpediaSpotlight> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/statisticalmodel> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/RDFa> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/E\uFFFDtv\uFFFDsLor\uFFFDndUniversity> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/WorldWideWebConsortiumW3C> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/DieterFensel> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/SemanticWeb> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/Hellmann> .
+<http://example.org/slides05> <http://example.org/contentTopic> <http://example.org/SpringerInternationalPublishing> .
+<http://example.org/5484_Lec_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/5484_Lec_4> <http://example.org/assoCourse> <http://example.org/5484> .
+<http://example.org/5484_Lec_4> <http://example.org/lecNumber> "4"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5484_Lec_4> <http://example.org/lecName> "slides04.pdf" .
+<http://example.org/5484_Lec_4> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-4> .
+<http://example.org/5484_Lec_4> <http://example.org/lecContent> <http://example.org/slides04> .
+<http://example.org/5484_Lec_4> <http://example.org/lecContent> <http://example.org/worksheet03> .
+<http://example.org/5484_Lec_4> <http://example.org/lecContentSlide> <http://example.org/slides04> .
+<http://example.org/5484_Lec_4> <http://example.org/lecContentWorksheets> <http://example.org/worksheet03> .
+<http://example.org/MiyuriSamarasinghe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/MiyuriSamarasinghe> <http://purl.org/dc/terms/subject> "Miyuri Samarasinghe" .
+<http://example.org/MiyuriSamarasinghe> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Miyuri_Samarasinghe> .
+<http://example.org/OpenCalais> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/OpenCalais> <http://purl.org/dc/terms/subject> "OpenCalais" .
+<http://example.org/OpenCalais> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Calais_(Reuters_product)> .
+<http://example.org/ParisHilton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ParisHilton> <http://purl.org/dc/terms/subject> "Paris Hilton" .
+<http://example.org/ParisHilton> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Paris_Hilton> .
+<http://example.org/worksheet04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/worksheet04> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%205/Lectures/Worksheets/worksheet04.pdf> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/MiyuriSamarasinghe> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/Wikidata> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/OpenCalais> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/DBpediaSpotlight> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/ParisHilton> .
+<http://example.org/worksheet04> <http://example.org/contentTopic> <http://example.org/RDFa> .
+<http://example.org/NextProt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NextProt> <http://purl.org/dc/terms/subject> "NextProt" .
+<http://example.org/NextProt> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/NeXtProt> .
+<http://example.org/APIkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/APIkey> <http://purl.org/dc/terms/subject> "API key" .
+<http://example.org/APIkey> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Application_programming_interface_key> .
+<http://example.org/comp4742204uulabsession5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/comp4742204uulabsession5> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%206/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%235.pdf> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/SPARQL> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/DBpedia> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/rdfs> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/LinkedOpenData> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/Wikidata> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/NextProt> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/APIkey> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/ParisHilton> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/querystring> .
+<http://example.org/comp4742204uulabsession5> <http://example.org/contentTopic> <http://example.org/GoogleAssistant> .
+<http://example.org/5484_Lab_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lab> .
+<http://example.org/5484_Lab_4> <http://example.org/assoLec> <http://example.org/5484_Lec_5> .
+<http://example.org/5484_Lab_4> <http://example.org/lecContent> <http://example.org/comp4742204uulabsession4> .
+<http://example.org/5484_Lab_4> <http://example.org/eventContentInstructions> <http://example.org/comp4742204uulabsession4> .
+<http://example.org/PrabhakarRaghavan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/PrabhakarRaghavan> <http://purl.org/dc/terms/subject> "Prabhakar Raghavan" .
+<http://example.org/PrabhakarRaghavan> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Prabhakar_Raghavan> .
+<http://example.org/Sch\uFFFDtze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Sch\uFFFDtze> <http://purl.org/dc/terms/subject> "Sch\uFFFDtze" .
+<http://example.org/Sch\uFFFDtze> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Sch\uFFFDtze> .
+<http://example.org/vectorspacemodel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/vectorspacemodel> <http://purl.org/dc/terms/subject> "vector space model" .
+<http://example.org/vectorspacemodel> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Vector_space_model> .
+<http://example.org/Euclideandistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Euclideandistance> <http://purl.org/dc/terms/subject> "Euclidean distance" .
+<http://example.org/Euclideandistance> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Euclidean_distance> .
+<http://example.org/dotproduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/dotproduct> <http://purl.org/dc/terms/subject> "dot product" .
+<http://example.org/dotproduct> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Dot_product> .
+<http://example.org/Collaborativetagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Collaborativetagging> <http://purl.org/dc/terms/subject> "Collaborative tagging" .
+<http://example.org/Collaborativetagging> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Folksonomy> .
+<http://example.org/Lastfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Lastfm> <http://purl.org/dc/terms/subject> "Last.fm" .
+<http://example.org/Lastfm> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Last.fm> .
+<http://example.org/cosinesimilarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/cosinesimilarity> <http://purl.org/dc/terms/subject> "cosine similarity" .
+<http://example.org/cosinesimilarity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cosine_similarity> .
+<http://example.org/recommendersystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/recommendersystem> <http://purl.org/dc/terms/subject> "recommender system" .
+<http://example.org/recommendersystem> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Recommender_system> .
+<http://example.org/Openknowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Openknowledge> <http://purl.org/dc/terms/subject> "Open knowledge" .
+<http://example.org/Openknowledge> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Open_knowledge> .
+<http://example.org/NetflixPrize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NetflixPrize> <http://purl.org/dc/terms/subject> "Netflix Prize" .
+<http://example.org/NetflixPrize> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Netflix_Prize> .
+<http://example.org/Netflix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Netflix> <http://purl.org/dc/terms/subject> "Netflix" .
+<http://example.org/Netflix> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Netflix> .
+<http://example.org/Likertscale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Likertscale> <http://purl.org/dc/terms/subject> "Likert-scale" .
+<http://example.org/Likertscale> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Likert_scale> .
+<http://example.org/discountedcumulativegain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/discountedcumulativegain> <http://purl.org/dc/terms/subject> "discounted cumulative gain" .
+<http://example.org/discountedcumulativegain> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Discounted_cumulative_gain> .
+<http://example.org/log2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/log2> <http://purl.org/dc/terms/subject> "log2" .
+<http://example.org/log2> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Binary_logarithm> .
+<http://example.org/AnthonyJulius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AnthonyJulius> <http://purl.org/dc/terms/subject> "Anthony Julius" .
+<http://example.org/AnthonyJulius> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Anthony_Julius> .
+<http://example.org/tfidf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/tfidf> <http://purl.org/dc/terms/subject> "tf-idf" .
+<http://example.org/tfidf> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Tf\uFFFDidf> .
+<http://example.org/inversedocumentfrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/inversedocumentfrequency> <http://purl.org/dc/terms/subject> "inverse document frequency" .
+<http://example.org/inversedocumentfrequency> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Tf\uFFFDidf> .
+<http://example.org/Booleanmodel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Booleanmodel> <http://purl.org/dc/terms/subject> "Boolean model" .
+<http://example.org/Booleanmodel> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Boolean_model_(probability_theory)> .
+<http://example.org/Cosinesimilarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Cosinesimilarity> <http://purl.org/dc/terms/subject> "Cosine similarity" .
+<http://example.org/Cosinesimilarity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cosine_similarity> .
+<http://example.org/Alag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Alag> <http://purl.org/dc/terms/subject> "Alag" .
+<http://example.org/Alag> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Alag> .
+<http://example.org/DougTurnbull> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DougTurnbull> <http://purl.org/dc/terms/subject> "Doug Turnbull" .
+<http://example.org/DougTurnbull> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Doug_Turnbull> .
+<http://example.org/slides06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/slides06> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%206/Lectures/Slides/slides06.pdf> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/PrabhakarRaghavan> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Sch\uFFFDtze> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/ManningPublications> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/vectorspacemodel> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Euclideandistance> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/dotproduct> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Collaborativetagging> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Lastfm> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/cosinesimilarity> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/recommendersystem> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Openknowledge> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/FOAF> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/NetflixPrize> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Netflix> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Likertscale> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/discountedcumulativegain> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/log2> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/AnthonyJulius> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/tfidf> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/inversedocumentfrequency> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Booleanmodel> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Cosinesimilarity> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/Alag> .
+<http://example.org/slides06> <http://example.org/contentTopic> <http://example.org/DougTurnbull> .
+<http://example.org/5484_Lec_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/5484_Lec_5> <http://example.org/assoCourse> <http://example.org/5484> .
+<http://example.org/5484_Lec_5> <http://example.org/lecNumber> "5"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5484_Lec_5> <http://example.org/lecName> "slides05.pdf" .
+<http://example.org/5484_Lec_5> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-5> .
+<http://example.org/5484_Lec_5> <http://example.org/lecContent> <http://example.org/slides05> .
+<http://example.org/5484_Lec_5> <http://example.org/lecContent> <http://example.org/worksheet04> .
+<http://example.org/5484_Lec_5> <http://example.org/lecContentSlide> <http://example.org/slides05> .
+<http://example.org/5484_Lec_5> <http://example.org/lecContentWorksheets> <http://example.org/worksheet04> .
+<http://example.org/worksheet05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/worksheet05> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%206/Lectures/Worksheets/worksheet05.pdf> .
+<http://example.org/worksheet05> <http://example.org/contentTopic> <http://example.org/cosinesimilarity> .
+<http://example.org/worksheet05> <http://example.org/contentTopic> <http://example.org/dotproduct> .
+<http://example.org/32005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Course> .
+<http://example.org/32005> <http://example.org/cName> "Information Systems Security" .
+<http://example.org/32005> <http://example.org/cSubject> "SOEN" .
+<http://example.org/32005> <http://example.org/cNum> "321" .
+<http://example.org/32005> <http://example.org/Description> "Protocol layers and security protocols. Intranets and extranets. Mobile computing. Electronic commerce. Security architectures in open-network environments. Cryptographic security protocols. Threats, attacks, and vulnerabilities. Security services: confidentiality; authentication; integrity; access control; non-repudiation; and availability. Security mechanisms: encryption; data-integrity mechanisms; digital signatures; keyed hashes; access-control mechanisms; challenge-response authentication; traffic padding; routing control; and notarization. Key-management principles. Distributed and embedded firewalls. Security zones. Lectures: three hours per week. Tutorial: one hour per week. Prerequisite: COMP 346." .
+<http://example.org/32005> <http://example.org/cOutline> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Outline/Outline.pdf> .
+<http://example.org/32005> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-1> .
+<http://example.org/LawrieBrown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/LawrieBrown> <http://purl.org/dc/terms/subject> "Lawrie Brown" .
+<http://example.org/LawrieBrown> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Lawrie_Brown> .
+<http://example.org/InternationalInformationSystemsSecurityCertificationConsortium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/InternationalInformationSystemsSecurityCertificationConsortium> <http://purl.org/dc/terms/subject> "International Information Systems Security Certification Consortium" .
+<http://example.org/InternationalInformationSystemsSecurityCertificationConsortium> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/(ISC)\uFFFD> .
+<http://example.org/Applicationsecurity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Applicationsecurity> <http://purl.org/dc/terms/subject> "Application security" .
+<http://example.org/Applicationsecurity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Application_security> .
+<http://example.org/Malware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Malware> <http://purl.org/dc/terms/subject> "Malware" .
+<http://example.org/Malware> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Malware> .
+<http://example.org/krypto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/krypto> <http://purl.org/dc/terms/subject> "krypto" .
+<http://example.org/krypto> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Krypto> .
+<http://example.org/Dataintegrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Dataintegrity> <http://purl.org/dc/terms/subject> "Data integrity" .
+<http://example.org/Dataintegrity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Data_integrity> .
+<http://example.org/Nonrepudiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Nonrepudiation> <http://purl.org/dc/terms/subject> "Non-repudiation" .
+<http://example.org/Nonrepudiation> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Non-repudiation> .
+<http://example.org/plaintext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/plaintext> <http://purl.org/dc/terms/subject> "plaintext" .
+<http://example.org/plaintext> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Plaintext> .
+<http://example.org/cryptographer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/cryptographer> <http://purl.org/dc/terms/subject> "cryptographer" .
+<http://example.org/cryptographer> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cryptography> .
+<http://example.org/toga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/toga> <http://purl.org/dc/terms/subject> "toga" .
+<http://example.org/toga> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Toga> .
+<http://example.org/Exhaustivesearch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Exhaustivesearch> <http://purl.org/dc/terms/subject> "Exhaustive search" .
+<http://example.org/Exhaustivesearch> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Brute-force_search> .
+<http://example.org/frequencyanalysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/frequencyanalysis> <http://purl.org/dc/terms/subject> "frequency analysis" .
+<http://example.org/frequencyanalysis> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Frequency_analysis> .
+<http://example.org/onetimepad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/onetimepad> <http://purl.org/dc/terms/subject> "one-time pad" .
+<http://example.org/onetimepad> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/One-time_pad> .
+<http://example.org/cryptosystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/cryptosystem> <http://purl.org/dc/terms/subject> "cryptosystem" .
+<http://example.org/cryptosystem> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cryptosystem> .
+<http://example.org/GilbertVernam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/GilbertVernam> <http://purl.org/dc/terms/subject> "Gilbert Vernam" .
+<http://example.org/GilbertVernam> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Gilbert_Vernam> .
+<http://example.org/Zm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Zm> <http://purl.org/dc/terms/subject> "Zm" .
+<http://example.org/Zm> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/Orders_of_magnitude_(length)> .
+<http://example.org/Provablesecurity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Provablesecurity> <http://purl.org/dc/terms/subject> "Provable security" .
+<http://example.org/Provablesecurity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Provable_security> .
+<http://example.org/Ciphertextonlyattack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Ciphertextonlyattack> <http://purl.org/dc/terms/subject> "Ciphertext-only attack" .
+<http://example.org/Ciphertextonlyattack> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Ciphertext-only_attack> .
+<http://example.org/Knownplaintextattack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Knownplaintextattack> <http://purl.org/dc/terms/subject> "Known-plaintext attack" .
+<http://example.org/Knownplaintextattack> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Known-plaintext_attack> .
+<http://example.org/Chosenplaintextattack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Chosenplaintextattack> <http://purl.org/dc/terms/subject> "Chosen-plaintext attack" .
+<http://example.org/Chosenplaintextattack> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chosen-plaintext_attack> .
+<http://example.org/chosenplaintextattack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/chosenplaintextattack> <http://purl.org/dc/terms/subject> "chosen-plaintext attack" .
+<http://example.org/chosenplaintextattack> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chosen-plaintext_attack> .
+<http://example.org/Chosenciphertextattack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Chosenciphertextattack> <http://purl.org/dc/terms/subject> "Chosen-ciphertext attack" .
+<http://example.org/Chosenciphertextattack> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chosen-ciphertext_attack> .
+<http://example.org/Adaptivechosenciphertextattack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Adaptivechosenciphertextattack> <http://purl.org/dc/terms/subject> "Adaptive chosen-ciphertext attack" .
+<http://example.org/Adaptivechosenciphertextattack> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Adaptive_chosen-ciphertext_attack> .
+<http://example.org/chosenciphertextattack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/chosenciphertextattack> <http://purl.org/dc/terms/subject> "chosen-ciphertext attack" .
+<http://example.org/chosenciphertextattack> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chosen-ciphertext_attack> .
+<http://example.org/ClaudeShannon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ClaudeShannon> <http://purl.org/dc/terms/subject> "Claude Shannon" .
+<http://example.org/ClaudeShannon> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Claude_Shannon> .
+<http://example.org/Communicationtheory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Communicationtheory> <http://purl.org/dc/terms/subject> "Communication theory" .
+<http://example.org/Communicationtheory> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Communication_theory> .
+<http://example.org/5678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/5678> <http://purl.org/dc/terms/subject> "5, 6, 7, 8" .
+<http://example.org/5678> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/5> .
+<http://example.org/5678> <http://purl.org/dc/terms/URI> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5678> <http://purl.org/dc/terms/URI> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5678> <http://purl.org/dc/terms/URI> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/Multiplicativeidentity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Multiplicativeidentity> <http://purl.org/dc/terms/subject> "Multiplicative identity" .
+<http://example.org/Multiplicativeidentity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Identity_element> .
+<http://example.org/set1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/set1> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%201/Lectures/Slides/set1.pdf> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/LawrieBrown> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/PrenticeHall> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/InternationalInformationSystemsSecurityCertificationConsortium> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Applicationsecurity> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Malware> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/krypto> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Dataintegrity> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Nonrepudiation> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/plaintext> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/cryptographer> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/toga> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Exhaustivesearch> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/frequencyanalysis> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/onetimepad> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/cryptosystem> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/GilbertVernam> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Zm> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Provablesecurity> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Ciphertextonlyattack> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Knownplaintextattack> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Chosenplaintextattack> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/chosenplaintextattack> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Chosenciphertextattack> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Adaptivechosenciphertextattack> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/chosenciphertextattack> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/ClaudeShannon> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Communicationtheory> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/1234> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/5678> .
+<http://example.org/set1> <http://example.org/contentTopic> <http://example.org/Multiplicativeidentity> .
+<http://example.org/5484_Lec_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/5484_Lec_6> <http://example.org/assoCourse> <http://example.org/5484> .
+<http://example.org/5484_Lec_6> <http://example.org/lecNumber> "6"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/5484_Lec_6> <http://example.org/lecName> "slides06.pdf" .
+<http://example.org/5484_Lec_6> <https://www.w3.org/2000/01/rdf-schema#seeAlso> <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-6> .
+<http://example.org/5484_Lec_6> <http://example.org/lecContent> <http://example.org/slides06> .
+<http://example.org/5484_Lec_6> <http://example.org/lecContent> <http://example.org/worksheet05> .
+<http://example.org/5484_Lec_6> <http://example.org/lecContentSlide> <http://example.org/slides06> .
+<http://example.org/5484_Lec_6> <http://example.org/lecContentWorksheets> <http://example.org/worksheet05> .
+<http://example.org/DiffieHellman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DiffieHellman> <http://purl.org/dc/terms/subject> "Diffie-Hellman" .
+<http://example.org/DiffieHellman> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Diffie\uFFFDHellman_key_exchange> .
+<http://example.org/discretelog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/discretelog> <http://purl.org/dc/terms/subject> "discrete log" .
+<http://example.org/discretelog> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Discrete_logarithm> .
+<http://example.org/ModularArithmetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ModularArithmetic> <http://purl.org/dc/terms/subject> "Modular Arithmetic" .
+<http://example.org/ModularArithmetic> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Modular_arithmetic> .
+<http://example.org/binaryoperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/binaryoperation> <http://purl.org/dc/terms/subject> "binary operation" .
+<http://example.org/binaryoperation> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Binary_operation> .
+<http://example.org/AbelianGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AbelianGroup> <http://purl.org/dc/terms/subject> "Abelian Group" .
+<http://example.org/AbelianGroup> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Abelian_group> .
+<http://example.org/abeliangroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/abeliangroup> <http://purl.org/dc/terms/subject> "abelian group" .
+<http://example.org/abeliangroup> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Abelian_group> .
+<http://example.org/commutativering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/commutativering> <http://purl.org/dc/terms/subject> "commutative ring" .
+<http://example.org/commutativering> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Commutative_ring> .
+<http://example.org/LinearEquation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/LinearEquation> <http://purl.org/dc/terms/subject> "Linear Equation" .
+<http://example.org/LinearEquation> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Linear_equation> .
+<http://example.org/cyclicgroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/cyclicgroup> <http://purl.org/dc/terms/subject> "cyclic group" .
+<http://example.org/cyclicgroup> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cyclic_group> .
+<http://example.org/set2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/set2> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%202/Lectures/Slides/set2.pdf> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/DiffieHellman> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/discretelog> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/ModularArithmetic> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/binaryoperation> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/AbelianGroup> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/abeliangroup> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/commutativering> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/LinearEquation> .
+<http://example.org/set2> <http://example.org/contentTopic> <http://example.org/cyclicgroup> .
+<http://example.org/32005_Lec_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/32005_Lec_1> <http://example.org/assoCourse> <http://example.org/32005> .
+<http://example.org/32005_Lec_1> <http://example.org/lecNumber> "1"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/32005_Lec_1> <http://example.org/lecName> "set1.pdf" .
+<http://example.org/32005_Lec_1> <http://example.org/lecContent> <http://example.org/set1> .
+<http://example.org/32005_Lec_1> <http://example.org/lecContentSlide> <http://example.org/set1> .
+<http://example.org/affinecipher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/affinecipher> <http://purl.org/dc/terms/subject> "affine cipher" .
+<http://example.org/affinecipher> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Affine_cipher> .
+<http://example.org/Hillcipher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Hillcipher> <http://purl.org/dc/terms/subject> "Hill cipher" .
+<http://example.org/Hillcipher> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Hill_cipher> .
+<http://example.org/Exercise1withsol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Exercise1withsol> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%202/Lectures/Worksheets/Exercise1%20-%20with-sol.pdf> .
+<http://example.org/Exercise1withsol> <http://example.org/contentTopic> <http://example.org/affinecipher> .
+<http://example.org/Exercise1withsol> <http://example.org/contentTopic> <http://example.org/plaintext> .
+<http://example.org/Exercise1withsol> <http://example.org/contentTopic> <http://example.org/Hillcipher> .
+<http://example.org/iff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/iff> <http://purl.org/dc/terms/subject> "iff" .
+<http://example.org/iff> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/If_and_only_if> .
+<http://example.org/modulararithmetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/modulararithmetic> <http://purl.org/dc/terms/subject> "modular arithmetic" .
+<http://example.org/modulararithmetic> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Modular_arithmetic> .
+<http://example.org/Tutorial1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Tutorial1> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%202/Tutorial/Slides/Tutorial%20-1.pdf> .
+<http://example.org/Tutorial1> <http://example.org/contentTopic> <http://example.org/ModularArithmetic> .
+<http://example.org/Tutorial1> <http://example.org/contentTopic> <http://example.org/iff> .
+<http://example.org/Tutorial1> <http://example.org/contentTopic> <http://example.org/affinecipher> .
+<http://example.org/Tutorial1> <http://example.org/contentTopic> <http://example.org/Hillcipher> .
+<http://example.org/Tutorial1> <http://example.org/contentTopic> <http://example.org/modulararithmetic> .
+<http://example.org/5484_Lab_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lab> .
+<http://example.org/5484_Lab_5> <http://example.org/assoLec> <http://example.org/5484_Lec_6> .
+<http://example.org/5484_Lab_5> <http://example.org/lecContent> <http://example.org/comp4742204uulabsession5> .
+<http://example.org/5484_Lab_5> <http://example.org/eventContentInstructions> <http://example.org/comp4742204uulabsession5> .
+<http://example.org/onewayfunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/onewayfunction> <http://purl.org/dc/terms/subject> "one-way function" .
+<http://example.org/onewayfunction> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/One-way_function> .
+<http://example.org/Publickeycryptography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Publickeycryptography> <http://purl.org/dc/terms/subject> "Public key cryptography" .
+<http://example.org/Publickeycryptography> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Public-key_cryptography> .
+<http://example.org/Rivest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Rivest> <http://purl.org/dc/terms/subject> "Rivest" .
+<http://example.org/Rivest> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Ron_Rivest> .
+<http://example.org/AdiShamir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/AdiShamir> <http://purl.org/dc/terms/subject> "Adi Shamir" .
+<http://example.org/AdiShamir> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Adi_Shamir> .
+<http://example.org/Exponentiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Exponentiation> <http://purl.org/dc/terms/subject> "Exponentiation" .
+<http://example.org/Exponentiation> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Exponentiation> .
+<http://example.org/ck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ck> <http://purl.org/dc/terms/subject> "ck" .
+<http://example.org/ck> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Smoothness> .
+<http://example.org/RSASecurity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/RSASecurity> <http://purl.org/dc/terms/subject> "RSA Security" .
+<http://example.org/RSASecurity> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/RSA_Security> .
+<http://example.org/quadraticsieve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/quadraticsieve> <http://purl.org/dc/terms/subject> "quadratic sieve" .
+<http://example.org/quadraticsieve> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Quadratic_sieve> .
+<http://example.org/numberfield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/numberfield> <http://purl.org/dc/terms/subject> "number field" .
+<http://example.org/numberfield> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Algebraic_number_field> .
+<http://example.org/set3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/set3> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%203/Lectures/Slides/set3.pdf> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/cyclicgroup> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/iff> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/onewayfunction> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/Publickeycryptography> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/Rivest> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/AdiShamir> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/Exponentiation> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/ck> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/RSASecurity> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/DiffieHellman> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/quadraticsieve> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/numberfield> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/plaintext> .
+<http://example.org/set3> <http://example.org/contentTopic> <http://example.org/Adaptivechosenciphertextattack> .
+<http://example.org/32005_Lec_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/32005_Lec_2> <http://example.org/assoCourse> <http://example.org/32005> .
+<http://example.org/32005_Lec_2> <http://example.org/lecNumber> "2"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/32005_Lec_2> <http://example.org/lecName> "set2.pdf" .
+<http://example.org/32005_Lec_2> <http://example.org/lecContent> <http://example.org/set2> .
+<http://example.org/32005_Lec_2> <http://example.org/lecContent> <http://example.org/Exercise1withsol> .
+<http://example.org/32005_Lec_2> <http://example.org/lecContentSlide> <http://example.org/set2> .
+<http://example.org/32005_Lec_2> <http://example.org/lecContentWorksheets> <http://example.org/Exercise1withsol> .
+<http://example.org/Chineseremaindertheorem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Chineseremaindertheorem> <http://purl.org/dc/terms/subject> "Chinese remainder theorem" .
+<http://example.org/Chineseremaindertheorem> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chinese_remainder_theorem> .
+<http://example.org/quadraticequation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/quadraticequation> <http://purl.org/dc/terms/subject> "quadratic equation" .
+<http://example.org/quadraticequation> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Quadratic_equation> .
+<http://example.org/Exercise2withsol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Exercise2withsol> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%203/Lectures/Worksheets/Exercise%202%20-%20with%20sol.pdf> .
+<http://example.org/Exercise2withsol> <http://example.org/contentTopic> <http://example.org/Chineseremaindertheorem> .
+<http://example.org/Exercise2withsol> <http://example.org/contentTopic> <http://example.org/quadraticequation> .
+<http://example.org/Multiplicativeinverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Multiplicativeinverse> <http://purl.org/dc/terms/subject> "Multiplicative inverse" .
+<http://example.org/Multiplicativeinverse> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Multiplicative_inverse> .
+<http://example.org/ExtendedEuclideanAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ExtendedEuclideanAlgorithm> <http://purl.org/dc/terms/subject> "Extended Euclidean Algorithm" .
+<http://example.org/ExtendedEuclideanAlgorithm> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Extended_Euclidean_algorithm> .
+<http://example.org/Tutorial2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Tutorial2> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%203/Tutorial/Slides/Tutorial%20-2.pdf> .
+<http://example.org/Tutorial2> <http://example.org/contentTopic> <http://example.org/plaintext> .
+<http://example.org/Tutorial2> <http://example.org/contentTopic> <http://example.org/Hillcipher> .
+<http://example.org/Tutorial2> <http://example.org/contentTopic> <http://example.org/Multiplicativeinverse> .
+<http://example.org/Tutorial2> <http://example.org/contentTopic> <http://example.org/ExtendedEuclideanAlgorithm> .
+<http://example.org/32005_Tutorial_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Tutorial> .
+<http://example.org/32005_Tutorial_1> <http://example.org/assoLec> <http://example.org/32005_Lec_2> .
+<http://example.org/32005_Tutorial_1> <http://example.org/lecContent> <http://example.org/Tutorial1> .
+<http://example.org/32005_Tutorial_1> <http://example.org/eventContentSlides> <http://example.org/Tutorial1> .
+<http://example.org/PublicKeyEncryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/PublicKeyEncryption> <http://purl.org/dc/terms/subject> "Public Key Encryption" .
+<http://example.org/PublicKeyEncryption> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Public-key_cryptography> .
+<http://example.org/DiscreteLogarithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DiscreteLogarithm> <http://purl.org/dc/terms/subject> "Discrete Logarithm" .
+<http://example.org/DiscreteLogarithm> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Discrete_logarithm> .
+<http://example.org/NPcomplete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NPcomplete> <http://purl.org/dc/terms/subject> "NP-complete" .
+<http://example.org/NPcomplete> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/NP-completeness> .
+<http://example.org/Strongprime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Strongprime> <http://purl.org/dc/terms/subject> "Strong prime" .
+<http://example.org/Strongprime> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Strong_prime> .
+<http://example.org/NumberFieldSieve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NumberFieldSieve> <http://purl.org/dc/terms/subject> "Number Field Sieve" .
+<http://example.org/NumberFieldSieve> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/General_number_field_sieve> .
+<http://example.org/nCm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/nCm> <http://purl.org/dc/terms/subject> "nCm" .
+<http://example.org/nCm> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Combination> .
+<http://example.org/ChineseRemainderTheorem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ChineseRemainderTheorem> <http://purl.org/dc/terms/subject> "Chinese Remainder Theorem" .
+<http://example.org/ChineseRemainderTheorem> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Chinese_remainder_theorem> .
+<http://example.org/bq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/bq> <http://purl.org/dc/terms/subject> "bq" .
+<http://example.org/bq> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Becquerel> .
+<http://example.org/ElGamalEncryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ElGamalEncryption> <http://purl.org/dc/terms/subject> "ElGamal Encryption" .
+<http://example.org/ElGamalEncryption> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/ElGamal_encryption> .
+<http://example.org/McEliece> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/McEliece> <http://purl.org/dc/terms/subject> "McEliece" .
+<http://example.org/McEliece> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/McEliece_cryptosystem> .
+<http://example.org/linearcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/linearcode> <http://purl.org/dc/terms/subject> "linear code" .
+<http://example.org/linearcode> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Linear_code> .
+<http://example.org/NPhard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/NPhard> <http://purl.org/dc/terms/subject> "NP-hard" .
+<http://example.org/NPhard> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/NP-hardness> .
+<http://example.org/Subsetsumproblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Subsetsumproblem> <http://purl.org/dc/terms/subject> "Subset sum problem" .
+<http://example.org/Subsetsumproblem> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Subset_sum_problem> .
+<http://example.org/subsetsumproblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/subsetsumproblem> <http://purl.org/dc/terms/subject> "subset sum problem" .
+<http://example.org/subsetsumproblem> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Subset_sum_problem> .
+<http://example.org/DigitalSignatureScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DigitalSignatureScheme> <http://purl.org/dc/terms/subject> "Digital Signature Scheme" .
+<http://example.org/DigitalSignatureScheme> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Digital_signature> .
+<http://example.org/Selectiveforgery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Selectiveforgery> <http://purl.org/dc/terms/subject> "Selective forgery" .
+<http://example.org/Selectiveforgery> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Digital_signature_forgery> .
+<http://example.org/Existentialforgery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Existentialforgery> <http://purl.org/dc/terms/subject> "Existential forgery" .
+<http://example.org/Existentialforgery> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Digital_signature_forgery> .
+<http://example.org/Hashfunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Hashfunction> <http://purl.org/dc/terms/subject> "Hash function" .
+<http://example.org/Hashfunction> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Hash_function> .
+<http://example.org/collisionresistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/collisionresistant> <http://purl.org/dc/terms/subject> "collision resistant" .
+<http://example.org/collisionresistant> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Collision_resistance> .
+<http://example.org/existentialforgery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/existentialforgery> <http://purl.org/dc/terms/subject> "existential forgery" .
+<http://example.org/existentialforgery> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Digital_signature_forgery> .
+<http://example.org/ElGamalSignatureScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ElGamalSignatureScheme> <http://purl.org/dc/terms/subject> "ElGamal Signature Scheme" .
+<http://example.org/ElGamalSignatureScheme> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/ElGamal_signature_scheme> .
+<http://example.org/ElGamalencryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ElGamalencryption> <http://purl.org/dc/terms/subject> "ElGamal encryption" .
+<http://example.org/ElGamalencryption> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/ElGamal_encryption> .
+<http://example.org/DigitalSignatureAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DigitalSignatureAlgorithm> <http://purl.org/dc/terms/subject> "Digital Signature Algorithm" .
+<http://example.org/DigitalSignatureAlgorithm> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Digital_Signature_Algorithm> .
+<http://example.org/set4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/set4> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%204/Lectures/Slides/set4.pdf> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/PublicKeyEncryption> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/cyclicgroup> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/DiscreteLogarithm> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/DiffieHellman> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/NPcomplete> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/Strongprime> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/NumberFieldSieve> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/plaintext> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/nCm> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/ChineseRemainderTheorem> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/bq> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/chosenciphertextattack> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/ElGamalEncryption> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/McEliece> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/linearcode> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/NPhard> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/Subsetsumproblem> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/subsetsumproblem> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/DigitalSignatureScheme> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/Dataintegrity> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/Selectiveforgery> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/Existentialforgery> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/Hashfunction> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/collisionresistant> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/existentialforgery> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/ElGamalSignatureScheme> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/ElGamalencryption> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/iff> .
+<http://example.org/set4> <http://example.org/contentTopic> <http://example.org/DigitalSignatureAlgorithm> .
+<http://example.org/32005_Lec_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/32005_Lec_3> <http://example.org/assoCourse> <http://example.org/32005> .
+<http://example.org/32005_Lec_3> <http://example.org/lecNumber> "3"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/32005_Lec_3> <http://example.org/lecName> "set3.pdf" .
+<http://example.org/32005_Lec_3> <http://example.org/lecContent> <http://example.org/set3> .
+<http://example.org/32005_Lec_3> <http://example.org/lecContent> <http://example.org/Exercise2withsol> .
+<http://example.org/32005_Lec_3> <http://example.org/lecContentSlide> <http://example.org/set3> .
+<http://example.org/32005_Lec_3> <http://example.org/lecContentWorksheets> <http://example.org/Exercise2withsol> .
+<http://example.org/Exercise3withsol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Exercise3withsol> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%204/Lectures/Worksheets/Exercise3%20-%20with%20sol.pdf> .
+<http://example.org/Exercise3withsol> <http://example.org/contentTopic> <http://example.org/DiffieHellman> .
+<http://example.org/Exercise3withsol> <http://example.org/contentTopic> <http://example.org/Chineseremaindertheorem> .
+<http://example.org/Twinprimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Twinprimes> <http://purl.org/dc/terms/subject> "Twin primes" .
+<http://example.org/Twinprimes> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Twin_prime> .
+<http://example.org/extendedeuclideanalgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/extendedeuclideanalgorithm> <http://purl.org/dc/terms/subject> "extended euclidean algorithm" .
+<http://example.org/extendedeuclideanalgorithm> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Extended_Euclidean_algorithm> .
+<http://example.org/Tutorial3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Tutorial3> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%204/Tutorial/Slides/Tutorial%20-3.pdf> .
+<http://example.org/Tutorial3> <http://example.org/contentTopic> <http://example.org/Twinprimes> .
+<http://example.org/Tutorial3> <http://example.org/contentTopic> <http://example.org/extendedeuclideanalgorithm> .
+<http://example.org/32005_Tutorial_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Tutorial> .
+<http://example.org/32005_Tutorial_2> <http://example.org/assoLec> <http://example.org/32005_Lec_3> .
+<http://example.org/32005_Tutorial_2> <http://example.org/lecContent> <http://example.org/Tutorial2> .
+<http://example.org/32005_Tutorial_2> <http://example.org/eventContentSlides> <http://example.org/Tutorial2> .
+<http://example.org/PublicKeyInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/PublicKeyInfrastructure> <http://purl.org/dc/terms/subject> "Public Key Infrastructure" .
+<http://example.org/PublicKeyInfrastructure> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Public_key_infrastructure> .
+<http://example.org/secretsharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/secretsharing> <http://purl.org/dc/terms/subject> "secret sharing" .
+<http://example.org/secretsharing> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Secret_sharing> .
+<http://example.org/PPTP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/PPTP> <http://purl.org/dc/terms/subject> "PPTP" .
+<http://example.org/PPTP> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Point-to-Point_Tunneling_Protocol> .
+<http://example.org/IPSec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/IPSec> <http://purl.org/dc/terms/subject> "IPSec" .
+<http://example.org/IPSec> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/IPsec> .
+<http://example.org/L2TP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/L2TP> <http://purl.org/dc/terms/subject> "L2TP" .
+<http://example.org/L2TP> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Layer_2_Tunneling_Protocol> .
+<http://example.org/SMIME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SMIME> <http://purl.org/dc/terms/subject> "S/MIME" .
+<http://example.org/SMIME> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/MIME> .
+<http://example.org/Authenticode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Authenticode> <http://purl.org/dc/terms/subject> "Authenticode" .
+<http://example.org/Authenticode> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Code_signing> .
+<http://example.org/digitalsignature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/digitalsignature> <http://purl.org/dc/terms/subject> "digital signature" .
+<http://example.org/digitalsignature> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Digital_signature> .
+<http://example.org/X509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/X509> <http://purl.org/dc/terms/subject> "X.509" .
+<http://example.org/X509> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/X.509> .
+<http://example.org/X500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/X500> <http://purl.org/dc/terms/subject> "X.500" .
+<http://example.org/X500> <http://purl.org/dc/terms/URI> <http://dbpedia.org/resource/X.500> .
+<http://example.org/DistinguishedName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DistinguishedName> <http://purl.org/dc/terms/subject> "Distinguished Name" .
+<http://example.org/DistinguishedName> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Lightweight_Directory_Access_Protocol> .
+<http://example.org/ClipperChip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ClipperChip> <http://purl.org/dc/terms/subject> "Clipper Chip" .
+<http://example.org/ClipperChip> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Clipper_chip> .
+<http://example.org/checksum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/checksum> <http://purl.org/dc/terms/subject> "check sum" .
+<http://example.org/checksum> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Checksum> .
+<http://example.org/set5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/set5> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%205/Lectures/Slides/set5.pdf> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/PublicKeyInfrastructure> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/secretsharing> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/onetimepad> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/PPTP> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/IPSec> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/L2TP> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/SMIME> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/Authenticode> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/digitalsignature> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/X509> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/X500> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/DistinguishedName> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/ClipperChip> .
+<http://example.org/set5> <http://example.org/contentTopic> <http://example.org/checksum> .
+<http://example.org/32005_Lec_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/32005_Lec_4> <http://example.org/assoCourse> <http://example.org/32005> .
+<http://example.org/32005_Lec_4> <http://example.org/lecNumber> "4"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/32005_Lec_4> <http://example.org/lecName> "set4.pdf" .
+<http://example.org/32005_Lec_4> <http://example.org/lecContent> <http://example.org/set4> .
+<http://example.org/32005_Lec_4> <http://example.org/lecContent> <http://example.org/Exercise3withsol> .
+<http://example.org/32005_Lec_4> <http://example.org/lecContentSlide> <http://example.org/set4> .
+<http://example.org/32005_Lec_4> <http://example.org/lecContentWorksheets> <http://example.org/Exercise3withsol> .
+<http://example.org/SHA1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SHA1> <http://purl.org/dc/terms/subject> "SHA1" .
+<http://example.org/SHA1> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/SHA-1> .
+<http://example.org/SHA2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SHA2> <http://purl.org/dc/terms/subject> "SHA-2" .
+<http://example.org/SHA2> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/SHA-2> .
+<http://example.org/Exercise4withsol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Exercise4withsol> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%205/Lectures/Worksheets/Exercise4-%20with%20sol.pdf> .
+<http://example.org/Exercise4withsol> <http://example.org/contentTopic> <http://example.org/cryptographer> .
+<http://example.org/Exercise4withsol> <http://example.org/contentTopic> <http://example.org/SHA1> .
+<http://example.org/Exercise4withsol> <http://example.org/contentTopic> <http://example.org/SHA2> .
+<http://example.org/Exercise4withsol> <http://example.org/contentTopic> <http://example.org/secretsharing> .
+<http://example.org/Tutorial4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Tutorial4> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%205/Tutorial/Slides/Tutorial%20-4.pdf> .
+<http://example.org/Tutorial4> <http://example.org/contentTopic> <http://example.org/DiffieHellman> .
+<http://example.org/32005_Tutorial_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Tutorial> .
+<http://example.org/32005_Tutorial_3> <http://example.org/assoLec> <http://example.org/32005_Lec_4> .
+<http://example.org/32005_Tutorial_3> <http://example.org/lecContent> <http://example.org/Tutorial3> .
+<http://example.org/32005_Tutorial_3> <http://example.org/eventContentSlides> <http://example.org/Tutorial3> .
+<http://example.org/Browserfingerprinting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Browserfingerprinting> <http://purl.org/dc/terms/subject> "Browser fingerprinting" .
+<http://example.org/Browserfingerprinting> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Device_fingerprint> .
+<http://example.org/WangXiaoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/WangXiaoning> <http://purl.org/dc/terms/subject> "Wang Xiaoning" .
+<http://example.org/WangXiaoning> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Wang_Xiaoning> .
+<http://example.org/JiangLijun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/JiangLijun> <http://purl.org/dc/terms/subject> "Jiang Lijun" .
+<http://example.org/JiangLijun> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Jiang_Lijun> .
+<http://example.org/Cellulartraffic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Cellulartraffic> <http://purl.org/dc/terms/subject> "Cellular traffic" .
+<http://example.org/Cellulartraffic> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Cellular_traffic> .
+<http://example.org/GCHQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/GCHQ> <http://purl.org/dc/terms/subject> "GCHQ" .
+<http://example.org/GCHQ> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Government_Communications_Headquarters> .
+<http://example.org/Gmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Gmail> <http://purl.org/dc/terms/subject> "Gmail" .
+<http://example.org/Gmail> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Gmail> .
+<http://example.org/Etc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Etc> <http://purl.org/dc/terms/subject> "Etc\uFFFD" .
+<http://example.org/Etc> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Et_cetera> .
+<http://example.org/PersonallyIdentifiableInformationPII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/PersonallyIdentifiableInformationPII> <http://purl.org/dc/terms/subject> "Personally Identifiable Information (PII)" .
+<http://example.org/PersonallyIdentifiableInformationPII> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Personal_data> .
+<http://example.org/BitTorrenttracker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/BitTorrenttracker> <http://purl.org/dc/terms/subject> "BitTorrent tracker" .
+<http://example.org/BitTorrenttracker> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/BitTorrent_tracker> .
+<http://example.org/DavidChaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DavidChaum> <http://purl.org/dc/terms/subject> "David Chaum" .
+<http://example.org/DavidChaum> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/David_Chaum> .
+<http://example.org/Untraceable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Untraceable> <http://purl.org/dc/terms/subject> "Untraceable" .
+<http://example.org/Untraceable> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Untraceable> .
+<http://example.org/electronicmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/electronicmail> <http://purl.org/dc/terms/subject> "electronic mail" .
+<http://example.org/electronicmail> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Email> .
+<http://example.org/mixnet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/mixnet> <http://purl.org/dc/terms/subject> "mixnet" .
+<http://example.org/mixnet> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Mix_network> .
+<http://example.org/Publickeyencryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Publickeyencryption> <http://purl.org/dc/terms/subject> "Public-key encryption" .
+<http://example.org/Publickeyencryption> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Public-key_cryptography> .
+<http://example.org/USENIX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/USENIX> <http://purl.org/dc/terms/subject> "USENIX" .
+<http://example.org/USENIX> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/USENIX> .
+<http://example.org/mixnetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/mixnetwork> <http://purl.org/dc/terms/subject> "mix network" .
+<http://example.org/mixnetwork> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Mix_network> .
+<http://example.org/Forwardsecrecy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Forwardsecrecy> <http://purl.org/dc/terms/subject> "Forward secrecy" .
+<http://example.org/Forwardsecrecy> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Forward_secrecy> .
+<http://example.org/SOCKS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/SOCKS> <http://purl.org/dc/terms/subject> "SOCKS" .
+<http://example.org/SOCKS> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/SOCKS> .
+<http://example.org/onionrouting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/onionrouting> <http://purl.org/dc/terms/subject> "onion routing" .
+<http://example.org/onionrouting> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Onion_routing> .
+<http://example.org/telegraphcouk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/telegraphcouk> <http://purl.org/dc/terms/subject> "telegraph.co.uk" .
+<http://example.org/telegraphcouk> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/The_Daily_Telegraph> .
+<http://example.org/DuckDuckGo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/DuckDuckGo> <http://purl.org/dc/terms/subject> "DuckDuckGo" .
+<http://example.org/DuckDuckGo> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/DuckDuckGo> .
+<http://example.org/ThePirateBay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/ThePirateBay> <http://purl.org/dc/terms/subject> "The Pirate Bay" .
+<http://example.org/ThePirateBay> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/The_Pirate_Bay> .
+<http://example.org/Bitcoinnetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/Bitcoinnetwork> <http://purl.org/dc/terms/subject> "Bitcoin network" .
+<http://example.org/Bitcoinnetwork> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Bitcoin_network> .
+<http://example.org/Set6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Set6> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%206/Lectures/Slides/Set6.pdf> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Browserfingerprinting> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/WangXiaoning> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/JiangLijun> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Cellulartraffic> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/GCHQ> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Gmail> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Etc> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/PersonallyIdentifiableInformationPII> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/BitTorrenttracker> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/DavidChaum> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Untraceable> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/electronicmail> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/mixnet> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Publickeyencryption> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/USENIX> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/mixnetwork> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Forwardsecrecy> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/SOCKS> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/onionrouting> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/telegraphcouk> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/DuckDuckGo> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/ThePirateBay> .
+<http://example.org/Set6> <http://example.org/contentTopic> <http://example.org/Bitcoinnetwork> .
+<http://example.org/32005_Lec_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/32005_Lec_5> <http://example.org/assoCourse> <http://example.org/32005> .
+<http://example.org/32005_Lec_5> <http://example.org/lecNumber> "5"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/32005_Lec_5> <http://example.org/lecName> "set5.pdf" .
+<http://example.org/32005_Lec_5> <http://example.org/lecContent> <http://example.org/set5> .
+<http://example.org/32005_Lec_5> <http://example.org/lecContent> <http://example.org/Exercise4withsol> .
+<http://example.org/32005_Lec_5> <http://example.org/lecContentSlide> <http://example.org/set5> .
+<http://example.org/32005_Lec_5> <http://example.org/lecContentWorksheets> <http://example.org/Exercise4withsol> .
+<http://example.org/lookuptable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/lookuptable> <http://purl.org/dc/terms/subject> "lookup table" .
+<http://example.org/lookuptable> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Lookup_table> .
+<http://example.org/authenticationprotocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/topic> .
+<http://example.org/authenticationprotocol> <http://purl.org/dc/terms/subject> "authentication protocol" .
+<http://example.org/authenticationprotocol> <http://purl.org/dc/terms/URI> <https://dbpedia.org/resource/Authentication_protocol> .
+<http://example.org/Exercise5withsol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Exercise5withsol> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%206/Lectures/Worksheets/Exercise5-%20with%20sol.pdf> .
+<http://example.org/Exercise5withsol> <http://example.org/contentTopic> <http://example.org/plaintext> .
+<http://example.org/Exercise5withsol> <http://example.org/contentTopic> <http://example.org/lookuptable> .
+<http://example.org/Exercise5withsol> <http://example.org/contentTopic> <http://example.org/authenticationprotocol> .
+<http://example.org/Tutorial5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/content> .
+<http://example.org/Tutorial5> <https://xmlns.com/foaf/0.1/Document> <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%206/Tutorial/Slides/Tutorial%20-5.pdf> .
+<http://example.org/Tutorial5> <http://example.org/contentTopic> <http://example.org/secretsharing> .
+<http://example.org/32005_Tutorial_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Tutorial> .
+<http://example.org/32005_Tutorial_4> <http://example.org/assoLec> <http://example.org/32005_Lec_5> .
+<http://example.org/32005_Tutorial_4> <http://example.org/lecContent> <http://example.org/Tutorial4> .
+<http://example.org/32005_Tutorial_4> <http://example.org/eventContentSlides> <http://example.org/Tutorial4> .

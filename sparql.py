@@ -41,6 +41,7 @@ SELECT DISTINCT ?course_name (count(?course_name) as ?count)
 WHERE {
 	{
 		?topic a ex:topic .
+    	?topic dc:subject ?topic_name .
 		?content ex:contentTopic ?topic .
 		?lec ex:lecContent ?content .
 		?lec ex:assoCourse ?course .
@@ -50,6 +51,7 @@ WHERE {
 	UNION
 	{
 		?topic a ex:topic .
+     	?topic dc:subject ?topic_name .
 		?content ex:contentTopic ?topic .
 		?event ex:lecContent ?content .
 		?event ex:assoLec ?lec .
@@ -57,7 +59,7 @@ WHERE {
 		?course a ex:Course .
 		?course ex:cName ?course_name .
 	}
-	FILTER(?topic = ex:DBpedia) .
+  FILTER(regex(?topic_name, "DBpedia", "i")) .
 }
 GROUP BY ?course_name
 ORDER BY asc(?count)
@@ -71,6 +73,7 @@ WHERE {
 		?lec ex:assoCourse ?course_uri .
 		?lec ex:lecContent ?content .
 		?content ex:contentTopic ?topic .
+    	?topic dc:subject ?topic_name .
 		?content foaf:Document ?content_uri .
 	}
 	UNION
@@ -80,15 +83,16 @@ WHERE {
 		?event_uri ex:assoLec ?lec .
 		?event_uri ex:lecContent ?content .
 		?content ex:contentTopic ?topic .
+    	?topic dc:subject ?topic_name .
 		?content foaf:Document ?content_uri .
 	}
-	FILTER(?topic = ex:DBpedia) .
+  FILTER(regex(?topic_name, "DBpedia", "i")) .
 }
 """
 
 q4 = """
 PREFIX xsd: <https://www.w3.org/2001/XMLSchema#>
-SELECT ?topic_name
+SELECT ?lec
 WHERE {
 	?course ex:cSubject "COMP".
 	?course ex:cNum "474".
@@ -143,6 +147,6 @@ WHERE{
 }
 """
 
-qres = g.query(q6)
+qres = g.query(q4)
 for res in qres:
     print(res)

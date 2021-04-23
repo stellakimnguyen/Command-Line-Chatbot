@@ -135,9 +135,11 @@ def write_lectures(files, course_course_key, path_name, week):
     ex:assoCourse {course_key[course_course_key]['code']} ;
     ex:lecNumber "{week_num}"^^xsd:integer ;
     ex:lecName "{files[2][1]}" ; {see_also}
+    ex:lecContent {content_name} ;
     {lec_key[path_name]} {content_name} ;"""
     else:
         lecture += f"""
+    ex:lecContent {content_name} ;
     {lec_key[path_name]} {content_name} ;"""
 
 event = ""
@@ -155,9 +157,11 @@ def write_event(files, course_course_key, path_name, week, event_name):
 {course_key[course_course_key]['code']}_{event_name}_{int(week_num) - 1}  
     a ex:{event_name} ;
     ex:assoLec {course_key[course_course_key]['code']}_Lec_{week_num} ;
+    ex:lecContent {content_name} ;
     {event_key[path_name]} {content_name} ;"""
     else:
         event += f"""
+    ex:lecContent {content_name} ;
     {event_key[path_name]} {content_name} ;"""
 
 # ======================== MAIN ========================
