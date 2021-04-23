@@ -93,7 +93,7 @@ def get_uri(path, content):
     uri = f"""
 {content_name}
     a ex:content ;
-    foaf:Document <{path_in_uri}> ;
+    foaf:Document <TEST> ;
 {topics}"""
 
     write_triple(uri, "a")
