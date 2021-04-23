@@ -1,0 +1,2219 @@
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <https://xmlns.com/foaf/0.1/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix ex: <http://example.org/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+
+ex:5484
+    a ex:Course ;
+    ex:cName "Intelligent Systems" ;
+    ex:cSubject "COMP" ;
+    ex:cNum "474" ;
+    ex:Description "..." ;
+    ex:cOutline <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Outline/course_outline_comp474_6741_w2021.pdf> ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/info.php?id=122223> .
+    
+    ex:LinkedOpenData
+        a ex:topic ;
+        dc:subject "Linked Open Data" ;
+        dc:URI dbr:Linked_data .
+                
+    ex:Fulltextsearch
+        a ex:topic ;
+        dc:subject "Full-text search" ;
+        dc:URI dbr:Full-text_search .
+                
+    ex:Lucene
+        a ex:topic ;
+        dc:subject "Lucene" ;
+        dc:URI dbr:Apache_Lucene .
+                
+    ex:Solr
+        a ex:topic ;
+        dc:subject "Solr" ;
+        dc:URI dbr:Apache_Solr .
+                
+    ex:NaturalLanguageProcessingNLP
+        a ex:topic ;
+        dc:subject "Natural Language Processing (NLP)" ;
+        dc:URI dbr:Natural_language_processing .
+                
+    ex:UIMA
+        a ex:topic ;
+        dc:subject "UIMA" ;
+        dc:URI dbr:UIMA .
+                
+    ex:Refinitiv
+        a ex:topic ;
+        dc:subject "Refinitiv" ;
+        dc:URI dbr:Refinitiv .
+                
+    ex:NamedEntityRecognition
+        a ex:topic ;
+        dc:subject "Named Entity Recognition" ;
+        dc:URI dbr:Named-entity_recognition .
+                
+    ex:SemanticWeb
+        a ex:topic ;
+        dc:subject "Semantic Web" ;
+        dc:URI dbr:Semantic_Web .
+                
+    ex:DBpedia
+        a ex:topic ;
+        dc:subject "DBpedia" ;
+        dc:URI dbr:DBpedia .
+                
+    ex:EntityLinking
+        a ex:topic ;
+        dc:subject "Entity Linking" ;
+        dc:URI dbr:Entity_linking .
+                
+    ex:datastructure
+        a ex:topic ;
+        dc:subject "data structure" ;
+        dc:URI dbr:Data_structure .
+                
+    ex:ResourceDescriptionFrameworkRDF
+        a ex:topic ;
+        dc:subject "Resource Description Framework (RDF)" ;
+        dc:URI dbr:Resource_Description_Framework .
+                
+    ex:formallanguage
+        a ex:topic ;
+        dc:subject "formal language" ;
+        dc:URI dbr:Formal_language .
+                
+    ex:SPARQL
+        a ex:topic ;
+        dc:subject "SPARQL" ;
+        dc:URI dbr:SPARQL .
+                
+    ex:querylanguage
+        a ex:topic ;
+        dc:subject "query language" ;
+        dc:URI dbr:Query_language .
+                
+    ex:FOAF
+        a ex:topic ;
+        dc:subject "FOAF" ;
+        dc:URI <http://dbpedia.org/resource/FOAF_(ontology)> .
+                
+    ex:DublinCore
+        a ex:topic ;
+        dc:subject "Dublin Core" ;
+        dc:URI dbr:Dublin_Core .
+                
+    ex:GeneOntology
+        a ex:topic ;
+        dc:subject "Gene Ontology" ;
+        dc:URI dbr:Gene_ontology .
+                
+    ex:TuringTest
+        a ex:topic ;
+        dc:subject "Turing Test" ;
+        dc:URI dbr:Turing_test .
+                
+    ex:GoogleAssistant
+        a ex:topic ;
+        dc:subject "Google Assistant" ;
+        dc:URI dbr:Google_Assistant .
+                
+    ex:AmazonAlexa
+        a ex:topic ;
+        dc:subject "Amazon Alexa" ;
+        dc:URI dbr:Amazon_Alexa .
+                
+    ex:MicrosoftCortana
+        a ex:topic ;
+        dc:subject "Microsoft Cortana" ;
+        dc:URI dbr:Cortana .
+                
+    ex:MicrosoftTay
+        a ex:topic ;
+        dc:subject "Microsoft Tay" ;
+        dc:URI <http://dbpedia.org/resource/Tay_(bot)> .
+                
+    ex:Weizenbaum
+        a ex:topic ;
+        dc:subject "Weizenbaum" ;
+        dc:URI dbr:Joseph_Weizenbaum .
+                
+    ex:POWER7
+        a ex:topic ;
+        dc:subject "POWER7" ;
+        dc:URI dbr:POWER7 .
+                
+    ex:Gartner
+        a ex:topic ;
+        dc:subject "Gartner" ;
+        dc:URI dbr:Gartner .
+                
+    ex:ELIZA
+        a ex:topic ;
+        dc:subject "ELIZA" ;
+        dc:URI dbr:ELIZA .
+                
+    ex:Chatbot
+        a ex:topic ;
+        dc:subject "Chatbot" ;
+        dc:URI dbr:Chatbot .
+                
+ex:slides01
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%201/Lectures/Slides/slides01.pdf> ;
+	ex:contentTopic ex:LinkedOpenData ; 
+	ex:contentTopic ex:Fulltextsearch ; 
+	ex:contentTopic ex:Lucene ; 
+	ex:contentTopic ex:Solr ; 
+	ex:contentTopic ex:NaturalLanguageProcessingNLP ; 
+	ex:contentTopic ex:UIMA ; 
+	ex:contentTopic ex:Refinitiv ; 
+	ex:contentTopic ex:NamedEntityRecognition ; 
+	ex:contentTopic ex:SemanticWeb ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:EntityLinking ; 
+	ex:contentTopic ex:datastructure ; 
+	ex:contentTopic ex:ResourceDescriptionFrameworkRDF ; 
+	ex:contentTopic ex:formallanguage ; 
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:querylanguage ; 
+	ex:contentTopic ex:FOAF ; 
+	ex:contentTopic ex:DublinCore ; 
+	ex:contentTopic ex:GeneOntology ; 
+	ex:contentTopic ex:TuringTest ; 
+	ex:contentTopic ex:GoogleAssistant ; 
+	ex:contentTopic ex:AmazonAlexa ; 
+	ex:contentTopic ex:MicrosoftCortana ; 
+	ex:contentTopic ex:MicrosoftTay ; 
+	ex:contentTopic ex:Weizenbaum ; 
+	ex:contentTopic ex:POWER7 ; 
+	ex:contentTopic ex:Gartner ; 
+	ex:contentTopic ex:ELIZA ; 
+	ex:contentTopic ex:Chatbot .
+
+    ex:Clang
+        a ex:topic ;
+        dc:subject "Clang" ;
+        dc:URI dbr:Clang .
+                
+    ex:pineapple
+        a ex:topic ;
+        dc:subject "pineapple" ;
+        dc:URI dbr:Pineapple .
+                
+    ex:iter
+        a ex:topic ;
+        dc:subject "iter" ;
+        dc:URI dbr:ITER .
+                
+    ex:hashtable
+        a ex:topic ;
+        dc:subject "hash table" ;
+        dc:URI dbr:Hash_table .
+                
+    ex:functionalprogramming
+        a ex:topic ;
+        dc:subject "functional programming" ;
+        dc:URI dbr:Functional_programming .
+                
+    ex:1234
+        a ex:topic ;
+        dc:subject "1, 2, 3, 4" ;
+        dc:URI <http://dbpedia.org/resource/1,_2,_3,_4_(Plain_White_T's_song)> .
+                
+    ex:listcomprehension
+        a ex:topic ;
+        dc:subject "list comprehension" ;
+        dc:URI dbr:List_comprehension .
+                
+    ex:BerkeleyBowl
+        a ex:topic ;
+        dc:subject "Berkeley Bowl" ;
+        dc:URI dbr:Berkeley_Bowl .
+                
+    ex:instancevariable
+        a ex:topic ;
+        dc:subject "instance variable" ;
+        dc:URI dbr:Instance_variable .
+                
+    ex:staticvariable
+        a ex:topic ;
+        dc:subject "static variable" ;
+        dc:URI dbr:Static_variable .
+                
+    ex:tidbits
+        a ex:topic ;
+        dc:subject "tidbits" ;
+        dc:URI dbr:Tidbits .
+                
+    ex:Safaribooksonline
+        a ex:topic ;
+        dc:subject "Safari books online" ;
+        dc:URI dbr:Safari_Books_Online .
+                
+ex:comp4742204uulabintroductiontopython
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Labs/Instructions/comp-474-2204-uu_%20lab_%20introduction%20to%20python.pdf> ;
+	ex:contentTopic ex:Clang ; 
+	ex:contentTopic ex:pineapple ; 
+	ex:contentTopic ex:iter ; 
+	ex:contentTopic ex:datastructure ; 
+	ex:contentTopic ex:hashtable ; 
+	ex:contentTopic ex:functionalprogramming ; 
+	ex:contentTopic ex:1234 ; 
+	ex:contentTopic ex:listcomprehension ; 
+	ex:contentTopic ex:BerkeleyBowl ; 
+	ex:contentTopic ex:instancevariable ; 
+	ex:contentTopic ex:staticvariable ; 
+	ex:contentTopic ex:tidbits ; 
+	ex:contentTopic ex:Safaribooksonline .
+
+    ex:AppliedArtificialIntelligence
+        a ex:topic ;
+        dc:subject "Applied Artificial Intelligence" ;
+        dc:URI dbr:Applied_Artificial_Intelligence .
+                
+    ex:NumPy
+        a ex:topic ;
+        dc:subject "NumPy" ;
+        dc:URI dbr:NumPy .
+                
+    ex:imperativeprogramming
+        a ex:topic ;
+        dc:subject "imperative programming" ;
+        dc:URI dbr:Imperative_programming .
+                
+    ex:GuidovanRossum
+        a ex:topic ;
+        dc:subject "Guido van Rossum" ;
+        dc:URI dbr:Guido_van_Rossum .
+                
+    ex:commandlineinterface
+        a ex:topic ;
+        dc:subject "command-line interface" ;
+        dc:URI dbr:Command-line_interface .
+                
+    ex:GoogleDrive
+        a ex:topic ;
+        dc:subject "Google Drive" ;
+        dc:URI dbr:Google_Drive .
+                
+    ex:rng
+        a ex:topic ;
+        dc:subject "rng" ;
+        dc:URI <http://dbpedia.org/resource/Rng_(algebra)> .
+                
+    ex:StackOverflow
+        a ex:topic ;
+        dc:subject "Stack Overflow" ;
+        dc:URI dbr:Stack_Overflow .
+                
+    ex:customclass
+        a ex:topic ;
+        dc:subject "custom class" ;
+        dc:URI dbr:Business_class .
+                
+    ex:adult
+        a ex:topic ;
+        dc:subject "adult." ;
+        dc:URI <http://dbpedia.org/resource/Adult_(band)> .
+                
+    ex:readline
+        a ex:topic ;
+        dc:subject "readline" ;
+        dc:URI dbr:GNU_Readline .
+                
+    ex:MalcolmReynolds
+        a ex:topic ;
+        dc:subject "Malcolm Reynolds" ;
+        dc:URI dbr:Malcolm_Reynolds .
+                
+ex:pytut
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Labs/Slides/py_tut.pdf> ;
+	ex:contentTopic ex:AppliedArtificialIntelligence ; 
+	ex:contentTopic ex:NumPy ; 
+	ex:contentTopic ex:functionalprogramming ; 
+	ex:contentTopic ex:imperativeprogramming ; 
+	ex:contentTopic ex:GuidovanRossum ; 
+	ex:contentTopic ex:commandlineinterface ; 
+	ex:contentTopic ex:GoogleDrive ; 
+	ex:contentTopic ex:rng ; 
+	ex:contentTopic ex:1234 ; 
+	ex:contentTopic ex:datastructure ; 
+	ex:contentTopic ex:StackOverflow ; 
+	ex:contentTopic ex:customclass ; 
+	ex:contentTopic ex:adult ; 
+	ex:contentTopic ex:readline ; 
+	ex:contentTopic ex:MalcolmReynolds .
+
+    ex:KnowledgeGraph
+        a ex:topic ;
+        dc:subject "Knowledge Graph" ;
+        dc:URI dbr:Knowledge_Graph .
+                
+    ex:KnowledgeVault
+        a ex:topic ;
+        dc:subject "Knowledge Vault" ;
+        dc:URI dbr:Knowledge_Graph .
+                
+    ex:LinkedIn
+        a ex:topic ;
+        dc:subject "LinkedIn" ;
+        dc:URI dbr:LinkedIn .
+                
+    ex:Diffbot
+        a ex:topic ;
+        dc:subject "Diffbot" ;
+        dc:URI dbr:Diffbot .
+                
+    ex:ConceptNet
+        a ex:topic ;
+        dc:subject "ConceptNet" ;
+        dc:URI dbr:Open_Mind_Common_Sense .
+                
+    ex:SHRDLU
+        a ex:topic ;
+        dc:subject "SHRDLU" ;
+        dc:URI dbr:SHRDLU .
+                
+    ex:Rumelhart
+        a ex:topic ;
+        dc:subject "Rumelhart" ;
+        dc:URI dbr:David_Rumelhart .
+                
+    ex:Cyc
+        a ex:topic ;
+        dc:subject "Cyc" ;
+        dc:URI dbr:Cyc .
+                
+    ex:knowledgerepresentation
+        a ex:topic ;
+        dc:subject "knowledge representation" ;
+        dc:URI dbr:Knowledge_representation_and_reasoning .
+                
+    ex:skolemization
+        a ex:topic ;
+        dc:subject "skolemization" ;
+        dc:URI dbr:Skolem_normal_form .
+                
+    ex:TBox
+        a ex:topic ;
+        dc:subject "TBox" ;
+        dc:URI dbr:Tbox .
+                
+    ex:rdfs
+        a ex:topic ;
+        dc:subject "rdfs" ;
+        dc:URI dbr:RDF_Schema .
+                
+    ex:RDFa
+        a ex:topic ;
+        dc:subject "RDFa" ;
+        dc:URI dbr:RDFa .
+                
+    ex:JSONLD
+        a ex:topic ;
+        dc:subject "JSON-LD" ;
+        dc:URI dbr:JSON-LD .
+                
+    ex:RDFS
+        a ex:topic ;
+        dc:subject "RDFS" ;
+        dc:URI dbr:RDF_Schema .
+                
+    ex:KnowledgeNavigator
+        a ex:topic ;
+        dc:subject "Knowledge Navigator" ;
+        dc:URI dbr:Knowledge_Navigator .
+                
+    ex:SemanticNetworks
+        a ex:topic ;
+        dc:subject "Semantic Networks" ;
+        dc:URI dbr:Semantic_network .
+                
+    ex:DescriptionLogic
+        a ex:topic ;
+        dc:subject "Description Logic" ;
+        dc:URI dbr:Description_logic .
+                
+    ex:AIWinter
+        a ex:topic ;
+        dc:subject "AI Winter" ;
+        dc:URI dbr:AI_winter .
+                
+    ex:Neo4J
+        a ex:topic ;
+        dc:subject "Neo4J" ;
+        dc:URI dbr:Neo4j .
+                
+    ex:OracleSpatial
+        a ex:topic ;
+        dc:subject "Oracle Spatial" ;
+        dc:URI dbr:Oracle_Spatial_and_Graph .
+                
+    ex:Wikidata
+        a ex:topic ;
+        dc:subject "Wikidata" ;
+        dc:URI dbr:Wikidata .
+                
+    ex:YAGO
+        a ex:topic ;
+        dc:subject "YAGO" ;
+        dc:URI <http://dbpedia.org/resource/YAGO_(database)> .
+                
+    ex:WorldWideWebConsortium
+        a ex:topic ;
+        dc:subject "World Wide Web Consortium" ;
+        dc:URI dbr:World_Wide_Web_Consortium .
+                
+    ex:stringliteral
+        a ex:topic ;
+        dc:subject "string literal" ;
+        dc:URI dbr:String_literal .
+                
+    ex:L�onarddeVinci
+        a ex:topic ;
+        dc:subject "L�onard de Vinci" ;
+        dc:URI dbr:Leonardo_da_Vinci .
+                
+    ex:RDFXML
+        a ex:topic ;
+        dc:subject "RDF/XML" ;
+        dc:URI dbr:XML .
+                
+    ex:NTriples
+        a ex:topic ;
+        dc:subject "N-Triples" ;
+        dc:URI dbr:N-Triples .
+                
+    ex:TheGlassPalace
+        a ex:topic ;
+        dc:subject "The Glass Palace" ;
+        dc:URI dbr:The_Glass_Palace .
+                
+    ex:HarperCollins
+        a ex:topic ;
+        dc:subject "Harper Collins" ;
+        dc:URI dbr:HarperCollins .
+                
+    ex:miroirs
+        a ex:topic ;
+        dc:subject "miroirs" ;
+        dc:URI dbr:Miroirs .
+                
+    ex:letitre
+        a ex:topic ;
+        dc:subject "le titre" ;
+        dc:URI dbr:Le_Titre .
+                
+    ex:WordNet
+        a ex:topic ;
+        dc:subject "WordNet" ;
+        dc:URI dbr:WordNet .
+                
+    ex:GeoNames
+        a ex:topic ;
+        dc:subject "GeoNames" ;
+        dc:URI dbr:GeoNames .
+                
+    ex:DBPedia
+        a ex:topic ;
+        dc:subject "DBPedia" ;
+        dc:URI dbr:DBpedia .
+                
+    ex:DeepDive
+        a ex:topic ;
+        dc:subject "DeepDive" ;
+        dc:URI dbr:Transformers .
+                
+    ex:Machinelearning
+        a ex:topic ;
+        dc:subject "Machine learning" ;
+        dc:URI dbr:Machine_learning .
+                
+    ex:AlfredLennon
+        a ex:topic ;
+        dc:subject "Alfred Lennon" ;
+        dc:URI dbr:Alfred_Lennon .
+                
+    ex:PeterNorvig
+        a ex:topic ;
+        dc:subject "Peter Norvig" ;
+        dc:URI dbr:Peter_Norvig .
+                
+    ex:PrenticeHall
+        a ex:topic ;
+        dc:subject "Prentice Hall" ;
+        dc:URI dbr:Prentice_Hall .
+                
+    ex:WorldWideWebConsortiumW3C
+        a ex:topic ;
+        dc:subject "World Wide Web Consortium (W3C)" ;
+        dc:URI dbr:World_Wide_Web_Consortium .
+                
+ex:slides02
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Lectures/Slides/slides02.pdf> ;
+	ex:contentTopic ex:SemanticWeb ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:ResourceDescriptionFrameworkRDF ; 
+	ex:contentTopic ex:GoogleAssistant ; 
+	ex:contentTopic ex:KnowledgeGraph ; 
+	ex:contentTopic ex:KnowledgeVault ; 
+	ex:contentTopic ex:LinkedIn ; 
+	ex:contentTopic ex:Diffbot ; 
+	ex:contentTopic ex:ConceptNet ; 
+	ex:contentTopic ex:SHRDLU ; 
+	ex:contentTopic ex:Rumelhart ; 
+	ex:contentTopic ex:Cyc ; 
+	ex:contentTopic ex:knowledgerepresentation ; 
+	ex:contentTopic ex:skolemization ; 
+	ex:contentTopic ex:TBox ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:RDFa ; 
+	ex:contentTopic ex:JSONLD ; 
+	ex:contentTopic ex:RDFS ; 
+	ex:contentTopic ex:FOAF ; 
+	ex:contentTopic ex:KnowledgeNavigator ; 
+	ex:contentTopic ex:SemanticNetworks ; 
+	ex:contentTopic ex:DescriptionLogic ; 
+	ex:contentTopic ex:AIWinter ; 
+	ex:contentTopic ex:Neo4J ; 
+	ex:contentTopic ex:OracleSpatial ; 
+	ex:contentTopic ex:Wikidata ; 
+	ex:contentTopic ex:YAGO ; 
+	ex:contentTopic ex:WorldWideWebConsortium ; 
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:stringliteral ; 
+	ex:contentTopic ex:L�onarddeVinci ; 
+	ex:contentTopic ex:RDFXML ; 
+	ex:contentTopic ex:NTriples ; 
+	ex:contentTopic ex:TheGlassPalace ; 
+	ex:contentTopic ex:HarperCollins ; 
+	ex:contentTopic ex:miroirs ; 
+	ex:contentTopic ex:letitre ; 
+	ex:contentTopic ex:WordNet ; 
+	ex:contentTopic ex:GeoNames ; 
+	ex:contentTopic ex:DBPedia ; 
+	ex:contentTopic ex:DeepDive ; 
+	ex:contentTopic ex:Machinelearning ; 
+	ex:contentTopic ex:AlfredLennon ; 
+	ex:contentTopic ex:PeterNorvig ; 
+	ex:contentTopic ex:PrenticeHall ; 
+	ex:contentTopic ex:WorldWideWebConsortiumW3C .
+
+ex:5484_Lec_1  
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber "1"^^xsd:integer ;
+    ex:lecName "slides01.pdf" ; 
+	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-1> ;
+    ex:lecContent ex:slides01 ;
+    ex:lecContentSlide ex:slides01 .
+
+    ex:ResourceDescriptionFramework
+        a ex:topic ;
+        dc:subject "Resource Description Framework" ;
+        dc:URI dbr:Resource_Description_Framework .
+                
+    ex:HTTP303
+        a ex:topic ;
+        dc:subject "HTTP 303" ;
+        dc:URI dbr:HTTP_303 .
+                
+    ex:publicknowledge
+        a ex:topic ;
+        dc:subject "public knowledge" ;
+        dc:URI dbr:Public_Knowledge .
+                
+ex:worksheet01
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%202/Lectures/Worksheets/worksheet01.pdf> ;
+	ex:contentTopic ex:ResourceDescriptionFramework ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:HTTP303 ; 
+	ex:contentTopic ex:publicknowledge ; 
+	ex:contentTopic ex:LinkedIn .
+
+    ex:RDFSchema
+        a ex:topic ;
+        dc:subject "RDF Schema" ;
+        dc:URI dbr:RDF_Schema .
+                
+ex:comp4742204uulabsession2
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%203/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%232.pdf> ;
+	ex:contentTopic ex:JSONLD ; 
+	ex:contentTopic ex:RDFXML ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:RDFSchema ; 
+	ex:contentTopic ex:RDFS ; 
+	ex:contentTopic ex:NTriples ; 
+	ex:contentTopic ex:SPARQL .
+
+ex:5484_Lab_1  
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_2 ;
+    ex:lecContent ex:comp4742204uulabintroductiontopython ;
+    ex:eventContentInstructions ex:comp4742204uulabintroductiontopython ;
+    ex:lecContent ex:pytut ;
+    ex:eventContentSlides ex:pytut .
+
+    ex:UniformResourceLocator
+        a ex:topic ;
+        dc:subject "Uniform Resource Locator" ;
+        dc:URI dbr:URL .
+                
+    ex:InternationalizedResourceIdentifier
+        a ex:topic ;
+        dc:subject "Internationalized Resource Identifier" ;
+        dc:URI dbr:Internationalized_Resource_Identifier .
+                
+    ex:ghostwriter
+        a ex:topic ;
+        dc:subject "ghostwriter" ;
+        dc:URI dbr:Ghostwriter .
+                
+    ex:W3CRecommendation
+        a ex:topic ;
+        dc:subject "W3C Recommendation" ;
+        dc:URI dbr:World_Wide_Web_Consortium .
+                
+    ex:ManningPublications
+        a ex:topic ;
+        dc:subject "Manning Publications" ;
+        dc:URI dbr:Manning_Publications .
+                
+    ex:DeweyDecimalClassification
+        a ex:topic ;
+        dc:subject "Dewey Decimal Classification" ;
+        dc:URI dbr:Dewey_Decimal_Classification .
+                
+    ex:Web20
+        a ex:topic ;
+        dc:subject "Web 2.0" ;
+        dc:URI <http://dbpedia.org/resource/Web_2.0> .
+                
+    ex:Metafiction
+        a ex:topic ;
+        dc:subject "Metafiction" ;
+        dc:URI dbr:Metafiction .
+                
+    ex:Schemaorg
+        a ex:topic ;
+        dc:subject "Schema.org" ;
+        dc:URI <http://dbpedia.org/resource/Schema.org> .
+                
+    ex:LinkedData
+        a ex:topic ;
+        dc:subject "Linked Data" ;
+        dc:URI dbr:Linked_data .
+                
+ex:slides03
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%203/Lectures/Slides/slides03.pdf> ;
+	ex:contentTopic ex:RDFSchema ; 
+	ex:contentTopic ex:RDFS ; 
+	ex:contentTopic ex:FOAF ; 
+	ex:contentTopic ex:DublinCore ; 
+	ex:contentTopic ex:RDFXML ; 
+	ex:contentTopic ex:RDFa ; 
+	ex:contentTopic ex:miroirs ; 
+	ex:contentTopic ex:UniformResourceLocator ; 
+	ex:contentTopic ex:InternationalizedResourceIdentifier ; 
+	ex:contentTopic ex:TheGlassPalace ; 
+	ex:contentTopic ex:HarperCollins ; 
+	ex:contentTopic ex:ghostwriter ; 
+	ex:contentTopic ex:W3CRecommendation ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:ManningPublications ; 
+	ex:contentTopic ex:DeweyDecimalClassification ; 
+	ex:contentTopic ex:Web20 ; 
+	ex:contentTopic ex:Metafiction ; 
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:Schemaorg ; 
+	ex:contentTopic ex:LinkedData ; 
+	ex:contentTopic ex:SemanticWeb ; 
+	ex:contentTopic ex:WorldWideWebConsortiumW3C .
+
+ex:5484_Lec_2  
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber "2"^^xsd:integer ;
+    ex:lecName "slides02.pdf" ; 
+	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-2> ;
+    ex:lecContent ex:slides02 ;
+    ex:lecContentSlide ex:slides02 ;
+    ex:lecContent ex:worksheet01 ;
+    ex:lecContentWorksheets ex:worksheet01 .
+
+ex:worksheet02
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%203/Lectures/Worksheets/worksheet02.pdf> ;
+	ex:contentTopic ex:NTriples ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:FOAF .
+
+    ex:WebOntologyLanguage
+        a ex:topic ;
+        dc:subject "Web Ontology Language" ;
+        dc:URI dbr:Web_Ontology_Language .
+                
+    ex:RDFschema
+        a ex:topic ;
+        dc:subject "RDF schema" ;
+        dc:URI dbr:RDF_Schema .
+                
+ex:comp4742204uulabsession3
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%204/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%233.pdf> ;
+	ex:contentTopic ex:FOAF ; 
+	ex:contentTopic ex:WebOntologyLanguage ; 
+	ex:contentTopic ex:RDFS ; 
+	ex:contentTopic ex:RDFschema ; 
+	ex:contentTopic ex:RDFSchema ; 
+	ex:contentTopic ex:DBpedia .
+
+ex:5484_Lab_2  
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_3 ;
+    ex:lecContent ex:comp4742204uulabsession2 ;
+    ex:eventContentInstructions ex:comp4742204uulabsession2 .
+
+    ex:Wordpresscom
+        a ex:topic ;
+        dc:subject "Wordpress.com" ;
+        dc:URI <http://dbpedia.org/resource/WordPress.com> .
+                
+    ex:Dataintegration
+        a ex:topic ;
+        dc:subject "Data integration" ;
+        dc:URI dbr:Data_integration .
+                
+    ex:WebOntologyLanguageOWL
+        a ex:topic ;
+        dc:subject "Web Ontology Language (OWL)" ;
+        dc:URI dbr:Web_Ontology_Language .
+                
+    ex:Ontologylanguage
+        a ex:topic ;
+        dc:subject "Ontology language" ;
+        dc:URI dbr:Ontology_language .
+                
+    ex:Geonames
+        a ex:topic ;
+        dc:subject "Geonames" ;
+        dc:URI dbr:GeoNames .
+                
+    ex:irreflexive
+        a ex:topic ;
+        dc:subject "irreflexive" ;
+        dc:URI dbr:Reflexive_relation .
+                
+    ex:NationalCancerInstitute
+        a ex:topic ;
+        dc:subject "National Cancer Institute" ;
+        dc:URI dbr:National_Cancer_Institute .
+                
+    ex:OpenBiomedicalOntologiesFoundry
+        a ex:topic ;
+        dc:subject "Open Biomedical Ontologies Foundry" ;
+        dc:URI dbr:OBO_Foundry .
+                
+    ex:UniProt
+        a ex:topic ;
+        dc:subject "UniProt" ;
+        dc:URI dbr:UniProt .
+                
+    ex:BioPAX
+        a ex:topic ;
+        dc:subject "BioPAX" ;
+        dc:URI dbr:BioPAX .
+                
+    ex:OReillyMedia
+        a ex:topic ;
+        dc:subject "O'Reilly Media" ;
+        dc:URI <http://dbpedia.org/resource/O'Reilly_Media> .
+                
+    ex:UTF8
+        a ex:topic ;
+        dc:subject "UTF-8" ;
+        dc:URI dbr:UTF-8 .
+                
+    ex:frbr
+        a ex:topic ;
+        dc:subject "frbr" ;
+        dc:URI dbr:Functional_Requirements_for_Bibliographic_Records .
+                
+    ex:XHTML
+        a ex:topic ;
+        dc:subject "XHTML" ;
+        dc:URI dbr:XHTML .
+                
+    ex:Triplestore
+        a ex:topic ;
+        dc:subject "Triple store" ;
+        dc:URI dbr:Triplestore .
+                
+    ex:querystring
+        a ex:topic ;
+        dc:subject "query string" ;
+        dc:URI dbr:Query_string .
+                
+    ex:HTTPGET
+        a ex:topic ;
+        dc:subject "HTTP GET" ;
+        dc:URI dbr:Hypertext_Transfer_Protocol .
+                
+    ex:AmazonAWS
+        a ex:topic ;
+        dc:subject "Amazon AWS" ;
+        dc:URI dbr:Amazon_Web_Services .
+                
+    ex:DieterFensel
+        a ex:topic ;
+        dc:subject "Dieter Fensel" ;
+        dc:URI dbr:Dieter_Fensel .
+                
+ex:slides04
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%204/Lectures/Slides/slides04.pdf> ;
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:Wordpresscom ; 
+	ex:contentTopic ex:Dataintegration ; 
+	ex:contentTopic ex:TheGlassPalace ; 
+	ex:contentTopic ex:RDFS ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:ManningPublications ; 
+	ex:contentTopic ex:WebOntologyLanguageOWL ; 
+	ex:contentTopic ex:Ontologylanguage ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:Geonames ; 
+	ex:contentTopic ex:LinkedOpenData ; 
+	ex:contentTopic ex:irreflexive ; 
+	ex:contentTopic ex:DescriptionLogic ; 
+	ex:contentTopic ex:NationalCancerInstitute ; 
+	ex:contentTopic ex:OpenBiomedicalOntologiesFoundry ; 
+	ex:contentTopic ex:GeneOntology ; 
+	ex:contentTopic ex:UniProt ; 
+	ex:contentTopic ex:BioPAX ; 
+	ex:contentTopic ex:OReillyMedia ; 
+	ex:contentTopic ex:UTF8 ; 
+	ex:contentTopic ex:frbr ; 
+	ex:contentTopic ex:XHTML ; 
+	ex:contentTopic ex:Triplestore ; 
+	ex:contentTopic ex:NTriples ; 
+	ex:contentTopic ex:querystring ; 
+	ex:contentTopic ex:HTTPGET ; 
+	ex:contentTopic ex:AmazonAWS ; 
+	ex:contentTopic ex:DieterFensel ; 
+	ex:contentTopic ex:SemanticWeb ; 
+	ex:contentTopic ex:LinkedData .
+
+ex:5484_Lec_3  
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber "3"^^xsd:integer ;
+    ex:lecName "slides03.pdf" ; 
+	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-3> ;
+    ex:lecContent ex:slides03 ;
+    ex:lecContentSlide ex:slides03 ;
+    ex:lecContent ex:worksheet02 ;
+    ex:lecContentWorksheets ex:worksheet02 .
+
+ex:worksheet03
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%204/Lectures/Worksheets/worksheet03.pdf> ;
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:RDFSchema ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:Wikidata .
+
+    ex:Moodle
+        a ex:topic ;
+        dc:subject "Moodle" ;
+        dc:URI dbr:Moodle .
+                
+    ex:fuseki
+        a ex:topic ;
+        dc:subject "fuseki" ;
+        dc:URI dbr:Fuseki .
+                
+    ex:binarydistribution
+        a ex:topic ;
+        dc:subject "binary distribution" ;
+        dc:URI dbr:Binary_distribution .
+                
+    ex:chmod
+        a ex:topic ;
+        dc:subject "chmod" ;
+        dc:URI dbr:Chmod .
+                
+ex:comp4742204uulabsession4
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%205/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%234.pdf> ;
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:querylanguage ; 
+	ex:contentTopic ex:Moodle ; 
+	ex:contentTopic ex:publicknowledge ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:fuseki ; 
+	ex:contentTopic ex:binarydistribution ; 
+	ex:contentTopic ex:chmod ; 
+	ex:contentTopic ex:FOAF .
+
+ex:5484_Lab_3  
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_4 ;
+    ex:lecContent ex:comp4742204uulabsession3 ;
+    ex:eventContentInstructions ex:comp4742204uulabsession3 .
+
+    ex:DesignIssues
+        a ex:topic ;
+        dc:subject "Design Issues" ;
+        dc:URI dbr:Design_Issues .
+                
+    ex:Freebase
+        a ex:topic ;
+        dc:subject "Freebase" ;
+        dc:URI dbr:Freebase .
+                
+    ex:OpenGraphProtocol
+        a ex:topic ;
+        dc:subject "Open Graph Protocol" ;
+        dc:URI dbr:Facebook_Platform .
+                
+    ex:TimBernersLee
+        a ex:topic ;
+        dc:subject "Tim Berners-Lee" ;
+        dc:URI dbr:Tim_Berners-Lee .
+                
+    ex:Metaweb
+        a ex:topic ;
+        dc:subject "Metaweb" ;
+        dc:URI dbr:Metaweb .
+                
+    ex:BabelNet
+        a ex:topic ;
+        dc:subject "BabelNet" ;
+        dc:URI dbr:BabelNet .
+                
+    ex:MusicBrainz
+        a ex:topic ;
+        dc:subject "MusicBrainz" ;
+        dc:URI dbr:MusicBrainz .
+                
+    ex:DataPublishing
+        a ex:topic ;
+        dc:subject "Data Publishing" ;
+        dc:URI dbr:Data_publishing .
+                
+    ex:Arity
+        a ex:topic ;
+        dc:subject "Arity" ;
+        dc:URI dbr:Arity .
+                
+    ex:SHACL
+        a ex:topic ;
+        dc:subject "SHACL" ;
+        dc:URI dbr:SHACL .
+                
+    ex:shacl
+        a ex:topic ;
+        dc:subject "shacl" ;
+        dc:URI dbr:SHACL .
+                
+    ex:DBpediaSpotlight
+        a ex:topic ;
+        dc:subject "DBpedia Spotlight" ;
+        dc:URI dbr:DBpedia .
+                
+    ex:statisticalmodel
+        a ex:topic ;
+        dc:subject "statistical model" ;
+        dc:URI dbr:Statistical_model .
+                
+    ex:E�tv�sLor�ndUniversity
+        a ex:topic ;
+        dc:subject "E�tv�s Lor�nd University" ;
+        dc:URI dbr:E�tv�s_Lor�nd_University .
+                
+    ex:Hellmann
+        a ex:topic ;
+        dc:subject "Hellmann" ;
+        dc:URI dbr:Gustav_Hellmann .
+                
+    ex:SpringerInternationalPublishing
+        a ex:topic ;
+        dc:subject "Springer International Publishing" ;
+        dc:URI dbr:Springer_Nature .
+                
+ex:slides05
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%205/Lectures/Slides/slides05.pdf> ;
+	ex:contentTopic ex:LinkedOpenData ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:LinkedData ; 
+	ex:contentTopic ex:DesignIssues ; 
+	ex:contentTopic ex:Freebase ; 
+	ex:contentTopic ex:Wikidata ; 
+	ex:contentTopic ex:OpenGraphProtocol ; 
+	ex:contentTopic ex:KnowledgeGraph ; 
+	ex:contentTopic ex:OReillyMedia ; 
+	ex:contentTopic ex:TimBernersLee ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:ManningPublications ; 
+	ex:contentTopic ex:publicknowledge ; 
+	ex:contentTopic ex:Metaweb ; 
+	ex:contentTopic ex:BabelNet ; 
+	ex:contentTopic ex:MusicBrainz ; 
+	ex:contentTopic ex:DataPublishing ; 
+	ex:contentTopic ex:Dataintegration ; 
+	ex:contentTopic ex:TheGlassPalace ; 
+	ex:contentTopic ex:Arity ; 
+	ex:contentTopic ex:SHACL ; 
+	ex:contentTopic ex:shacl ; 
+	ex:contentTopic ex:EntityLinking ; 
+	ex:contentTopic ex:datastructure ; 
+	ex:contentTopic ex:DBpediaSpotlight ; 
+	ex:contentTopic ex:statisticalmodel ; 
+	ex:contentTopic ex:RDFa ; 
+	ex:contentTopic ex:E�tv�sLor�ndUniversity ; 
+	ex:contentTopic ex:WorldWideWebConsortiumW3C ; 
+	ex:contentTopic ex:DieterFensel ; 
+	ex:contentTopic ex:SemanticWeb ; 
+	ex:contentTopic ex:Hellmann ; 
+	ex:contentTopic ex:SpringerInternationalPublishing .
+
+ex:5484_Lec_4  
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber "4"^^xsd:integer ;
+    ex:lecName "slides04.pdf" ; 
+	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-4> ;
+    ex:lecContent ex:slides04 ;
+    ex:lecContentSlide ex:slides04 ;
+    ex:lecContent ex:worksheet03 ;
+    ex:lecContentWorksheets ex:worksheet03 .
+
+    ex:MiyuriSamarasinghe
+        a ex:topic ;
+        dc:subject "Miyuri Samarasinghe" ;
+        dc:URI dbr:Miyuri_Samarasinghe .
+                
+    ex:OpenCalais
+        a ex:topic ;
+        dc:subject "OpenCalais" ;
+        dc:URI <http://dbpedia.org/resource/Calais_(Reuters_product)> .
+                
+    ex:ParisHilton
+        a ex:topic ;
+        dc:subject "Paris Hilton" ;
+        dc:URI dbr:Paris_Hilton .
+                
+ex:worksheet04
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%205/Lectures/Worksheets/worksheet04.pdf> ;
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:MiyuriSamarasinghe ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:Wikidata ; 
+	ex:contentTopic ex:OpenCalais ; 
+	ex:contentTopic ex:DBpediaSpotlight ; 
+	ex:contentTopic ex:ParisHilton ; 
+	ex:contentTopic ex:RDFa .
+
+    ex:NextProt
+        a ex:topic ;
+        dc:subject "NextProt" ;
+        dc:URI dbr:NeXtProt .
+                
+    ex:APIkey
+        a ex:topic ;
+        dc:subject "API key" ;
+        dc:URI dbr:Application_programming_interface_key .
+                
+ex:comp4742204uulabsession5
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%206/Labs/Instructions/comp-474-2204-uu_%20lab%20session%20%235.pdf> ;
+	ex:contentTopic ex:SPARQL ; 
+	ex:contentTopic ex:DBpedia ; 
+	ex:contentTopic ex:rdfs ; 
+	ex:contentTopic ex:LinkedOpenData ; 
+	ex:contentTopic ex:Wikidata ; 
+	ex:contentTopic ex:NextProt ; 
+	ex:contentTopic ex:APIkey ; 
+	ex:contentTopic ex:ParisHilton ; 
+	ex:contentTopic ex:querystring ; 
+	ex:contentTopic ex:GoogleAssistant .
+
+ex:5484_Lab_4  
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_5 ;
+    ex:lecContent ex:comp4742204uulabsession4 ;
+    ex:eventContentInstructions ex:comp4742204uulabsession4 .
+
+    ex:PrabhakarRaghavan
+        a ex:topic ;
+        dc:subject "Prabhakar Raghavan" ;
+        dc:URI dbr:Prabhakar_Raghavan .
+                
+    ex:Sch�tze
+        a ex:topic ;
+        dc:subject "Sch�tze" ;
+        dc:URI dbr:Sch�tze .
+                
+    ex:vectorspacemodel
+        a ex:topic ;
+        dc:subject "vector space model" ;
+        dc:URI dbr:Vector_space_model .
+                
+    ex:Euclideandistance
+        a ex:topic ;
+        dc:subject "Euclidean distance" ;
+        dc:URI dbr:Euclidean_distance .
+                
+    ex:dotproduct
+        a ex:topic ;
+        dc:subject "dot product" ;
+        dc:URI dbr:Dot_product .
+                
+    ex:Collaborativetagging
+        a ex:topic ;
+        dc:subject "Collaborative tagging" ;
+        dc:URI dbr:Folksonomy .
+                
+    ex:Lastfm
+        a ex:topic ;
+        dc:subject "Last.fm" ;
+        dc:URI <http://dbpedia.org/resource/Last.fm> .
+                
+    ex:cosinesimilarity
+        a ex:topic ;
+        dc:subject "cosine similarity" ;
+        dc:URI dbr:Cosine_similarity .
+                
+    ex:recommendersystem
+        a ex:topic ;
+        dc:subject "recommender system" ;
+        dc:URI dbr:Recommender_system .
+                
+    ex:Openknowledge
+        a ex:topic ;
+        dc:subject "Open knowledge" ;
+        dc:URI dbr:Open_knowledge .
+                
+    ex:NetflixPrize
+        a ex:topic ;
+        dc:subject "Netflix Prize" ;
+        dc:URI dbr:Netflix_Prize .
+                
+    ex:Netflix
+        a ex:topic ;
+        dc:subject "Netflix" ;
+        dc:URI dbr:Netflix .
+                
+    ex:Likertscale
+        a ex:topic ;
+        dc:subject "Likert-scale" ;
+        dc:URI dbr:Likert_scale .
+                
+    ex:discountedcumulativegain
+        a ex:topic ;
+        dc:subject "discounted cumulative gain" ;
+        dc:URI dbr:Discounted_cumulative_gain .
+                
+    ex:log2
+        a ex:topic ;
+        dc:subject "log2" ;
+        dc:URI dbr:Binary_logarithm .
+                
+    ex:AnthonyJulius
+        a ex:topic ;
+        dc:subject "Anthony Julius" ;
+        dc:URI dbr:Anthony_Julius .
+                
+    ex:tfidf
+        a ex:topic ;
+        dc:subject "tf-idf" ;
+        dc:URI dbr:Tf�idf .
+                
+    ex:inversedocumentfrequency
+        a ex:topic ;
+        dc:subject "inverse document frequency" ;
+        dc:URI dbr:Tf�idf .
+                
+    ex:Booleanmodel
+        a ex:topic ;
+        dc:subject "Boolean model" ;
+        dc:URI <http://dbpedia.org/resource/Boolean_model_(probability_theory)> .
+                
+    ex:Cosinesimilarity
+        a ex:topic ;
+        dc:subject "Cosine similarity" ;
+        dc:URI dbr:Cosine_similarity .
+                
+    ex:Alag
+        a ex:topic ;
+        dc:subject "Alag" ;
+        dc:URI dbr:Alag .
+                
+    ex:DougTurnbull
+        a ex:topic ;
+        dc:subject "Doug Turnbull" ;
+        dc:URI dbr:Doug_Turnbull .
+                
+ex:slides06
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%206/Lectures/Slides/slides06.pdf> ;
+	ex:contentTopic ex:PrabhakarRaghavan ; 
+	ex:contentTopic ex:Sch�tze ; 
+	ex:contentTopic ex:ManningPublications ; 
+	ex:contentTopic ex:vectorspacemodel ; 
+	ex:contentTopic ex:Euclideandistance ; 
+	ex:contentTopic ex:dotproduct ; 
+	ex:contentTopic ex:Collaborativetagging ; 
+	ex:contentTopic ex:Lastfm ; 
+	ex:contentTopic ex:cosinesimilarity ; 
+	ex:contentTopic ex:recommendersystem ; 
+	ex:contentTopic ex:Openknowledge ; 
+	ex:contentTopic ex:FOAF ; 
+	ex:contentTopic ex:NetflixPrize ; 
+	ex:contentTopic ex:Netflix ; 
+	ex:contentTopic ex:Likertscale ; 
+	ex:contentTopic ex:discountedcumulativegain ; 
+	ex:contentTopic ex:log2 ; 
+	ex:contentTopic ex:AnthonyJulius ; 
+	ex:contentTopic ex:tfidf ; 
+	ex:contentTopic ex:inversedocumentfrequency ; 
+	ex:contentTopic ex:Booleanmodel ; 
+	ex:contentTopic ex:Cosinesimilarity ; 
+	ex:contentTopic ex:Alag ; 
+	ex:contentTopic ex:DougTurnbull .
+
+ex:5484_Lec_5  
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber "5"^^xsd:integer ;
+    ex:lecName "slides05.pdf" ; 
+	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-5> ;
+    ex:lecContent ex:slides05 ;
+    ex:lecContentSlide ex:slides05 ;
+    ex:lecContent ex:worksheet04 ;
+    ex:lecContentWorksheets ex:worksheet04 .
+
+ex:worksheet05
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/COMP474/Week%206/Lectures/Worksheets/worksheet05.pdf> ;
+	ex:contentTopic ex:cosinesimilarity ; 
+	ex:contentTopic ex:dotproduct .
+
+ex:32005
+    a ex:Course ;
+    ex:cName "Information Systems Security" ;
+    ex:cSubject "SOEN" ;
+    ex:cNum "321" ;
+    ex:Description "..." ;
+    ex:cOutline <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Outline/Outline.pdf> ;
+    rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-1> .
+    
+    ex:LawrieBrown
+        a ex:topic ;
+        dc:subject "Lawrie Brown" ;
+        dc:URI dbr:Lawrie_Brown .
+                
+    ex:InternationalInformationSystemsSecurityCertificationConsortium
+        a ex:topic ;
+        dc:subject "International Information Systems Security Certification Consortium" ;
+        dc:URI <http://dbpedia.org/resource/(ISC)�> .
+                
+    ex:Applicationsecurity
+        a ex:topic ;
+        dc:subject "Application security" ;
+        dc:URI dbr:Application_security .
+                
+    ex:Malware
+        a ex:topic ;
+        dc:subject "Malware" ;
+        dc:URI dbr:Malware .
+                
+    ex:krypto
+        a ex:topic ;
+        dc:subject "krypto" ;
+        dc:URI dbr:Krypto .
+                
+    ex:Dataintegrity
+        a ex:topic ;
+        dc:subject "Data integrity" ;
+        dc:URI dbr:Data_integrity .
+                
+    ex:Nonrepudiation
+        a ex:topic ;
+        dc:subject "Non-repudiation" ;
+        dc:URI dbr:Non-repudiation .
+                
+    ex:plaintext
+        a ex:topic ;
+        dc:subject "plaintext" ;
+        dc:URI dbr:Plaintext .
+                
+    ex:cryptographer
+        a ex:topic ;
+        dc:subject "cryptographer" ;
+        dc:URI dbr:Cryptography .
+                
+    ex:toga
+        a ex:topic ;
+        dc:subject "toga" ;
+        dc:URI dbr:Toga .
+                
+    ex:Exhaustivesearch
+        a ex:topic ;
+        dc:subject "Exhaustive search" ;
+        dc:URI dbr:Brute-force_search .
+                
+    ex:frequencyanalysis
+        a ex:topic ;
+        dc:subject "frequency analysis" ;
+        dc:URI dbr:Frequency_analysis .
+                
+    ex:onetimepad
+        a ex:topic ;
+        dc:subject "one-time pad" ;
+        dc:URI dbr:One-time_pad .
+                
+    ex:cryptosystem
+        a ex:topic ;
+        dc:subject "cryptosystem" ;
+        dc:URI dbr:Cryptosystem .
+                
+    ex:GilbertVernam
+        a ex:topic ;
+        dc:subject "Gilbert Vernam" ;
+        dc:URI dbr:Gilbert_Vernam .
+                
+    ex:Zm
+        a ex:topic ;
+        dc:subject "Zm" ;
+        dc:URI <http://dbpedia.org/resource/Orders_of_magnitude_(length)> .
+                
+    ex:Provablesecurity
+        a ex:topic ;
+        dc:subject "Provable security" ;
+        dc:URI dbr:Provable_security .
+                
+    ex:Ciphertextonlyattack
+        a ex:topic ;
+        dc:subject "Ciphertext-only attack" ;
+        dc:URI dbr:Ciphertext-only_attack .
+                
+    ex:Knownplaintextattack
+        a ex:topic ;
+        dc:subject "Known-plaintext attack" ;
+        dc:URI dbr:Known-plaintext_attack .
+                
+    ex:Chosenplaintextattack
+        a ex:topic ;
+        dc:subject "Chosen-plaintext attack" ;
+        dc:URI dbr:Chosen-plaintext_attack .
+                
+    ex:chosenplaintextattack
+        a ex:topic ;
+        dc:subject "chosen-plaintext attack" ;
+        dc:URI dbr:Chosen-plaintext_attack .
+                
+    ex:Chosenciphertextattack
+        a ex:topic ;
+        dc:subject "Chosen-ciphertext attack" ;
+        dc:URI dbr:Chosen-ciphertext_attack .
+                
+    ex:Adaptivechosenciphertextattack
+        a ex:topic ;
+        dc:subject "Adaptive chosen-ciphertext attack" ;
+        dc:URI dbr:Adaptive_chosen-ciphertext_attack .
+                
+    ex:chosenciphertextattack
+        a ex:topic ;
+        dc:subject "chosen-ciphertext attack" ;
+        dc:URI dbr:Chosen-ciphertext_attack .
+                
+    ex:ClaudeShannon
+        a ex:topic ;
+        dc:subject "Claude Shannon" ;
+        dc:URI dbr:Claude_Shannon .
+                
+    ex:Communicationtheory
+        a ex:topic ;
+        dc:subject "Communication theory" ;
+        dc:URI dbr:Communication_theory .
+                
+    ex:5678
+        a ex:topic ;
+        dc:subject "5, 6, 7, 8" ;
+        dc:URI dbr:5,6,7,8 .
+                
+    ex:Multiplicativeidentity
+        a ex:topic ;
+        dc:subject "Multiplicative identity" ;
+        dc:URI dbr:Identity_element .
+                
+ex:set1
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%201/Lectures/Slides/set1.pdf> ;
+	ex:contentTopic ex:LawrieBrown ; 
+	ex:contentTopic ex:PrenticeHall ; 
+	ex:contentTopic ex:InternationalInformationSystemsSecurityCertificationConsortium ; 
+	ex:contentTopic ex:Applicationsecurity ; 
+	ex:contentTopic ex:Malware ; 
+	ex:contentTopic ex:krypto ; 
+	ex:contentTopic ex:Dataintegrity ; 
+	ex:contentTopic ex:Nonrepudiation ; 
+	ex:contentTopic ex:plaintext ; 
+	ex:contentTopic ex:cryptographer ; 
+	ex:contentTopic ex:toga ; 
+	ex:contentTopic ex:Exhaustivesearch ; 
+	ex:contentTopic ex:frequencyanalysis ; 
+	ex:contentTopic ex:onetimepad ; 
+	ex:contentTopic ex:cryptosystem ; 
+	ex:contentTopic ex:GilbertVernam ; 
+	ex:contentTopic ex:Zm ; 
+	ex:contentTopic ex:Provablesecurity ; 
+	ex:contentTopic ex:Ciphertextonlyattack ; 
+	ex:contentTopic ex:Knownplaintextattack ; 
+	ex:contentTopic ex:Chosenplaintextattack ; 
+	ex:contentTopic ex:chosenplaintextattack ; 
+	ex:contentTopic ex:Chosenciphertextattack ; 
+	ex:contentTopic ex:Adaptivechosenciphertextattack ; 
+	ex:contentTopic ex:chosenciphertextattack ; 
+	ex:contentTopic ex:ClaudeShannon ; 
+	ex:contentTopic ex:Communicationtheory ; 
+	ex:contentTopic ex:1234 ; 
+	ex:contentTopic ex:5678 ; 
+	ex:contentTopic ex:Multiplicativeidentity .
+
+ex:5484_Lec_6  
+    a ex:Lecture ;
+    ex:assoCourse ex:5484 ;
+    ex:lecNumber "6"^^xsd:integer ;
+    ex:lecName "slides06.pdf" ; 
+	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-6> ;
+    ex:lecContent ex:slides06 ;
+    ex:lecContentSlide ex:slides06 ;
+    ex:lecContent ex:worksheet05 ;
+    ex:lecContentWorksheets ex:worksheet05 .
+
+    ex:DiffieHellman
+        a ex:topic ;
+        dc:subject "Diffie-Hellman" ;
+        dc:URI dbr:Diffie�Hellman_key_exchange .
+                
+    ex:discretelog
+        a ex:topic ;
+        dc:subject "discrete log" ;
+        dc:URI dbr:Discrete_logarithm .
+                
+    ex:ModularArithmetic
+        a ex:topic ;
+        dc:subject "Modular Arithmetic" ;
+        dc:URI dbr:Modular_arithmetic .
+                
+    ex:binaryoperation
+        a ex:topic ;
+        dc:subject "binary operation" ;
+        dc:URI dbr:Binary_operation .
+                
+    ex:AbelianGroup
+        a ex:topic ;
+        dc:subject "Abelian Group" ;
+        dc:URI dbr:Abelian_group .
+                
+    ex:abeliangroup
+        a ex:topic ;
+        dc:subject "abelian group" ;
+        dc:URI dbr:Abelian_group .
+                
+    ex:commutativering
+        a ex:topic ;
+        dc:subject "commutative ring" ;
+        dc:URI dbr:Commutative_ring .
+                
+    ex:LinearEquation
+        a ex:topic ;
+        dc:subject "Linear Equation" ;
+        dc:URI dbr:Linear_equation .
+                
+    ex:cyclicgroup
+        a ex:topic ;
+        dc:subject "cyclic group" ;
+        dc:URI dbr:Cyclic_group .
+                
+ex:set2
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%202/Lectures/Slides/set2.pdf> ;
+	ex:contentTopic ex:DiffieHellman ; 
+	ex:contentTopic ex:discretelog ; 
+	ex:contentTopic ex:ModularArithmetic ; 
+	ex:contentTopic ex:binaryoperation ; 
+	ex:contentTopic ex:AbelianGroup ; 
+	ex:contentTopic ex:abeliangroup ; 
+	ex:contentTopic ex:commutativering ; 
+	ex:contentTopic ex:LinearEquation ; 
+	ex:contentTopic ex:cyclicgroup .
+
+ex:32005_Lec_1  
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber "1"^^xsd:integer ;
+    ex:lecName "set1.pdf" ; 
+    ex:lecContent ex:set1 ;
+    ex:lecContentSlide ex:set1 .
+
+    ex:affinecipher
+        a ex:topic ;
+        dc:subject "affine cipher" ;
+        dc:URI dbr:Affine_cipher .
+                
+    ex:Hillcipher
+        a ex:topic ;
+        dc:subject "Hill cipher" ;
+        dc:URI dbr:Hill_cipher .
+                
+ex:Exercise1withsol
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%202/Lectures/Worksheets/Exercise1%20-%20with-sol.pdf> ;
+	ex:contentTopic ex:affinecipher ; 
+	ex:contentTopic ex:plaintext ; 
+	ex:contentTopic ex:Hillcipher .
+
+    ex:iff
+        a ex:topic ;
+        dc:subject "iff" ;
+        dc:URI dbr:If_and_only_if .
+                
+    ex:modulararithmetic
+        a ex:topic ;
+        dc:subject "modular arithmetic" ;
+        dc:URI dbr:Modular_arithmetic .
+                
+ex:Tutorial1
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%202/Tutorial/Slides/Tutorial%20-1.pdf> ;
+	ex:contentTopic ex:ModularArithmetic ; 
+	ex:contentTopic ex:iff ; 
+	ex:contentTopic ex:affinecipher ; 
+	ex:contentTopic ex:Hillcipher ; 
+	ex:contentTopic ex:modulararithmetic .
+
+ex:5484_Lab_5  
+    a ex:Lab ;
+    ex:assoLec ex:5484_Lec_6 ;
+    ex:lecContent ex:comp4742204uulabsession5 ;
+    ex:eventContentInstructions ex:comp4742204uulabsession5 .
+
+    ex:onewayfunction
+        a ex:topic ;
+        dc:subject "one-way function" ;
+        dc:URI dbr:One-way_function .
+                
+    ex:Publickeycryptography
+        a ex:topic ;
+        dc:subject "Public key cryptography" ;
+        dc:URI dbr:Public-key_cryptography .
+                
+    ex:Rivest
+        a ex:topic ;
+        dc:subject "Rivest" ;
+        dc:URI dbr:Ron_Rivest .
+                
+    ex:AdiShamir
+        a ex:topic ;
+        dc:subject "Adi Shamir" ;
+        dc:URI dbr:Adi_Shamir .
+                
+    ex:Exponentiation
+        a ex:topic ;
+        dc:subject "Exponentiation" ;
+        dc:URI dbr:Exponentiation .
+                
+    ex:ck
+        a ex:topic ;
+        dc:subject "ck" ;
+        dc:URI dbr:Smoothness .
+                
+    ex:RSASecurity
+        a ex:topic ;
+        dc:subject "RSA Security" ;
+        dc:URI dbr:RSA_Security .
+                
+    ex:quadraticsieve
+        a ex:topic ;
+        dc:subject "quadratic sieve" ;
+        dc:URI dbr:Quadratic_sieve .
+                
+    ex:numberfield
+        a ex:topic ;
+        dc:subject "number field" ;
+        dc:URI dbr:Algebraic_number_field .
+                
+ex:set3
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%203/Lectures/Slides/set3.pdf> ;
+	ex:contentTopic ex:cyclicgroup ; 
+	ex:contentTopic ex:iff ; 
+	ex:contentTopic ex:onewayfunction ; 
+	ex:contentTopic ex:Publickeycryptography ; 
+	ex:contentTopic ex:Rivest ; 
+	ex:contentTopic ex:AdiShamir ; 
+	ex:contentTopic ex:Exponentiation ; 
+	ex:contentTopic ex:ck ; 
+	ex:contentTopic ex:RSASecurity ; 
+	ex:contentTopic ex:DiffieHellman ; 
+	ex:contentTopic ex:quadraticsieve ; 
+	ex:contentTopic ex:numberfield ; 
+	ex:contentTopic ex:plaintext ; 
+	ex:contentTopic ex:Adaptivechosenciphertextattack .
+
+ex:32005_Lec_2  
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber "2"^^xsd:integer ;
+    ex:lecName "set2.pdf" ; 
+    ex:lecContent ex:set2 ;
+    ex:lecContentSlide ex:set2 ;
+    ex:lecContent ex:Exercise1withsol ;
+    ex:lecContentWorksheets ex:Exercise1withsol .
+
+    ex:Chineseremaindertheorem
+        a ex:topic ;
+        dc:subject "Chinese remainder theorem" ;
+        dc:URI dbr:Chinese_remainder_theorem .
+                
+    ex:quadraticequation
+        a ex:topic ;
+        dc:subject "quadratic equation" ;
+        dc:URI dbr:Quadratic_equation .
+                
+ex:Exercise2withsol
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%203/Lectures/Worksheets/Exercise%202%20-%20with%20sol.pdf> ;
+	ex:contentTopic ex:Chineseremaindertheorem ; 
+	ex:contentTopic ex:quadraticequation .
+
+    ex:Multiplicativeinverse
+        a ex:topic ;
+        dc:subject "Multiplicative inverse" ;
+        dc:URI dbr:Multiplicative_inverse .
+                
+    ex:ExtendedEuclideanAlgorithm
+        a ex:topic ;
+        dc:subject "Extended Euclidean Algorithm" ;
+        dc:URI dbr:Extended_Euclidean_algorithm .
+                
+ex:Tutorial2
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%203/Tutorial/Slides/Tutorial%20-2.pdf> ;
+	ex:contentTopic ex:plaintext ; 
+	ex:contentTopic ex:Hillcipher ; 
+	ex:contentTopic ex:Multiplicativeinverse ; 
+	ex:contentTopic ex:ExtendedEuclideanAlgorithm .
+
+ex:32005_Tutorial_1  
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_2 ;
+    ex:lecContent ex:Tutorial1 ;
+    ex:eventContentSlides ex:Tutorial1 .
+
+    ex:PublicKeyEncryption
+        a ex:topic ;
+        dc:subject "Public Key Encryption" ;
+        dc:URI dbr:Public-key_cryptography .
+                
+    ex:DiscreteLogarithm
+        a ex:topic ;
+        dc:subject "Discrete Logarithm" ;
+        dc:URI dbr:Discrete_logarithm .
+                
+    ex:NPcomplete
+        a ex:topic ;
+        dc:subject "NP-complete" ;
+        dc:URI dbr:NP-completeness .
+                
+    ex:Strongprime
+        a ex:topic ;
+        dc:subject "Strong prime" ;
+        dc:URI dbr:Strong_prime .
+                
+    ex:NumberFieldSieve
+        a ex:topic ;
+        dc:subject "Number Field Sieve" ;
+        dc:URI dbr:General_number_field_sieve .
+                
+    ex:nCm
+        a ex:topic ;
+        dc:subject "nCm" ;
+        dc:URI dbr:Combination .
+                
+    ex:ChineseRemainderTheorem
+        a ex:topic ;
+        dc:subject "Chinese Remainder Theorem" ;
+        dc:URI dbr:Chinese_remainder_theorem .
+                
+    ex:bq
+        a ex:topic ;
+        dc:subject "bq" ;
+        dc:URI dbr:Becquerel .
+                
+    ex:ElGamalEncryption
+        a ex:topic ;
+        dc:subject "ElGamal Encryption" ;
+        dc:URI dbr:ElGamal_encryption .
+                
+    ex:McEliece
+        a ex:topic ;
+        dc:subject "McEliece" ;
+        dc:URI dbr:McEliece_cryptosystem .
+                
+    ex:linearcode
+        a ex:topic ;
+        dc:subject "linear code" ;
+        dc:URI dbr:Linear_code .
+                
+    ex:NPhard
+        a ex:topic ;
+        dc:subject "NP-hard" ;
+        dc:URI dbr:NP-hardness .
+                
+    ex:Subsetsumproblem
+        a ex:topic ;
+        dc:subject "Subset sum problem" ;
+        dc:URI dbr:Subset_sum_problem .
+                
+    ex:subsetsumproblem
+        a ex:topic ;
+        dc:subject "subset sum problem" ;
+        dc:URI dbr:Subset_sum_problem .
+                
+    ex:DigitalSignatureScheme
+        a ex:topic ;
+        dc:subject "Digital Signature Scheme" ;
+        dc:URI dbr:Digital_signature .
+                
+    ex:Selectiveforgery
+        a ex:topic ;
+        dc:subject "Selective forgery" ;
+        dc:URI dbr:Digital_signature_forgery .
+                
+    ex:Existentialforgery
+        a ex:topic ;
+        dc:subject "Existential forgery" ;
+        dc:URI dbr:Digital_signature_forgery .
+                
+    ex:Hashfunction
+        a ex:topic ;
+        dc:subject "Hash function" ;
+        dc:URI dbr:Hash_function .
+                
+    ex:collisionresistant
+        a ex:topic ;
+        dc:subject "collision resistant" ;
+        dc:URI dbr:Collision_resistance .
+                
+    ex:existentialforgery
+        a ex:topic ;
+        dc:subject "existential forgery" ;
+        dc:URI dbr:Digital_signature_forgery .
+                
+    ex:ElGamalSignatureScheme
+        a ex:topic ;
+        dc:subject "ElGamal Signature Scheme" ;
+        dc:URI dbr:ElGamal_signature_scheme .
+                
+    ex:ElGamalencryption
+        a ex:topic ;
+        dc:subject "ElGamal encryption" ;
+        dc:URI dbr:ElGamal_encryption .
+                
+    ex:DigitalSignatureAlgorithm
+        a ex:topic ;
+        dc:subject "Digital Signature Algorithm" ;
+        dc:URI dbr:Digital_Signature_Algorithm .
+                
+ex:set4
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%204/Lectures/Slides/set4.pdf> ;
+	ex:contentTopic ex:PublicKeyEncryption ; 
+	ex:contentTopic ex:cyclicgroup ; 
+	ex:contentTopic ex:DiscreteLogarithm ; 
+	ex:contentTopic ex:DiffieHellman ; 
+	ex:contentTopic ex:NPcomplete ; 
+	ex:contentTopic ex:Strongprime ; 
+	ex:contentTopic ex:NumberFieldSieve ; 
+	ex:contentTopic ex:plaintext ; 
+	ex:contentTopic ex:nCm ; 
+	ex:contentTopic ex:ChineseRemainderTheorem ; 
+	ex:contentTopic ex:bq ; 
+	ex:contentTopic ex:chosenciphertextattack ; 
+	ex:contentTopic ex:ElGamalEncryption ; 
+	ex:contentTopic ex:McEliece ; 
+	ex:contentTopic ex:linearcode ; 
+	ex:contentTopic ex:NPhard ; 
+	ex:contentTopic ex:Subsetsumproblem ; 
+	ex:contentTopic ex:subsetsumproblem ; 
+	ex:contentTopic ex:DigitalSignatureScheme ; 
+	ex:contentTopic ex:Dataintegrity ; 
+	ex:contentTopic ex:Selectiveforgery ; 
+	ex:contentTopic ex:Existentialforgery ; 
+	ex:contentTopic ex:Hashfunction ; 
+	ex:contentTopic ex:collisionresistant ; 
+	ex:contentTopic ex:existentialforgery ; 
+	ex:contentTopic ex:ElGamalSignatureScheme ; 
+	ex:contentTopic ex:ElGamalencryption ; 
+	ex:contentTopic ex:iff ; 
+	ex:contentTopic ex:DigitalSignatureAlgorithm .
+
+ex:32005_Lec_3  
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber "3"^^xsd:integer ;
+    ex:lecName "set3.pdf" ; 
+    ex:lecContent ex:set3 ;
+    ex:lecContentSlide ex:set3 ;
+    ex:lecContent ex:Exercise2withsol ;
+    ex:lecContentWorksheets ex:Exercise2withsol .
+
+ex:Exercise3withsol
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%204/Lectures/Worksheets/Exercise3%20-%20with%20sol.pdf> ;
+	ex:contentTopic ex:DiffieHellman ; 
+	ex:contentTopic ex:Chineseremaindertheorem .
+
+    ex:Twinprimes
+        a ex:topic ;
+        dc:subject "Twin primes" ;
+        dc:URI dbr:Twin_prime .
+                
+    ex:extendedeuclideanalgorithm
+        a ex:topic ;
+        dc:subject "extended euclidean algorithm" ;
+        dc:URI dbr:Extended_Euclidean_algorithm .
+                
+ex:Tutorial3
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%204/Tutorial/Slides/Tutorial%20-3.pdf> ;
+	ex:contentTopic ex:Twinprimes ; 
+	ex:contentTopic ex:extendedeuclideanalgorithm .
+
+ex:32005_Tutorial_2  
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_3 ;
+    ex:lecContent ex:Tutorial2 ;
+    ex:eventContentSlides ex:Tutorial2 .
+
+    ex:PublicKeyInfrastructure
+        a ex:topic ;
+        dc:subject "Public Key Infrastructure" ;
+        dc:URI dbr:Public_key_infrastructure .
+                
+    ex:secretsharing
+        a ex:topic ;
+        dc:subject "secret sharing" ;
+        dc:URI dbr:Secret_sharing .
+                
+    ex:PPTP
+        a ex:topic ;
+        dc:subject "PPTP" ;
+        dc:URI dbr:Point-to-Point_Tunneling_Protocol .
+                
+    ex:IPSec
+        a ex:topic ;
+        dc:subject "IPSec" ;
+        dc:URI dbr:IPsec .
+                
+    ex:L2TP
+        a ex:topic ;
+        dc:subject "L2TP" ;
+        dc:URI dbr:Layer_2_Tunneling_Protocol .
+                
+    ex:SMIME
+        a ex:topic ;
+        dc:subject "S/MIME" ;
+        dc:URI dbr:MIME .
+                
+    ex:Authenticode
+        a ex:topic ;
+        dc:subject "Authenticode" ;
+        dc:URI dbr:Code_signing .
+                
+    ex:digitalsignature
+        a ex:topic ;
+        dc:subject "digital signature" ;
+        dc:URI dbr:Digital_signature .
+                
+    ex:X509
+        a ex:topic ;
+        dc:subject "X.509" ;
+        dc:URI <http://dbpedia.org/resource/X.509> .
+                
+    ex:X500
+        a ex:topic ;
+        dc:subject "X.500" ;
+        dc:URI <http://dbpedia.org/resource/X.500> .
+                
+    ex:DistinguishedName
+        a ex:topic ;
+        dc:subject "Distinguished Name" ;
+        dc:URI dbr:Lightweight_Directory_Access_Protocol .
+                
+    ex:ClipperChip
+        a ex:topic ;
+        dc:subject "Clipper Chip" ;
+        dc:URI dbr:Clipper_chip .
+                
+    ex:checksum
+        a ex:topic ;
+        dc:subject "check sum" ;
+        dc:URI dbr:Checksum .
+                
+ex:set5
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%205/Lectures/Slides/set5.pdf> ;
+	ex:contentTopic ex:PublicKeyInfrastructure ; 
+	ex:contentTopic ex:secretsharing ; 
+	ex:contentTopic ex:onetimepad ; 
+	ex:contentTopic ex:PPTP ; 
+	ex:contentTopic ex:IPSec ; 
+	ex:contentTopic ex:L2TP ; 
+	ex:contentTopic ex:SMIME ; 
+	ex:contentTopic ex:Authenticode ; 
+	ex:contentTopic ex:digitalsignature ; 
+	ex:contentTopic ex:X509 ; 
+	ex:contentTopic ex:X500 ; 
+	ex:contentTopic ex:DistinguishedName ; 
+	ex:contentTopic ex:ClipperChip ; 
+	ex:contentTopic ex:checksum .
+
+ex:32005_Lec_4  
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber "4"^^xsd:integer ;
+    ex:lecName "set4.pdf" ; 
+    ex:lecContent ex:set4 ;
+    ex:lecContentSlide ex:set4 ;
+    ex:lecContent ex:Exercise3withsol ;
+    ex:lecContentWorksheets ex:Exercise3withsol .
+
+    ex:SHA1
+        a ex:topic ;
+        dc:subject "SHA1" ;
+        dc:URI dbr:SHA-1 .
+                
+    ex:SHA2
+        a ex:topic ;
+        dc:subject "SHA-2" ;
+        dc:URI dbr:SHA-2 .
+                
+ex:Exercise4withsol
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%205/Lectures/Worksheets/Exercise4-%20with%20sol.pdf> ;
+	ex:contentTopic ex:cryptographer ; 
+	ex:contentTopic ex:SHA1 ; 
+	ex:contentTopic ex:SHA2 ; 
+	ex:contentTopic ex:secretsharing .
+
+ex:Tutorial4
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%205/Tutorial/Slides/Tutorial%20-4.pdf> ;
+	ex:contentTopic ex:DiffieHellman .
+
+ex:32005_Tutorial_3  
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_4 ;
+    ex:lecContent ex:Tutorial3 ;
+    ex:eventContentSlides ex:Tutorial3 .
+
+    ex:Browserfingerprinting
+        a ex:topic ;
+        dc:subject "Browser fingerprinting" ;
+        dc:URI dbr:Device_fingerprint .
+                
+    ex:WangXiaoning
+        a ex:topic ;
+        dc:subject "Wang Xiaoning" ;
+        dc:URI dbr:Wang_Xiaoning .
+                
+    ex:JiangLijun
+        a ex:topic ;
+        dc:subject "Jiang Lijun" ;
+        dc:URI dbr:Jiang_Lijun .
+                
+    ex:Cellulartraffic
+        a ex:topic ;
+        dc:subject "Cellular traffic" ;
+        dc:URI dbr:Cellular_traffic .
+                
+    ex:GCHQ
+        a ex:topic ;
+        dc:subject "GCHQ" ;
+        dc:URI dbr:Government_Communications_Headquarters .
+                
+    ex:Gmail
+        a ex:topic ;
+        dc:subject "Gmail" ;
+        dc:URI dbr:Gmail .
+                
+    ex:Etc
+        a ex:topic ;
+        dc:subject "Etc�" ;
+        dc:URI dbr:Et_cetera .
+                
+    ex:PersonallyIdentifiableInformationPII
+        a ex:topic ;
+        dc:subject "Personally Identifiable Information (PII)" ;
+        dc:URI dbr:Personal_data .
+                
+    ex:BitTorrenttracker
+        a ex:topic ;
+        dc:subject "BitTorrent tracker" ;
+        dc:URI dbr:BitTorrent_tracker .
+                
+    ex:DavidChaum
+        a ex:topic ;
+        dc:subject "David Chaum" ;
+        dc:URI dbr:David_Chaum .
+                
+    ex:Untraceable
+        a ex:topic ;
+        dc:subject "Untraceable" ;
+        dc:URI dbr:Untraceable .
+                
+    ex:electronicmail
+        a ex:topic ;
+        dc:subject "electronic mail" ;
+        dc:URI dbr:Email .
+                
+    ex:mixnet
+        a ex:topic ;
+        dc:subject "mixnet" ;
+        dc:URI dbr:Mix_network .
+                
+    ex:Publickeyencryption
+        a ex:topic ;
+        dc:subject "Public-key encryption" ;
+        dc:URI dbr:Public-key_cryptography .
+                
+    ex:USENIX
+        a ex:topic ;
+        dc:subject "USENIX" ;
+        dc:URI dbr:USENIX .
+                
+    ex:mixnetwork
+        a ex:topic ;
+        dc:subject "mix network" ;
+        dc:URI dbr:Mix_network .
+                
+    ex:Forwardsecrecy
+        a ex:topic ;
+        dc:subject "Forward secrecy" ;
+        dc:URI dbr:Forward_secrecy .
+                
+    ex:SOCKS
+        a ex:topic ;
+        dc:subject "SOCKS" ;
+        dc:URI dbr:SOCKS .
+                
+    ex:onionrouting
+        a ex:topic ;
+        dc:subject "onion routing" ;
+        dc:URI dbr:Onion_routing .
+                
+    ex:telegraphcouk
+        a ex:topic ;
+        dc:subject "telegraph.co.uk" ;
+        dc:URI dbr:The_Daily_Telegraph .
+                
+    ex:DuckDuckGo
+        a ex:topic ;
+        dc:subject "DuckDuckGo" ;
+        dc:URI dbr:DuckDuckGo .
+                
+    ex:ThePirateBay
+        a ex:topic ;
+        dc:subject "The Pirate Bay" ;
+        dc:URI dbr:The_Pirate_Bay .
+                
+    ex:Bitcoinnetwork
+        a ex:topic ;
+        dc:subject "Bitcoin network" ;
+        dc:URI dbr:Bitcoin_network .
+                
+ex:Set6
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%206/Lectures/Slides/Set6.pdf> ;
+	ex:contentTopic ex:Browserfingerprinting ; 
+	ex:contentTopic ex:WangXiaoning ; 
+	ex:contentTopic ex:JiangLijun ; 
+	ex:contentTopic ex:Cellulartraffic ; 
+	ex:contentTopic ex:GCHQ ; 
+	ex:contentTopic ex:Gmail ; 
+	ex:contentTopic ex:Etc ; 
+	ex:contentTopic ex:PersonallyIdentifiableInformationPII ; 
+	ex:contentTopic ex:BitTorrenttracker ; 
+	ex:contentTopic ex:DavidChaum ; 
+	ex:contentTopic ex:Untraceable ; 
+	ex:contentTopic ex:electronicmail ; 
+	ex:contentTopic ex:mixnet ; 
+	ex:contentTopic ex:Publickeyencryption ; 
+	ex:contentTopic ex:USENIX ; 
+	ex:contentTopic ex:mixnetwork ; 
+	ex:contentTopic ex:Forwardsecrecy ; 
+	ex:contentTopic ex:SOCKS ; 
+	ex:contentTopic ex:onionrouting ; 
+	ex:contentTopic ex:telegraphcouk ; 
+	ex:contentTopic ex:DuckDuckGo ; 
+	ex:contentTopic ex:ThePirateBay ; 
+	ex:contentTopic ex:Bitcoinnetwork .
+
+ex:32005_Lec_5  
+    a ex:Lecture ;
+    ex:assoCourse ex:32005 ;
+    ex:lecNumber "5"^^xsd:integer ;
+    ex:lecName "set5.pdf" ; 
+    ex:lecContent ex:set5 ;
+    ex:lecContentSlide ex:set5 ;
+    ex:lecContent ex:Exercise4withsol ;
+    ex:lecContentWorksheets ex:Exercise4withsol .
+
+    ex:lookuptable
+        a ex:topic ;
+        dc:subject "lookup table" ;
+        dc:URI dbr:Lookup_table .
+                
+    ex:authenticationprotocol
+        a ex:topic ;
+        dc:subject "authentication protocol" ;
+        dc:URI dbr:Authentication_protocol .
+                
+ex:Exercise5withsol
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%206/Lectures/Worksheets/Exercise5-%20with%20sol.pdf> ;
+	ex:contentTopic ex:plaintext ; 
+	ex:contentTopic ex:lookuptable ; 
+	ex:contentTopic ex:authenticationprotocol .
+
+ex:Tutorial5
+    a ex:content ;
+    foaf:Document <file:///C:/Users/Angel%20Chung/Documents/Notes/COMP474/Project/COMP474-Chatbot/universities/Concordia%20University/SOEN321/Week%206/Tutorial/Slides/Tutorial%20-5.pdf> ;
+	ex:contentTopic ex:secretsharing .
+
+ex:32005_Tutorial_4  
+    a ex:Tutorial ;
+    ex:assoLec ex:32005_Lec_5 ;
+    ex:lecContent ex:Tutorial4 ;
+    ex:eventContentSlides ex:Tutorial4 .
