@@ -612,7 +612,6 @@ ex:5484_Lec_1
     ex:lecNumber "1"^^xsd:integer ;
     ex:lecName "slides01.pdf" ; 
 	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-1> ;
-    ex:lecContent ex:slides01 ;
     ex:lecContentSlide ex:slides01 .
 
     ex:ResourceDescriptionFramework
@@ -658,9 +657,7 @@ ex:comp4742204uulabsession2
 ex:5484_Lab_1  
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_2 ;
-    ex:lecContent ex:comp4742204uulabintroductiontopython ;
     ex:eventContentInstructions ex:comp4742204uulabintroductiontopython ;
-    ex:lecContent ex:pytut ;
     ex:eventContentSlides ex:pytut .
 
     ex:UniformResourceLocator
@@ -746,9 +743,7 @@ ex:5484_Lec_2
     ex:lecNumber "2"^^xsd:integer ;
     ex:lecName "slides02.pdf" ; 
 	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-2> ;
-    ex:lecContent ex:slides02 ;
     ex:lecContentSlide ex:slides02 ;
-    ex:lecContent ex:worksheet01 ;
     ex:lecContentWorksheets ex:worksheet01 .
 
 ex:worksheet02
@@ -781,7 +776,6 @@ ex:comp4742204uulabsession3
 ex:5484_Lab_2  
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_3 ;
-    ex:lecContent ex:comp4742204uulabsession2 ;
     ex:eventContentInstructions ex:comp4742204uulabsession2 .
 
     ex:Wordpresscom
@@ -920,9 +914,7 @@ ex:5484_Lec_3
     ex:lecNumber "3"^^xsd:integer ;
     ex:lecName "slides03.pdf" ; 
 	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-3> ;
-    ex:lecContent ex:slides03 ;
     ex:lecContentSlide ex:slides03 ;
-    ex:lecContent ex:worksheet02 ;
     ex:lecContentWorksheets ex:worksheet02 .
 
 ex:worksheet03
@@ -971,7 +963,6 @@ ex:comp4742204uulabsession4
 ex:5484_Lab_3  
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_4 ;
-    ex:lecContent ex:comp4742204uulabsession3 ;
     ex:eventContentInstructions ex:comp4742204uulabsession3 .
 
     ex:DesignIssues
@@ -1098,9 +1089,7 @@ ex:5484_Lec_4
     ex:lecNumber "4"^^xsd:integer ;
     ex:lecName "slides04.pdf" ; 
 	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-4> ;
-    ex:lecContent ex:slides04 ;
     ex:lecContentSlide ex:slides04 ;
-    ex:lecContent ex:worksheet03 ;
     ex:lecContentWorksheets ex:worksheet03 .
 
     ex:MiyuriSamarasinghe
@@ -1157,7 +1146,6 @@ ex:comp4742204uulabsession5
 ex:5484_Lab_4  
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_5 ;
-    ex:lecContent ex:comp4742204uulabsession4 ;
     ex:eventContentInstructions ex:comp4742204uulabsession4 .
 
     ex:PrabhakarRaghavan
@@ -1304,9 +1292,7 @@ ex:5484_Lec_5
     ex:lecNumber "5"^^xsd:integer ;
     ex:lecName "slides05.pdf" ; 
 	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-5> ;
-    ex:lecContent ex:slides05 ;
     ex:lecContentSlide ex:slides05 ;
-    ex:lecContent ex:worksheet04 ;
     ex:lecContentWorksheets ex:worksheet04 .
 
 ex:worksheet05
@@ -1504,9 +1490,7 @@ ex:5484_Lec_6
     ex:lecNumber "6"^^xsd:integer ;
     ex:lecName "slides06.pdf" ; 
 	rdfs:seeAlso <https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-6> ;
-    ex:lecContent ex:slides06 ;
     ex:lecContentSlide ex:slides06 ;
-    ex:lecContent ex:worksheet05 ;
     ex:lecContentWorksheets ex:worksheet05 .
 
     ex:DiffieHellman
@@ -1572,7 +1556,6 @@ ex:32005_Lec_1
     ex:assoCourse ex:32005 ;
     ex:lecNumber "1"^^xsd:integer ;
     ex:lecName "set1.pdf" ; 
-    ex:lecContent ex:set1 ;
     ex:lecContentSlide ex:set1 .
 
     ex:affinecipher
@@ -1614,7 +1597,6 @@ ex:Tutorial1
 ex:5484_Lab_5  
     a ex:Lab ;
     ex:assoLec ex:5484_Lec_6 ;
-    ex:lecContent ex:comp4742204uulabsession5 ;
     ex:eventContentInstructions ex:comp4742204uulabsession5 .
 
     ex:onewayfunction
@@ -1685,9 +1667,7 @@ ex:32005_Lec_2
     ex:assoCourse ex:32005 ;
     ex:lecNumber "2"^^xsd:integer ;
     ex:lecName "set2.pdf" ; 
-    ex:lecContent ex:set2 ;
     ex:lecContentSlide ex:set2 ;
-    ex:lecContent ex:Exercise1withsol ;
     ex:lecContentWorksheets ex:Exercise1withsol .
 
     ex:Chineseremaindertheorem
@@ -1727,7 +1707,6 @@ ex:Tutorial2
 ex:32005_Tutorial_1  
     a ex:Tutorial ;
     ex:assoLec ex:32005_Lec_2 ;
-    ex:lecContent ex:Tutorial1 ;
     ex:eventContentSlides ex:Tutorial1 .
 
     ex:PublicKeyEncryption
@@ -1883,9 +1862,7 @@ ex:32005_Lec_3
     ex:assoCourse ex:32005 ;
     ex:lecNumber "3"^^xsd:integer ;
     ex:lecName "set3.pdf" ; 
-    ex:lecContent ex:set3 ;
     ex:lecContentSlide ex:set3 ;
-    ex:lecContent ex:Exercise2withsol ;
     ex:lecContentWorksheets ex:Exercise2withsol .
 
 ex:Exercise3withsol
@@ -1913,7 +1890,6 @@ ex:Tutorial3
 ex:32005_Tutorial_2  
     a ex:Tutorial ;
     ex:assoLec ex:32005_Lec_3 ;
-    ex:lecContent ex:Tutorial2 ;
     ex:eventContentSlides ex:Tutorial2 .
 
     ex:PublicKeyInfrastructure
@@ -2004,9 +1980,7 @@ ex:32005_Lec_4
     ex:assoCourse ex:32005 ;
     ex:lecNumber "4"^^xsd:integer ;
     ex:lecName "set4.pdf" ; 
-    ex:lecContent ex:set4 ;
     ex:lecContentSlide ex:set4 ;
-    ex:lecContent ex:Exercise3withsol ;
     ex:lecContentWorksheets ex:Exercise3withsol .
 
     ex:SHA1
@@ -2035,7 +2009,6 @@ ex:Tutorial4
 ex:32005_Tutorial_3  
     a ex:Tutorial ;
     ex:assoLec ex:32005_Lec_4 ;
-    ex:lecContent ex:Tutorial3 ;
     ex:eventContentSlides ex:Tutorial3 .
 
     ex:Browserfingerprinting
@@ -2185,9 +2158,7 @@ ex:32005_Lec_5
     ex:assoCourse ex:32005 ;
     ex:lecNumber "5"^^xsd:integer ;
     ex:lecName "set5.pdf" ; 
-    ex:lecContent ex:set5 ;
     ex:lecContentSlide ex:set5 ;
-    ex:lecContent ex:Exercise4withsol ;
     ex:lecContentWorksheets ex:Exercise4withsol .
 
     ex:lookuptable
@@ -2215,5 +2186,4 @@ ex:Tutorial5
 ex:32005_Tutorial_4  
     a ex:Tutorial ;
     ex:assoLec ex:32005_Lec_5 ;
-    ex:lecContent ex:Tutorial4 ;
     ex:eventContentSlides ex:Tutorial4 .

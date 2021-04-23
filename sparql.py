@@ -96,7 +96,7 @@ WHERE {
 	?lec ex:lecNumber "1"^^xsd:integer .
 	?lec ex:lecContent ?content .
 	?content ex:contentTopic ?topic .
-	?topic dc:subject ?topic_name
+	?topic dc:subject ?topic_name .
 }
 """
 q5 = """
