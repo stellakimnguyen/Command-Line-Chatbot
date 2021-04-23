@@ -8,6 +8,7 @@ course_key = {
         'cName': 'Intelligent Systems',
         'cSubject': 'COMP',
         'cNum': '474',
+        'desc': 'Rule-based expert systems, blackboard architecture, and agent-based. Knowledge acquisition and representation. Uncertainty and conflict resolution. Reasoning and explanation. Design of intelligent systems. Project. Lectures: three hours per week. Laboratory: two hours per week. Prerequisite: COMP 352 or COEN 352.',
         'seeAlso': '<https://moodle.concordia.ca/moodle/course/info.php?id=122223>'
     },
     'SOEN321': {
@@ -15,6 +16,7 @@ course_key = {
         'cName': 'Information Systems Security',
         'cSubject': 'SOEN',
         'cNum': '321',
+        'desc': 'Protocol layers and security protocols. Intranets and extranets. Mobile computing. Electronic commerce. Security architectures in open-network environments. Cryptographic security protocols. Threats, attacks, and vulnerabilities. Security services: confidentiality; authentication; integrity; access control; non-repudiation; and availability. Security mechanisms: encryption; data-integrity mechanisms; digital signatures; keyed hashes; access-control mechanisms; challenge-response authentication; traffic padding; routing control; and notarization. Key-management principles. Distributed and embedded firewalls. Security zones. Lectures: three hours per week. Tutorial: one hour per week. Prerequisite: COMP 346.',
         'seeAlso': '<https://moodle.concordia.ca/moodle/course/view.php?id=132738#section-1>'
     }
 }
@@ -93,7 +95,7 @@ def get_uri(path, content):
     uri = f"""
 {content_name}
     a ex:content ;
-    foaf:Document <TEST> ;
+    foaf:Document <{path_in_uri}> ;
 {topics}"""
 
     write_triple(uri, "a")
@@ -108,7 +110,7 @@ def write_courses(files, course_course_key):
     ex:cName "{course_key[course_course_key]['cName']}" ;
     ex:cSubject "{course_key[course_course_key]['cSubject']}" ;
     ex:cNum "{course_key[course_course_key]['cNum']}" ;
-    ex:Description "..." ;
+    ex:Description "{course_key[course_course_key]['desc']}" ;
     ex:cOutline <{outline}> ;
     rdfs:seeAlso {course_key[course_course_key]['seeAlso']} .
     """
