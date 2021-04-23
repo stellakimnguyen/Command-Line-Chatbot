@@ -174,20 +174,3 @@ ex:eventContentSlides
     rdfs:subPropertyOf ex:lecContent ;
     rdfs:label "Lecture Event Content Slides"@en ;
     rdfs:comment "Slides given for the lecture event's exercise."@en .
-
-#topics
-#------------look at foaf:primaryTopic---------------#
-# <Topic>
-#     rdf:type rdfs:Class .
-
-# <tTitle>#not sure if this is needed
-#     rdf:type rdf:Property ;
-#     rdf:domain <Topic> ;
-#     rdf:range rdfs:Literal .
-
-# content
-# ex:COMP474
-#    a ex:Course ;
-#    ex:cName "Intelligent Systems" ;
-#    ex:cNum 474 ;
-#    ex:cSubject "COMP" .
